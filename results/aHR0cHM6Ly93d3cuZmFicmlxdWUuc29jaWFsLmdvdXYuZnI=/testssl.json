@@ -167,6 +167,13 @@
               "finding"      : "ECDHE-ECDSA-AES128-GCM-SHA256 ECDHE-ECDSA-AES128-SHA ECDHE-ECDSA-AES256-GCM-SHA384 ECDHE-ECDSA-AES256-SHA"
           }
 ,         {
+              "id"           : "FS_KEMs",
+              "ip"           : "www.fabrique.social.gouv.fr/154.41.70.5",
+              "port"         : "443",
+              "severity"     : "LOW",
+              "finding"      : "No KEMs offered"
+          }
+,         {
               "id"           : "FS_ECDHE_curves",
               "ip"           : "www.fabrique.social.gouv.fr/154.41.70.5",
               "port"         : "443",
@@ -345,8 +352,8 @@
               "id"           : "cert_expirationStatus",
               "ip"           : "www.fabrique.social.gouv.fr/154.41.70.5",
               "port"         : "443",
-              "severity"     : "OK",
-              "finding"      : "36 >= 30 days"
+              "severity"     : "MEDIUM",
+              "finding"      : "expires < 30 days (29)"
           }
 ,         {
               "id"           : "cert_notBefore",
@@ -359,7 +366,7 @@
               "id"           : "cert_notAfter",
               "ip"           : "www.fabrique.social.gouv.fr/154.41.70.5",
               "port"         : "443",
-              "severity"     : "OK",
+              "severity"     : "MEDIUM",
               "finding"      : "2026-01-12 19:06"
           }
 ,         {
@@ -507,7 +514,7 @@
               "ip"           : "www.fabrique.social.gouv.fr/154.41.70.5",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "1765074526"
+              "finding"      : "1765679445"
           }
 ,         {
               "id"           : "HSTS_time",
@@ -1091,6 +1098,6 @@
               "ip"           : "www.fabrique.social.gouv.fr/154.41.70.5",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "71"
+              "finding"      : "107"
           }
 ]

@@ -345,7 +345,7 @@
         "responseHeaders": {
           "content-security-policy": "*",
           "content-type": "text/html; charset=UTF-8",
-          "date": "Sun, 28 Dec 2025 02:33:32 GMT",
+          "date": "Sun, 04 Jan 2026 02:36:12 GMT",
           "link": "<https://www.fabrique.social.gouv.fr/wp-json/>; rel=\"https://api.w.org/\", <https://www.fabrique.social.gouv.fr/wp-json/wp/v2/pages/127>; rel=\"alternate\"; type=\"application/json\", <https://www.fabrique.social.gouv.fr/>; rel=shortlink",
           "server": "nginx",
           "strict-transport-security": "max-age=31536000; includeSubDomains",
@@ -1739,7 +1739,7 @@
         "ip": "www.fabrique.social.gouv.fr/154.41.70.5",
         "port": "443",
         "severity": "INFO",
-        "finding": "05C87A5CFB3BE9015F5A4833CB5ED00ED8BC"
+        "finding": "053219F9ADD45DDEFBD7A4966C7A5C8B952D"
       },
       {
         "id": "cert_serialNumberLen",
@@ -1753,21 +1753,21 @@
         "ip": "www.fabrique.social.gouv.fr/154.41.70.5",
         "port": "443",
         "severity": "INFO",
-        "finding": "A9E0CA99AB9B9BE09F63CF7B33A31797ACDD303C"
+        "finding": "C073C17EADA91FB439E24189AC1F87DFAB3321CA"
       },
       {
         "id": "cert_fingerprintSHA256",
         "ip": "www.fabrique.social.gouv.fr/154.41.70.5",
         "port": "443",
         "severity": "INFO",
-        "finding": "07C13705E1B98254C5C78A4EC9DB61F1EAD4538CA6DCB7A67E05FE91F7299F99"
+        "finding": "5CA547704214F672361E3A61BEBD30FD3A78AFF5FB9FB0125804025D0EFDDD72"
       },
       {
         "id": "cert",
         "ip": "www.fabrique.social.gouv.fr/154.41.70.5",
         "port": "443",
         "severity": "INFO",
-        "finding": "-----BEGIN CERTIFICATE-----\nMIID4zCCA2qgAwIBAgISBch6XPs76QFfWkgzy17QDti8MAoGCCqGSM49BAMDMDIxCzAJBgNVBAYTAlVTMRYwFAYDVQQKEw1MZXQncyBFbmNyeXB0MQswCQYDVQQDEwJFODAeFw0yNTEyMTQxMDU1MTlaFw0yNjAzMTQxMDU1MThaMDQxMjAwBgNVBAMTKXdvcmRwcmVzcy5sYWZhYnJpcXVlbnVtZXJpcXVlLmNsb3VkLWVkLmZyMFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAERHY0TJOrEkFVtOPXxZva2DG35F4faOZ7DsacY/Zpk2/9CGU3RKvhsr7GsqTBxfNy+rbyctjh64XYJ9zEwV6u2aOCAlwwggJYMA4GA1UdDwEB/wQEAwIHgDAdBgNVHSUEFjAUBggrBgEFBQcDAQYIKwYBBQUHAwIwDAYDVR0TAQH/BAIwADAdBgNVHQ4EFgQUbd5mC7cAjkSJbWymoLx0TW+HbmswHwYDVR0jBBgwFoAUjw0TovYuftFQbDMYOF1ZjiNykcowMgYIKwYBBQUHAQEEJjAkMCIGCCsGAQUFBzAChhZodHRwOi8vZTguaS5sZW5jci5vcmcvMFEGA1UdEQRKMEiCKXdvcmRwcmVzcy5sYWZhYnJpcXVlbnVtZXJpcXVlLmNsb3VkLWVkLmZyght3d3cuZmFicmlxdWUuc29jaWFsLmdvdXYuZnIwEwYDVR0gBAwwCjAIBgZngQwBAgEwLQYDVR0fBCYwJDAioCCgHoYcaHR0cDovL2U4LmMubGVuY3Iub3JnLzYxLmNybDCCAQwGCisGAQQB1nkCBAIEgf0EgfoA+AB1ABaDLavwqSUPD/A6pUX/yL/II9CHS/YEKSf45x8zE/X6AAABmxy1uHUAAAQDAEYwRAIgfD+K1eZk/C2MBcUuSPD8M+ls70sBX98f+yOZKtlTlW0CIE//jGEC7ZeSxkevipIMK+IiuwP90AV/weMDkR3/gwyhAH8AGoudaUpXmMiZoMqIvfSPwLRWYMzDYA0fcfRp/8fRrKMAAAGbHLW4kgAIAAAFACQMHW4EAwBIMEYCIQD7VkOHVH6vp+vuW9U+qEibjz5B6m6eKqe9VNO/DmlVXAIhAOmtBMxhtJzQDE3oovZdxIwkVkASRXmoWlnIsZ+weDyVMAoGCCqGSM49BAMDA2cAMGQCMChkmbhilCqqrX/bz5W6DI9Musebwq4mHpR/J92nUAWui0Gdc4gozi15CuxZM97EawIwB/p0A72VESE92T9mS9ANQnM5c3+WDTtml/X1wyFlgVbKxNDuDkOwBmh1CYihsGEB\n-----END CERTIFICATE-----"
+        "finding": "-----BEGIN CERTIFICATE-----\nMIID/TCCA4KgAwIBAgISBTIZ+a3UXd7716SWbHpci5UtMAoGCCqGSM49BAMDMDIxCzAJBgNVBAYTAlVTMRYwFAYDVQQKEw1MZXQncyBFbmNyeXB0MQswCQYDVQQDEwJFODAeFw0yNTEyMTQxMDU1MzBaFw0yNjAzMTQxMDU1MjlaMDQxMjAwBgNVBAMTKXdvcmRwcmVzcy5sYWZhYnJpcXVlbnVtZXJpcXVlLmNsb3VkLWVkLmZyMFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEP9aaAUekHjBhTJE9KiseGcSAbJD9/fgbkddnAgtNk/P/X0eyCMsYBBR5pNJAlzJaLQ3k6FjgCYxBr14Z+BVfrqOCAnQwggJwMA4GA1UdDwEB/wQEAwIHgDAdBgNVHSUEFjAUBggrBgEFBQcDAQYIKwYBBQUHAwIwDAYDVR0TAQH/BAIwADAdBgNVHQ4EFgQULRHSOfwmBFuGeVRf/TWQf74/IQowHwYDVR0jBBgwFoAUjw0TovYuftFQbDMYOF1ZjiNykcowMgYIKwYBBQUHAQEEJjAkMCIGCCsGAQUFBzAChhZodHRwOi8vZTguaS5sZW5jci5vcmcvMGoGA1UdEQRjMGGCF2ZhYnJpcXVlLnNvY2lhbC5nb3V2LmZygil3b3JkcHJlc3MubGFmYWJyaXF1ZW51bWVyaXF1ZS5jbG91ZC1lZC5mcoIbd3d3LmZhYnJpcXVlLnNvY2lhbC5nb3V2LmZyMBMGA1UdIAQMMAowCAYGZ4EMAQIBMC0GA1UdHwQmMCQwIqAgoB6GHGh0dHA6Ly9lOC5jLmxlbmNyLm9yZy80Ni5jcmwwggELBgorBgEEAdZ5AgQCBIH8BIH5APcAdQBkEcRspBLsp4kcogIuALyrTygH1B41J6vq/tUDyX3N8AAAAZsctd/7AAAEAwBGMEQCIHTlYUbHy1ghJhEP+9uywuS1aali8kA0NaWlCuyGyK3DAiB++DfTLAabZiq3timA88FEdYMDxYzYRg8J43aWfjxsYgB+ABqLnWlKV5jImaDKiL30j8C0VmDMw2ANH3H0af/H0ayjAAABmxy144sACAAABQAkDCCrBAMARzBFAiEA7qT3DAsebsa7pbGjieRWvjhQGrJqPmiu50mMPSswddUCIC0by55Jsdg9+0GEEjVNz/HQ7AxVFLeN5ao9In8lRMA5MAoGCCqGSM49BAMDA2kAMGYCMQCV3epqRXktgzifLRJFtlSnY3WtuAsenAsMdSD4gTlj8HcuYGgEDvuTChyVlv/Jt1kCMQDK++AN6CCtI6U02JdApysEA3Td8H/r0Mq0bL6DElAPYvy6TEBos7kFKus+hVPwPjg=\n-----END CERTIFICATE-----"
       },
       {
         "id": "cert_commonName",
@@ -1788,7 +1788,7 @@
         "ip": "www.fabrique.social.gouv.fr/154.41.70.5",
         "port": "443",
         "severity": "INFO",
-        "finding": "wordpress.lafabriquenumerique.cloud-ed.fr www.fabrique.social.gouv.fr"
+        "finding": "fabrique.social.gouv.fr wordpress.lafabriquenumerique.cloud-ed.fr www.fabrique.social.gouv.fr"
       },
       {
         "id": "cert_trust",
@@ -1816,7 +1816,7 @@
         "ip": "www.fabrique.social.gouv.fr/154.41.70.5",
         "port": "443",
         "severity": "OK",
-        "finding": "76 >= 30 days"
+        "finding": "69 >= 30 days"
       },
       {
         "id": "cert_notBefore",
@@ -1851,7 +1851,7 @@
         "ip": "www.fabrique.social.gouv.fr/154.41.70.5",
         "port": "443",
         "severity": "INFO",
-        "finding": "http://e8.c.lencr.org/61.crl"
+        "finding": "http://e8.c.lencr.org/46.crl"
       },
       {
         "id": "cert_ocspURL",
@@ -1970,14 +1970,14 @@
         "ip": "www.fabrique.social.gouv.fr/154.41.70.5",
         "port": "443",
         "severity": "INFO",
-        "finding": "-1 seconds from localtime"
+        "finding": "0 seconds from localtime"
       },
       {
         "id": "HTTP_headerTime",
         "ip": "www.fabrique.social.gouv.fr/154.41.70.5",
         "port": "443",
         "severity": "INFO",
-        "finding": "1766889240"
+        "finding": "1767494210"
       },
       {
         "id": "HSTS_time",
@@ -2561,7 +2561,7 @@
         "ip": "www.fabrique.social.gouv.fr/154.41.70.5",
         "port": "443",
         "severity": "INFO",
-        "finding": "53"
+        "finding": "66"
       }
     ],
     "thirdparties": {
@@ -2572,7 +2572,7 @@
           "value": "1",
           "domain": "www.fabrique.social.gouv.fr",
           "path": "/",
-          "expires": 1766890616,
+          "expires": 1767495536,
           "size": 15,
           "httpOnly": false,
           "secure": false,
@@ -2584,10 +2584,10 @@
         },
         {
           "name": "_pk_id.2.6321",
-          "value": "3c447d4c66cb57b1.1766888817.",
+          "value": "9239063f741e1592.1767493737.",
           "domain": "www.fabrique.social.gouv.fr",
           "path": "/",
-          "expires": 1800844017,
+          "expires": 1801448937,
           "size": 41,
           "httpOnly": false,
           "secure": false,
@@ -2601,7 +2601,7 @@
       "headers": {
         "content-security-policy": "*",
         "content-type": "text/html; charset=UTF-8",
-        "date": "Sun, 28 Dec 2025 02:26:55 GMT",
+        "date": "Sun, 04 Jan 2026 02:28:55 GMT",
         "link": "<https://www.fabrique.social.gouv.fr/wp-json/>; rel=\"https://api.w.org/\"\n<https://www.fabrique.social.gouv.fr/wp-json/wp/v2/pages/127>; rel=\"alternate\"; type=\"application/json\"\n<https://www.fabrique.social.gouv.fr/>; rel=shortlink",
         "server": "nginx",
         "strict-transport-security": "max-age=31536000; includeSubDomains",
@@ -3004,8 +3004,8 @@
     "zap": {
       "@programName": "ZAP",
       "@version": "2.17.0",
-      "@generated": "Sun, 28 Dec 2025 02:32:48",
-      "created": "2025-12-28T02:32:48.588809326Z",
+      "@generated": "Sun, 4 Jan 2026 02:35:25",
+      "created": "2026-01-04T02:35:25.595292035Z",
       "insights": [
         {
           "level": "Low",
@@ -3016,12 +3016,20 @@
           "statistic": "1"
         },
         {
+          "level": "Low",
+          "reason": "Exceeded High",
+          "site": "https://www.fabrique.social.gouv.fr",
+          "key": "insight.response.slow",
+          "description": "Percentage of slow responses",
+          "statistic": "58"
+        },
+        {
           "level": "Info",
           "reason": "Informational",
           "site": "https://www.fabrique.social.gouv.fr",
           "key": "insight.code.2xx",
           "description": "Percentage of responses with status code 2xx",
-          "statistic": "94"
+          "statistic": "95"
         },
         {
           "level": "Info",
@@ -3045,7 +3053,7 @@
           "site": "https://www.fabrique.social.gouv.fr",
           "key": "insight.endpoint.ctype.application/javascript",
           "description": "Percentage of endpoints with content type application/javascript",
-          "statistic": "4"
+          "statistic": "3"
         },
         {
           "level": "Info",
@@ -3053,15 +3061,7 @@
           "site": "https://www.fabrique.social.gouv.fr",
           "key": "insight.endpoint.ctype.application/json",
           "description": "Percentage of endpoints with content type application/json",
-          "statistic": "9"
-        },
-        {
-          "level": "Info",
-          "reason": "Informational",
-          "site": "https://www.fabrique.social.gouv.fr",
-          "key": "insight.endpoint.ctype.application/pdf",
-          "description": "Percentage of endpoints with content type application/pdf",
-          "statistic": "1"
+          "statistic": "8"
         },
         {
           "level": "Info",
@@ -3069,7 +3069,7 @@
           "site": "https://www.fabrique.social.gouv.fr",
           "key": "insight.endpoint.ctype.application/rss+xml",
           "description": "Percentage of endpoints with content type application/rss+xml",
-          "statistic": "2"
+          "statistic": "1"
         },
         {
           "level": "Info",
@@ -3093,7 +3093,7 @@
           "site": "https://www.fabrique.social.gouv.fr",
           "key": "insight.endpoint.ctype.image/png",
           "description": "Percentage of endpoints with content type image/png",
-          "statistic": "48"
+          "statistic": "54"
         },
         {
           "level": "Info",
@@ -3101,7 +3101,7 @@
           "site": "https://www.fabrique.social.gouv.fr",
           "key": "insight.endpoint.ctype.image/svg+xml",
           "description": "Percentage of endpoints with content type image/svg+xml",
-          "statistic": "6"
+          "statistic": "5"
         },
         {
           "level": "Info",
@@ -3109,7 +3109,7 @@
           "site": "https://www.fabrique.social.gouv.fr",
           "key": "insight.endpoint.ctype.text/css",
           "description": "Percentage of endpoints with content type text/css",
-          "statistic": "2"
+          "statistic": "1"
         },
         {
           "level": "Info",
@@ -3117,7 +3117,7 @@
           "site": "https://www.fabrique.social.gouv.fr",
           "key": "insight.endpoint.ctype.text/html",
           "description": "Percentage of endpoints with content type text/html",
-          "statistic": "22"
+          "statistic": "19"
         },
         {
           "level": "Info",
@@ -3125,15 +3125,7 @@
           "site": "https://www.fabrique.social.gouv.fr",
           "key": "insight.endpoint.ctype.text/plain",
           "description": "Percentage of endpoints with content type text/plain",
-          "statistic": "1"
-        },
-        {
-          "level": "Info",
-          "reason": "Informational",
-          "site": "https://www.fabrique.social.gouv.fr",
-          "key": "insight.endpoint.ctype.text/xml",
-          "description": "Percentage of endpoints with content type text/xml",
-          "statistic": "1"
+          "statistic": "4"
         },
         {
           "level": "Info",
@@ -3149,15 +3141,7 @@
           "site": "https://www.fabrique.social.gouv.fr",
           "key": "insight.endpoint.total",
           "description": "Count of total endpoints",
-          "statistic": "495"
-        },
-        {
-          "level": "Info",
-          "reason": "Informational",
-          "site": "https://www.fabrique.social.gouv.fr",
-          "key": "insight.response.slow",
-          "description": "Percentage of slow responses",
-          "statistic": "71"
+          "statistic": "556"
         }
       ],
       "site": [
@@ -3373,7 +3357,7 @@
       {
         "requestedUrl": "https://www.fabrique.social.gouv.fr/",
         "finalUrl": "https://www.fabrique.social.gouv.fr/",
-        "fetchTime": "2025-12-28T02:33:04.561Z",
+        "fetchTime": "2026-01-04T02:35:40.413Z",
         "runWarnings": [],
         "categories": {
           "performance": {
@@ -3384,7 +3368,7 @@
               "snapshot"
             ],
             "id": "performance",
-            "score": 0.42
+            "score": 0.45
           },
           "accessibility": {
             "title": "Accessibility",
@@ -3436,53 +3420,53 @@
             "description": "Collects all available metrics.",
             "score": null,
             "scoreDisplayMode": "informative",
-            "numericValue": 21829,
+            "numericValue": 21639,
             "numericUnit": "millisecond",
             "details": {
               "type": "debugdata",
               "items": [
                 {
-                  "firstContentfulPaint": 10178,
-                  "firstMeaningfulPaint": 14549,
-                  "largestContentfulPaint": 21873,
-                  "interactive": 21829,
-                  "speedIndex": 12035,
-                  "totalBlockingTime": 210,
-                  "maxPotentialFID": 271,
-                  "cumulativeLayoutShift": 0.01619482421875,
-                  "cumulativeLayoutShiftMainFrame": 0.01619482421875,
-                  "totalCumulativeLayoutShift": 0.01619482421875,
+                  "firstContentfulPaint": 10090,
+                  "firstMeaningfulPaint": 14307,
+                  "largestContentfulPaint": 21718,
+                  "interactive": 21639,
+                  "speedIndex": 11542,
+                  "totalBlockingTime": 99,
+                  "maxPotentialFID": 161,
+                  "cumulativeLayoutShift": 0.016787567138671876,
+                  "cumulativeLayoutShiftMainFrame": 0.016787567138671876,
+                  "totalCumulativeLayoutShift": 0.016787567138671876,
                   "observedTimeOrigin": 0,
-                  "observedTimeOriginTs": 463045200,
+                  "observedTimeOriginTs": 499698153,
                   "observedNavigationStart": 0,
-                  "observedNavigationStartTs": 463045200,
-                  "observedFirstPaint": 1414,
-                  "observedFirstPaintTs": 464458946,
-                  "observedFirstContentfulPaint": 1414,
-                  "observedFirstContentfulPaintTs": 464458946,
-                  "observedFirstContentfulPaintAllFrames": 1414,
-                  "observedFirstContentfulPaintAllFramesTs": 464458946,
-                  "observedFirstMeaningfulPaint": 2039,
-                  "observedFirstMeaningfulPaintTs": 465084461,
-                  "observedLargestContentfulPaint": 2776,
-                  "observedLargestContentfulPaintTs": 465821400,
-                  "observedLargestContentfulPaintAllFrames": 2776,
-                  "observedLargestContentfulPaintAllFramesTs": 465821400,
-                  "observedTraceEnd": 5066,
-                  "observedTraceEndTs": 468110743,
-                  "observedLoad": 2479,
-                  "observedLoadTs": 465524531,
-                  "observedDomContentLoaded": 2054,
-                  "observedDomContentLoadedTs": 465098945,
-                  "observedCumulativeLayoutShift": 0.01619482421875,
-                  "observedCumulativeLayoutShiftMainFrame": 0.01619482421875,
-                  "observedTotalCumulativeLayoutShift": 0.01619482421875,
-                  "observedFirstVisualChange": 1440,
-                  "observedFirstVisualChangeTs": 464485200,
-                  "observedLastVisualChange": 3256,
-                  "observedLastVisualChangeTs": 466301200,
-                  "observedSpeedIndex": 1909,
-                  "observedSpeedIndexTs": 464954068
+                  "observedNavigationStartTs": 499698153,
+                  "observedFirstPaint": 1131,
+                  "observedFirstPaintTs": 500829264,
+                  "observedFirstContentfulPaint": 1131,
+                  "observedFirstContentfulPaintTs": 500829264,
+                  "observedFirstContentfulPaintAllFrames": 1131,
+                  "observedFirstContentfulPaintAllFramesTs": 500829264,
+                  "observedFirstMeaningfulPaint": 1349,
+                  "observedFirstMeaningfulPaintTs": 501046667,
+                  "observedLargestContentfulPaint": 1919,
+                  "observedLargestContentfulPaintTs": 501616800,
+                  "observedLargestContentfulPaintAllFrames": 1919,
+                  "observedLargestContentfulPaintAllFramesTs": 501616800,
+                  "observedTraceEnd": 4211,
+                  "observedTraceEndTs": 503909265,
+                  "observedLoad": 1784,
+                  "observedLoadTs": 501481727,
+                  "observedDomContentLoaded": 1379,
+                  "observedDomContentLoadedTs": 501076719,
+                  "observedCumulativeLayoutShift": 0.016787567138671876,
+                  "observedCumulativeLayoutShiftMainFrame": 0.016787567138671876,
+                  "observedTotalCumulativeLayoutShift": 0.016787567138671876,
+                  "observedFirstVisualChange": 1156,
+                  "observedFirstVisualChangeTs": 500854153,
+                  "observedLastVisualChange": 2568,
+                  "observedLastVisualChangeTs": 502266153,
+                  "observedSpeedIndex": 1422,
+                  "observedSpeedIndexTs": 501119672
                 },
                 {
                   "lcpInvalidated": false
@@ -3504,19 +3488,19 @@
                   "numScripts": 11,
                   "numStylesheets": 6,
                   "numFonts": 4,
-                  "numTasks": 1415,
-                  "numTasksOver10ms": 13,
-                  "numTasksOver25ms": 2,
-                  "numTasksOver50ms": 1,
+                  "numTasks": 1311,
+                  "numTasksOver10ms": 14,
+                  "numTasksOver25ms": 3,
+                  "numTasksOver50ms": 0,
                   "numTasksOver100ms": 0,
                   "numTasksOver500ms": 0,
-                  "rtt": 92.46900000000001,
-                  "throughput": 19781350.919393174,
-                  "maxRtt": 92.667,
-                  "maxServerLatency": 92.85099999999998,
-                  "totalByteWeight": 4689034,
-                  "totalTaskTime": 466.9659999999983,
-                  "mainDocumentTransferSize": 396878
+                  "rtt": 108.27399999999999,
+                  "throughput": 37516336.34152651,
+                  "maxRtt": 108.49799999999999,
+                  "maxServerLatency": 7.179000000000016,
+                  "totalByteWeight": 4689238,
+                  "totalTaskTime": 475.29799999999807,
+                  "mainDocumentTransferSize": 396893
                 }
               ]
             }
@@ -3539,7 +3523,7 @@
         "width": 1920,
         "height": 1080,
         "url": "https://www.fabrique.social.gouv.fr",
-        "size": 5114.279,
+        "size": 5114.283,
         "nodes": 1091,
         "requests": 33,
         "grade": "D",
@@ -3547,7 +3531,7 @@
         "ges": 2.18,
         "water": 3.27,
         "ecoindex_version": "5.4.2",
-        "date": "2025-12-28 02:27:46.805235",
+        "date": "2026-01-04 02:29:48.620378",
         "page_type": null
       }
     ],
@@ -3572,7 +3556,7 @@
       "trackersCount": 0,
       "zapCount": 14,
       "zapGrade": "D",
-      "lighthouse_performance": 0.42,
+      "lighthouse_performance": 0.45,
       "lighthouse_performanceGrade": "D",
       "lighthouse_accessibility": 0.94,
       "lighthouse_accessibilityGrade": "A",
@@ -3735,13 +3719,13 @@
         "testsPassed": 7,
         "testsQuantity": 10,
         "responseHeaders": {
-          "date": "Sun, 28 Dec 2025 02:45:29 GMT",
+          "date": "Sun, 04 Jan 2026 02:47:27 GMT",
           "content-type": "text/html",
           "transfer-encoding": "chunked",
           "connection": "close",
-          "x-request-id": "26df164f-d87d-48ee-be4a-810b00d6998b",
-          "last-modified": "Sat, 20 Dec 2025 17:56:17 GMT",
-          "etag": "W/\"6946e341-a102\"",
+          "x-request-id": "a3c91acb-5764-48ed-8d81-ce48796ab18c",
+          "last-modified": "Fri, 02 Jan 2026 11:38:14 GMT",
+          "etag": "W/\"6957ae26-a114\"",
           "strict-transport-security": "max-age=31536000"
         }
       },
@@ -3863,6 +3847,1086 @@
     "dependabot": null,
     "codescan": null,
     "testssl": [
+      {
+        "id": "service",
+        "ip": "beta.gouv.fr/109.232.236.90",
+        "port": "443",
+        "severity": "INFO",
+        "finding": "HTTP"
+      },
+      {
+        "id": "pre_128cipher",
+        "ip": "beta.gouv.fr/109.232.236.90",
+        "port": "443",
+        "severity": "INFO",
+        "finding": "No 128 cipher limit bug"
+      },
+      {
+        "id": "SSLv2",
+        "ip": "beta.gouv.fr/109.232.236.90",
+        "port": "443",
+        "severity": "OK",
+        "finding": "not offered"
+      },
+      {
+        "id": "SSLv3",
+        "ip": "beta.gouv.fr/109.232.236.90",
+        "port": "443",
+        "severity": "OK",
+        "finding": "not offered"
+      },
+      {
+        "id": "TLS1",
+        "ip": "beta.gouv.fr/109.232.236.90",
+        "port": "443",
+        "severity": "INFO",
+        "finding": "not offered"
+      },
+      {
+        "id": "TLS1_1",
+        "ip": "beta.gouv.fr/109.232.236.90",
+        "port": "443",
+        "severity": "INFO",
+        "finding": "not offered"
+      },
+      {
+        "id": "TLS1_2",
+        "ip": "beta.gouv.fr/109.232.236.90",
+        "port": "443",
+        "severity": "OK",
+        "finding": "offered"
+      },
+      {
+        "id": "TLS1_3",
+        "ip": "beta.gouv.fr/109.232.236.90",
+        "port": "443",
+        "severity": "OK",
+        "finding": "offered with final"
+      },
+      {
+        "id": "ALPN_HTTP2",
+        "ip": "beta.gouv.fr/109.232.236.90",
+        "port": "443",
+        "severity": "OK",
+        "finding": "h2"
+      },
+      {
+        "id": "ALPN",
+        "ip": "beta.gouv.fr/109.232.236.90",
+        "port": "443",
+        "severity": "INFO",
+        "finding": "http/1.1"
+      },
+      {
+        "id": "cipherlist_NULL",
+        "ip": "beta.gouv.fr/109.232.236.90",
+        "port": "443",
+        "severity": "OK",
+        "cwe": "CWE-327",
+        "finding": "not offered"
+      },
+      {
+        "id": "cipherlist_aNULL",
+        "ip": "beta.gouv.fr/109.232.236.90",
+        "port": "443",
+        "severity": "OK",
+        "cwe": "CWE-327",
+        "finding": "not offered"
+      },
+      {
+        "id": "cipherlist_EXPORT",
+        "ip": "beta.gouv.fr/109.232.236.90",
+        "port": "443",
+        "severity": "OK",
+        "cwe": "CWE-327",
+        "finding": "not offered"
+      },
+      {
+        "id": "cipherlist_LOW",
+        "ip": "beta.gouv.fr/109.232.236.90",
+        "port": "443",
+        "severity": "OK",
+        "cwe": "CWE-327",
+        "finding": "not offered"
+      },
+      {
+        "id": "cipherlist_3DES_IDEA",
+        "ip": "beta.gouv.fr/109.232.236.90",
+        "port": "443",
+        "severity": "INFO",
+        "cwe": "CWE-310",
+        "finding": "not offered"
+      },
+      {
+        "id": "cipherlist_OBSOLETED",
+        "ip": "beta.gouv.fr/109.232.236.90",
+        "port": "443",
+        "severity": "INFO",
+        "cwe": "CWE-310",
+        "finding": "not offered"
+      },
+      {
+        "id": "cipherlist_STRONG_NOFS",
+        "ip": "beta.gouv.fr/109.232.236.90",
+        "port": "443",
+        "severity": "INFO",
+        "finding": "not offered"
+      },
+      {
+        "id": "cipherlist_STRONG_FS",
+        "ip": "beta.gouv.fr/109.232.236.90",
+        "port": "443",
+        "severity": "OK",
+        "finding": "offered"
+      },
+      {
+        "id": "cipher_order-tls1_2",
+        "ip": "beta.gouv.fr/109.232.236.90",
+        "port": "443",
+        "severity": "OK",
+        "finding": "server"
+      },
+      {
+        "id": "cipherorder_TLSv1_2",
+        "ip": "beta.gouv.fr/109.232.236.90",
+        "port": "443",
+        "severity": "INFO",
+        "finding": "ECDHE-RSA-AES256-GCM-SHA384"
+      },
+      {
+        "id": "cipher_order",
+        "ip": "beta.gouv.fr/109.232.236.90",
+        "port": "443",
+        "severity": "OK",
+        "finding": "server"
+      },
+      {
+        "id": "FS",
+        "ip": "beta.gouv.fr/109.232.236.90",
+        "port": "443",
+        "severity": "OK",
+        "finding": "offered"
+      },
+      {
+        "id": "FS_ciphers",
+        "ip": "beta.gouv.fr/109.232.236.90",
+        "port": "443",
+        "severity": "INFO",
+        "finding": "DHE-RSA-AES256-GCM-SHA384 ECDHE-RSA-AES128-GCM-SHA256 ECDHE-RSA-AES256-GCM-SHA384"
+      },
+      {
+        "id": "FS_KEMs",
+        "ip": "beta.gouv.fr/109.232.236.90",
+        "port": "443",
+        "severity": "LOW",
+        "finding": "No KEMs offered"
+      },
+      {
+        "id": "FS_ECDHE_curves",
+        "ip": "beta.gouv.fr/109.232.236.90",
+        "port": "443",
+        "severity": "OK",
+        "finding": "prime256v1 secp384r1 secp521r1"
+      },
+      {
+        "id": "TLS_extensions",
+        "ip": "beta.gouv.fr/109.232.236.90",
+        "port": "443",
+        "severity": "INFO",
+        "finding": "'server name/#0' 'max fragment length/#1' 'supported_groups/#10' 'EC point formats/#11' 'application layer protocol negotiation/#16' 'extended master secret/#23' 'session ticket/#35' 'supported versions/#43' 'key share/#51' 'renegotiation info/#65281'"
+      },
+      {
+        "id": "TLS_session_ticket",
+        "ip": "beta.gouv.fr/109.232.236.90",
+        "port": "443",
+        "severity": "INFO",
+        "finding": "valid for 300 seconds only (<daily)"
+      },
+      {
+        "id": "SSL_sessionID_support",
+        "ip": "beta.gouv.fr/109.232.236.90",
+        "port": "443",
+        "severity": "INFO",
+        "finding": "yes"
+      },
+      {
+        "id": "sessionresumption_ticket",
+        "ip": "beta.gouv.fr/109.232.236.90",
+        "port": "443",
+        "severity": "INFO",
+        "finding": "not supported"
+      },
+      {
+        "id": "sessionresumption_ID",
+        "ip": "beta.gouv.fr/109.232.236.90",
+        "port": "443",
+        "severity": "INFO",
+        "finding": "not supported"
+      },
+      {
+        "id": "TLS_timestamp",
+        "ip": "beta.gouv.fr/109.232.236.90",
+        "port": "443",
+        "severity": "INFO",
+        "finding": "random"
+      },
+      {
+        "id": "certificate_compression",
+        "ip": "beta.gouv.fr/109.232.236.90",
+        "port": "443",
+        "severity": "INFO",
+        "finding": "none"
+      },
+      {
+        "id": "clientAuth",
+        "ip": "beta.gouv.fr/109.232.236.90",
+        "port": "443",
+        "severity": "INFO",
+        "finding": "none"
+      },
+      {
+        "id": "cert_numbers",
+        "ip": "beta.gouv.fr/109.232.236.90",
+        "port": "443",
+        "severity": "INFO",
+        "finding": "1"
+      },
+      {
+        "id": "cert_signatureAlgorithm",
+        "ip": "beta.gouv.fr/109.232.236.90",
+        "port": "443",
+        "severity": "OK",
+        "finding": "SHA256 with RSA"
+      },
+      {
+        "id": "cert_keySize",
+        "ip": "beta.gouv.fr/109.232.236.90",
+        "port": "443",
+        "severity": "INFO",
+        "finding": "RSA 2048 bits (exponent is 65537)"
+      },
+      {
+        "id": "cert_keyUsage",
+        "ip": "beta.gouv.fr/109.232.236.90",
+        "port": "443",
+        "severity": "INFO",
+        "finding": "Digital Signature, Key Encipherment"
+      },
+      {
+        "id": "cert_extKeyUsage",
+        "ip": "beta.gouv.fr/109.232.236.90",
+        "port": "443",
+        "severity": "INFO",
+        "finding": "TLS Web Server Authentication, TLS Web Client Authentication"
+      },
+      {
+        "id": "cert_serialNumber",
+        "ip": "beta.gouv.fr/109.232.236.90",
+        "port": "443",
+        "severity": "INFO",
+        "finding": "055A63ACC3309742B5CD6F9434FD2ABC8B26"
+      },
+      {
+        "id": "cert_serialNumberLen",
+        "ip": "beta.gouv.fr/109.232.236.90",
+        "port": "443",
+        "severity": "INFO",
+        "finding": "18"
+      },
+      {
+        "id": "cert_fingerprintSHA1",
+        "ip": "beta.gouv.fr/109.232.236.90",
+        "port": "443",
+        "severity": "INFO",
+        "finding": "9CA7ED35FD43EAD4AC45D33D48EDE96EE1B1CF01"
+      },
+      {
+        "id": "cert_fingerprintSHA256",
+        "ip": "beta.gouv.fr/109.232.236.90",
+        "port": "443",
+        "severity": "INFO",
+        "finding": "E35F95486F09012DA89899854C517C742590D1879A1D3935DD94C8B06AFF006E"
+      },
+      {
+        "id": "cert",
+        "ip": "beta.gouv.fr/109.232.236.90",
+        "port": "443",
+        "severity": "INFO",
+        "finding": "-----BEGIN CERTIFICATE-----\nMIIE8jCCA9qgAwIBAgISBVpjrMMwl0K1zW+UNP0qvIsmMA0GCSqGSIb3DQEBCwUAMDMxCzAJBgNVBAYTAlVTMRYwFAYDVQQKEw1MZXQncyBFbmNyeXB0MQwwCgYDVQQDEwNSMTMwHhcNMjUxMTA5MDc0MDQxWhcNMjYwMjA3MDc0MDQwWjAXMRUwEwYDVQQDEwxiZXRhLmdvdXYuZnIwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDf0jiPmrFMhKOkhGLp/9LTQ6hLfoR/WxDdqBpxPbdipeLIAwreikct52+3gvZW0YjOND6kQTDNgjK9etNdikRHioJ+wT86SbnzUBF6zQtPEVyPZkhh35Q632HF2cPgsGMc84gpCERwuGZOHMYHV3h2eADl+yJtfWyQAhnT7SfgZXf90gk3qp5XA8Gr19quj+Jhb3hbftQIRFkCqp7NRlzQTeMGjUvf1LNHEnYyXjNKhrKGJdOxfY8ftH6xiJhg0SkKHo0IYP0Gp8yy3xOyrA1h2/MZcaFl5360lYgSN9VsnczJfx+TIwvNthsDJZEgGNcKRFYRBX0huoe748MxMCBtAgMBAAGjggIaMIICFjAOBgNVHQ8BAf8EBAMCBaAwHQYDVR0lBBYwFAYIKwYBBQUHAwEGCCsGAQUFBwMCMAwGA1UdEwEB/wQCMAAwHQYDVR0OBBYEFGgPwmbg3MZWIZ+i3zIj+PUyTO+vMB8GA1UdIwQYMBaAFOernw8sM6BT015PeMiyhA471pIzMDMGCCsGAQUFBwEBBCcwJTAjBggrBgEFBQcwAoYXaHR0cDovL3IxMy5pLmxlbmNyLm9yZy8wFwYDVR0RBBAwDoIMYmV0YS5nb3V2LmZyMBMGA1UdIAQMMAowCAYGZ4EMAQIBMC4GA1UdHwQnMCUwI6AhoB+GHWh0dHA6Ly9yMTMuYy5sZW5jci5vcmcvMzkuY3JsMIIBAgYKKwYBBAHWeQIEAgSB8wSB8ADuAHUAZBHEbKQS7KeJHKICLgC8q08oB9QeNSer6v7VA8l9zfAAAAGaZ8TznQAABAMARjBEAiBv7OsyCaqmnrZ661KorsRyAKbjUiAmdtCGJc0JISDTrQIgNYZs0iwRTM2he73YMpVCIoIZoqQ3GEVPVxch9o69HlcAdQDLOPcViXyEoURfW8Hd+8lu8ppZzUcKaQWFsMsUwxRY5wAAAZpnxPuCAAAEAwBGMEQCIC9dV7uLOLwJrw94Yd0md2A5/h+bvlx7Jg06AUFAU4WFAiAm57AdFXbhf8b3Gv87lPIk9sIWjhiLutWefBImzwXHjzANBgkqhkiG9w0BAQsFAAOCAQEAVvE85wmdQ0GIg0sNNSS+BdgqcgNfM3IQkwuTWJve5P2ac8NrhYuCgHk+jobdACto76Hm6K6SAZ5nLoDacdWvRrjnSDKYdTtIcOIeuRdJrtKPysUUYfsHnew44P6M4SQoe1O9LgO0IxUXQ45g7NiXODABmKLTN74VoTyRalKC1VfdDZAxcPmqgykHicN7/INbXEpWGDKTcLmJjMu283XXONwfzDn9vYYfDNbNSvk55CrtvhLcHWh9GrzqJXWVdEca26vwNztfhBqVGsKe0n0Is8sgjcE6wT6h3tVCJ1WLOxrhjraPa0b+CKXyfOvslEHJHflIjTaNZeBX/n5OQb5Hwg==\n-----END CERTIFICATE-----"
+      },
+      {
+        "id": "cert_commonName",
+        "ip": "beta.gouv.fr/109.232.236.90",
+        "port": "443",
+        "severity": "OK",
+        "finding": "beta.gouv.fr"
+      },
+      {
+        "id": "cert_commonName_wo_SNI",
+        "ip": "beta.gouv.fr/109.232.236.90",
+        "port": "443",
+        "severity": "INFO",
+        "finding": "*.osc-fr1.scalingo.io"
+      },
+      {
+        "id": "cert_subjectAltName",
+        "ip": "beta.gouv.fr/109.232.236.90",
+        "port": "443",
+        "severity": "INFO",
+        "finding": "beta.gouv.fr"
+      },
+      {
+        "id": "cert_trust",
+        "ip": "beta.gouv.fr/109.232.236.90",
+        "port": "443",
+        "severity": "OK",
+        "finding": "Ok via SAN and CN (SNI mandatory)"
+      },
+      {
+        "id": "cert_trust_wildcard",
+        "ip": "beta.gouv.fr/109.232.236.90",
+        "port": "443",
+        "severity": "LOW",
+        "finding": "trust is via wildcard"
+      },
+      {
+        "id": "cert_chain_of_trust",
+        "ip": "beta.gouv.fr/109.232.236.90",
+        "port": "443",
+        "severity": "OK",
+        "finding": "passed."
+      },
+      {
+        "id": "cert_certificatePolicies_EV",
+        "ip": "beta.gouv.fr/109.232.236.90",
+        "port": "443",
+        "severity": "INFO",
+        "finding": "no"
+      },
+      {
+        "id": "cert_expirationStatus",
+        "ip": "beta.gouv.fr/109.232.236.90",
+        "port": "443",
+        "severity": "OK",
+        "finding": "34 >= 30 days"
+      },
+      {
+        "id": "cert_notBefore",
+        "ip": "beta.gouv.fr/109.232.236.90",
+        "port": "443",
+        "severity": "INFO",
+        "finding": "2025-11-09 07:40"
+      },
+      {
+        "id": "cert_notAfter",
+        "ip": "beta.gouv.fr/109.232.236.90",
+        "port": "443",
+        "severity": "OK",
+        "finding": "2026-02-07 07:40"
+      },
+      {
+        "id": "cert_extlifeSpan",
+        "ip": "beta.gouv.fr/109.232.236.90",
+        "port": "443",
+        "severity": "OK",
+        "finding": "certificate has no extended life time according to browser forum"
+      },
+      {
+        "id": "cert_eTLS",
+        "ip": "beta.gouv.fr/109.232.236.90",
+        "port": "443",
+        "severity": "INFO",
+        "finding": "not present"
+      },
+      {
+        "id": "cert_crlDistributionPoints",
+        "ip": "beta.gouv.fr/109.232.236.90",
+        "port": "443",
+        "severity": "INFO",
+        "finding": "http://r13.c.lencr.org/39.crl"
+      },
+      {
+        "id": "cert_ocspURL",
+        "ip": "beta.gouv.fr/109.232.236.90",
+        "port": "443",
+        "severity": "INFO",
+        "finding": "--"
+      },
+      {
+        "id": "OCSP_stapling",
+        "ip": "beta.gouv.fr/109.232.236.90",
+        "port": "443",
+        "severity": "INFO",
+        "finding": "not offered"
+      },
+      {
+        "id": "cert_mustStapleExtension",
+        "ip": "beta.gouv.fr/109.232.236.90",
+        "port": "443",
+        "severity": "INFO",
+        "finding": "--"
+      },
+      {
+        "id": "DNS_CAArecord",
+        "ip": "beta.gouv.fr/109.232.236.90",
+        "port": "443",
+        "severity": "LOW",
+        "finding": "--"
+      },
+      {
+        "id": "certificate_transparency",
+        "ip": "beta.gouv.fr/109.232.236.90",
+        "port": "443",
+        "severity": "OK",
+        "finding": "yes (certificate extension)"
+      },
+      {
+        "id": "certs_countServer",
+        "ip": "beta.gouv.fr/109.232.236.90",
+        "port": "443",
+        "severity": "INFO",
+        "finding": "2"
+      },
+      {
+        "id": "certs_list_ordering_problem",
+        "ip": "beta.gouv.fr/109.232.236.90",
+        "port": "443",
+        "severity": "INFO",
+        "finding": "no"
+      },
+      {
+        "id": "cert_caIssuers",
+        "ip": "beta.gouv.fr/109.232.236.90",
+        "port": "443",
+        "severity": "INFO",
+        "finding": "R13 (Let's Encrypt from US)"
+      },
+      {
+        "id": "intermediate_cert <#1>",
+        "ip": "beta.gouv.fr/109.232.236.90",
+        "port": "443",
+        "severity": "INFO",
+        "finding": "-----BEGIN CERTIFICATE-----\nMIIFBTCCAu2gAwIBAgIQWgDyEtjUtIDzkkFX6imDBTANBgkqhkiG9w0BAQsFADBPMQswCQYDVQQGEwJVUzEpMCcGA1UEChMgSW50ZXJuZXQgU2VjdXJpdHkgUmVzZWFyY2ggR3JvdXAxFTATBgNVBAMTDElTUkcgUm9vdCBYMTAeFw0yNDAzMTMwMDAwMDBaFw0yNzAzMTIyMzU5NTlaMDMxCzAJBgNVBAYTAlVTMRYwFAYDVQQKEw1MZXQncyBFbmNyeXB0MQwwCgYDVQQDEwNSMTMwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQClZ3CN0FaBZBUXYc25BtStGZCMJlA3mBZjklTb2cyEBZPs0+wIG6BgUUNIfSvHSJaetC3ancgnO1ehn6vw1g7UDjDKb5ux0daknTI+WE41b0VYaHEX/D7YXYKgL7JRbLAaXbhZzjVlyIuhrxA3/+OcXcJJFzT/jCuLjfC8cSyTDB0FxLrHzarJXnzRyQH3nAP2/Apd9Np75tt2QnDr9E0i2gB3b9bJXxf92nUupVcM9upctuBzpWjPoXTidYJ+EJ/B9aLrAek4sQpEzNPCifVJNYIKNLMc6YjCR06CDgo28EdPivEpBHXazeGaXP9enZiVuppD0EqiFwUBBDDTMrOPAgMBAAGjgfgwgfUwDgYDVR0PAQH/BAQDAgGGMB0GA1UdJQQWMBQGCCsGAQUFBwMCBggrBgEFBQcDATASBgNVHRMBAf8ECDAGAQH/AgEAMB0GA1UdDgQWBBTnq58PLDOgU9NeT3jIsoQOO9aSMzAfBgNVHSMEGDAWgBR5tFnme7bl5AFzgAiIyBpY9umbbjAyBggrBgEFBQcBAQQmMCQwIgYIKwYBBQUHMAKGFmh0dHA6Ly94MS5pLmxlbmNyLm9yZy8wEwYDVR0gBAwwCjAIBgZngQwBAgEwJwYDVR0fBCAwHjAcoBqgGIYWaHR0cDovL3gxLmMubGVuY3Iub3JnLzANBgkqhkiG9w0BAQsFAAOCAgEAUTdYUqEimzW7TbrOypLqCfL7VOwYf/Q79OH5cHLCZeggfQhDconlk7Kgh8b0vi+/XuWu7CN8n/UPeg1vo3G+taXirrytthQinAHGwc/UdbOygJa9zuBcVyqoH3CXTXDInT+8a+c3aEVMJ2St+pSn4ed+WkDp8ijsijvEyFwE47hulW0Ltzjg9fOV5Pmrg/zxWbRuL+k0DBDHEJennCsAen7c35Pmx7jpmJ/HtgRhcnz0yjSBvyIw6L1QIupkCv2SBODT/xDD3gfQQyKv6roV4G2EhfEyAsWpmojxjCUCGiyg97FvDtm/NK2LSc9lybKxB73I2+P2G3CaWpvvpAiHCVu30jW8GCxKdfhsXtnIy2imskQqVZ2m0Pmxobb28Tucr7xBK7CtwvPrb79os7u2XP3O5f9b/H66GNyRrglRXlrYjI1oGYL/f4I1n/Sgusda6WvA6C190kxjU15Y12mHU4+BxyR9cx2hhGS9fAjMZKJss28qxvz6Axu4CaDmRNZpK/pQrXF17yXCXkmEWgvSOEZy6Z9pcbLIVEGckV/iVeq0AOo2pkg9p4QRIy0tK2diRENLSF2KysFwbY6B26BFeFs3v1sYVRhFW9nLkOrQVporCS0KyZmfwVD89qSTlnctLcZnIavjKsKUu1nA1iU0yYMdYepKR7lWbnwhdx3ewok=\n-----END CERTIFICATE-----"
+      },
+      {
+        "id": "intermediate_cert_fingerprintSHA256 <#1>",
+        "ip": "beta.gouv.fr/109.232.236.90",
+        "port": "443",
+        "severity": "INFO",
+        "finding": "D3B128216A843F8EF1321501F5DF52A5DF52939EE2C19297712CD3DE4D419354"
+      },
+      {
+        "id": "intermediate_cert_notBefore <#1>",
+        "ip": "beta.gouv.fr/109.232.236.90",
+        "port": "443",
+        "severity": "INFO",
+        "finding": "2024-03-13 00:00"
+      },
+      {
+        "id": "intermediate_cert_notAfter <#1>",
+        "ip": "beta.gouv.fr/109.232.236.90",
+        "port": "443",
+        "severity": "OK",
+        "finding": "2027-03-12 23:59"
+      },
+      {
+        "id": "intermediate_cert_expiration <#1>",
+        "ip": "beta.gouv.fr/109.232.236.90",
+        "port": "443",
+        "severity": "OK",
+        "finding": "ok > 40 days"
+      },
+      {
+        "id": "intermediate_cert_chain <#1>",
+        "ip": "beta.gouv.fr/109.232.236.90",
+        "port": "443",
+        "severity": "INFO",
+        "finding": "R13 <-- ISRG Root X1"
+      },
+      {
+        "id": "intermediate_cert_badOCSP",
+        "ip": "beta.gouv.fr/109.232.236.90",
+        "port": "443",
+        "severity": "OK",
+        "finding": "intermediate certificate(s) is/are ok"
+      },
+      {
+        "id": "HTTP_status_code",
+        "ip": "beta.gouv.fr/109.232.236.90",
+        "port": "443",
+        "severity": "INFO",
+        "finding": "200 OK ('/')"
+      },
+      {
+        "id": "HTTP_clock_skew",
+        "ip": "beta.gouv.fr/109.232.236.90",
+        "port": "443",
+        "severity": "INFO",
+        "finding": "0 seconds from localtime"
+      },
+      {
+        "id": "HTTP_headerTime",
+        "ip": "beta.gouv.fr/109.232.236.90",
+        "port": "443",
+        "severity": "INFO",
+        "finding": "1767494911"
+      },
+      {
+        "id": "HSTS_time",
+        "ip": "beta.gouv.fr/109.232.236.90",
+        "port": "443",
+        "severity": "OK",
+        "finding": "365 days (=31536000 seconds) > 15552000 seconds"
+      },
+      {
+        "id": "HSTS_subdomains",
+        "ip": "beta.gouv.fr/109.232.236.90",
+        "port": "443",
+        "severity": "INFO",
+        "finding": "only for this domain"
+      },
+      {
+        "id": "HSTS_preload",
+        "ip": "beta.gouv.fr/109.232.236.90",
+        "port": "443",
+        "severity": "INFO",
+        "finding": "domain is NOT marked for preloading"
+      },
+      {
+        "id": "HPKP",
+        "ip": "beta.gouv.fr/109.232.236.90",
+        "port": "443",
+        "severity": "INFO",
+        "finding": "No support for HTTP Public Key Pinning"
+      },
+      {
+        "id": "banner_server",
+        "ip": "beta.gouv.fr/109.232.236.90",
+        "port": "443",
+        "severity": "INFO",
+        "finding": "No Server banner line in header, interesting!"
+      },
+      {
+        "id": "banner_application",
+        "ip": "beta.gouv.fr/109.232.236.90",
+        "port": "443",
+        "severity": "INFO",
+        "finding": "No application banner found"
+      },
+      {
+        "id": "cookie_count",
+        "ip": "beta.gouv.fr/109.232.236.90",
+        "port": "443",
+        "severity": "INFO",
+        "finding": "0 at '/'"
+      },
+      {
+        "id": "security_headers",
+        "ip": "beta.gouv.fr/109.232.236.90",
+        "port": "443",
+        "severity": "MEDIUM",
+        "finding": "--"
+      },
+      {
+        "id": "banner_reverseproxy",
+        "ip": "beta.gouv.fr/109.232.236.90",
+        "port": "443",
+        "severity": "INFO",
+        "cwe": "CWE-200",
+        "finding": "--"
+      },
+      {
+        "id": "heartbleed",
+        "ip": "beta.gouv.fr/109.232.236.90",
+        "port": "443",
+        "severity": "OK",
+        "cve": "CVE-2014-0160",
+        "cwe": "CWE-119",
+        "finding": "not vulnerable, no heartbeat extension"
+      },
+      {
+        "id": "CCS",
+        "ip": "beta.gouv.fr/109.232.236.90",
+        "port": "443",
+        "severity": "OK",
+        "cve": "CVE-2014-0224",
+        "cwe": "CWE-310",
+        "finding": "not vulnerable"
+      },
+      {
+        "id": "ticketbleed",
+        "ip": "beta.gouv.fr/109.232.236.90",
+        "port": "443",
+        "severity": "OK",
+        "cve": "CVE-2016-9244",
+        "cwe": "CWE-200",
+        "finding": "not vulnerable"
+      },
+      {
+        "id": "ROBOT",
+        "ip": "beta.gouv.fr/109.232.236.90",
+        "port": "443",
+        "severity": "OK",
+        "cve": "CVE-2017-17382 CVE-2017-17427 CVE-2017-17428 CVE-2017-13098 CVE-2017-1000385 CVE-2017-13099 CVE-2016-6883 CVE-2012-5081 CVE-2017-6168",
+        "cwe": "CWE-203",
+        "finding": "not vulnerable, no RSA key transport cipher"
+      },
+      {
+        "id": "secure_renego",
+        "ip": "beta.gouv.fr/109.232.236.90",
+        "port": "443",
+        "severity": "OK",
+        "cwe": "CWE-310",
+        "finding": "supported"
+      },
+      {
+        "id": "secure_client_renego",
+        "ip": "beta.gouv.fr/109.232.236.90",
+        "port": "443",
+        "severity": "OK",
+        "cve": "CVE-2011-1473",
+        "cwe": "CWE-310",
+        "finding": "not vulnerable"
+      },
+      {
+        "id": "CRIME_TLS",
+        "ip": "beta.gouv.fr/109.232.236.90",
+        "port": "443",
+        "severity": "OK",
+        "cve": "CVE-2012-4929",
+        "cwe": "CWE-310",
+        "finding": "not vulnerable"
+      },
+      {
+        "id": "BREACH",
+        "ip": "beta.gouv.fr/109.232.236.90",
+        "port": "443",
+        "severity": "MEDIUM",
+        "cve": "CVE-2013-3587",
+        "cwe": "CWE-310",
+        "finding": "potentially VULNERABLE, gzip HTTP compression detected  - only supplied '/' tested"
+      },
+      {
+        "id": "POODLE_SSL",
+        "ip": "beta.gouv.fr/109.232.236.90",
+        "port": "443",
+        "severity": "OK",
+        "cve": "CVE-2014-3566",
+        "cwe": "CWE-310",
+        "finding": "not vulnerable, no SSLv3"
+      },
+      {
+        "id": "fallback_SCSV",
+        "ip": "beta.gouv.fr/109.232.236.90",
+        "port": "443",
+        "severity": "OK",
+        "finding": "no protocol below TLS 1.2 offered"
+      },
+      {
+        "id": "SWEET32",
+        "ip": "beta.gouv.fr/109.232.236.90",
+        "port": "443",
+        "severity": "OK",
+        "cve": "CVE-2016-2183 CVE-2016-6329",
+        "cwe": "CWE-327",
+        "finding": "not vulnerable"
+      },
+      {
+        "id": "FREAK",
+        "ip": "beta.gouv.fr/109.232.236.90",
+        "port": "443",
+        "severity": "OK",
+        "cve": "CVE-2015-0204",
+        "cwe": "CWE-310",
+        "finding": "not vulnerable"
+      },
+      {
+        "id": "DROWN",
+        "ip": "beta.gouv.fr/109.232.236.90",
+        "port": "443",
+        "severity": "OK",
+        "cve": "CVE-2016-0800 CVE-2016-0703",
+        "cwe": "CWE-310",
+        "finding": "not vulnerable on this host and port"
+      },
+      {
+        "id": "DROWN_hint",
+        "ip": "beta.gouv.fr/109.232.236.90",
+        "port": "443",
+        "severity": "INFO",
+        "cve": "CVE-2016-0800 CVE-2016-0703",
+        "cwe": "CWE-310",
+        "finding": "Make sure you don't use this certificate elsewhere with SSLv2 enabled services, see https://search.censys.io/search?resource=hosts&virtual_hosts=INCLUDE&q=E35F95486F09012DA89899854C517C742590D1879A1D3935DD94C8B06AFF006E"
+      },
+      {
+        "id": "LOGJAM",
+        "ip": "beta.gouv.fr/109.232.236.90",
+        "port": "443",
+        "severity": "OK",
+        "cve": "CVE-2015-4000",
+        "cwe": "CWE-310",
+        "finding": "not vulnerable, no DH EXPORT ciphers,"
+      },
+      {
+        "id": "LOGJAM-common_primes",
+        "ip": "beta.gouv.fr/109.232.236.90",
+        "port": "443",
+        "severity": "OK",
+        "cve": "CVE-2015-4000",
+        "cwe": "CWE-310",
+        "finding": "--"
+      },
+      {
+        "id": "BEAST",
+        "ip": "beta.gouv.fr/109.232.236.90",
+        "port": "443",
+        "severity": "OK",
+        "cve": "CVE-2011-3389",
+        "cwe": "CWE-20",
+        "finding": "not vulnerable, no SSL3 or TLS1"
+      },
+      {
+        "id": "LUCKY13",
+        "ip": "beta.gouv.fr/109.232.236.90",
+        "port": "443",
+        "severity": "OK",
+        "cve": "CVE-2013-0169",
+        "cwe": "CWE-310",
+        "finding": "not vulnerable"
+      },
+      {
+        "id": "winshock",
+        "ip": "beta.gouv.fr/109.232.236.90",
+        "port": "443",
+        "severity": "OK",
+        "cve": "CVE-2014-6321",
+        "cwe": "CWE-94",
+        "finding": "not vulnerable"
+      },
+      {
+        "id": "RC4",
+        "ip": "beta.gouv.fr/109.232.236.90",
+        "port": "443",
+        "severity": "OK",
+        "cve": "CVE-2013-2566 CVE-2015-2808",
+        "cwe": "CWE-310",
+        "finding": "not vulnerable"
+      },
+      {
+        "id": "clientsimulation-android_70",
+        "ip": "beta.gouv.fr/109.232.236.90",
+        "port": "443",
+        "severity": "INFO",
+        "finding": "TLSv1.2 ECDHE-RSA-AES256-GCM-SHA384"
+      },
+      {
+        "id": "clientsimulation-android_81",
+        "ip": "beta.gouv.fr/109.232.236.90",
+        "port": "443",
+        "severity": "INFO",
+        "finding": "TLSv1.2 ECDHE-RSA-AES256-GCM-SHA384"
+      },
+      {
+        "id": "clientsimulation-android_90",
+        "ip": "beta.gouv.fr/109.232.236.90",
+        "port": "443",
+        "severity": "INFO",
+        "finding": "TLSv1.3 TLS_AES_256_GCM_SHA384"
+      },
+      {
+        "id": "clientsimulation-android_X",
+        "ip": "beta.gouv.fr/109.232.236.90",
+        "port": "443",
+        "severity": "INFO",
+        "finding": "TLSv1.3 TLS_AES_256_GCM_SHA384"
+      },
+      {
+        "id": "clientsimulation-android_11_12",
+        "ip": "beta.gouv.fr/109.232.236.90",
+        "port": "443",
+        "severity": "INFO",
+        "finding": "TLSv1.3 TLS_AES_256_GCM_SHA384"
+      },
+      {
+        "id": "clientsimulation-android_13_14",
+        "ip": "beta.gouv.fr/109.232.236.90",
+        "port": "443",
+        "severity": "INFO",
+        "finding": "TLSv1.3 TLS_AES_256_GCM_SHA384"
+      },
+      {
+        "id": "clientsimulation-android_15",
+        "ip": "beta.gouv.fr/109.232.236.90",
+        "port": "443",
+        "severity": "INFO",
+        "finding": "TLSv1.3 TLS_AES_256_GCM_SHA384"
+      },
+      {
+        "id": "clientsimulation-chrome_101_win10",
+        "ip": "beta.gouv.fr/109.232.236.90",
+        "port": "443",
+        "severity": "INFO",
+        "finding": "TLSv1.3 TLS_AES_256_GCM_SHA384"
+      },
+      {
+        "id": "clientsimulation-chromium_137_win11",
+        "ip": "beta.gouv.fr/109.232.236.90",
+        "port": "443",
+        "severity": "INFO",
+        "finding": "TLSv1.3 TLS_AES_256_GCM_SHA384"
+      },
+      {
+        "id": "clientsimulation-firefox_100_win10",
+        "ip": "beta.gouv.fr/109.232.236.90",
+        "port": "443",
+        "severity": "INFO",
+        "finding": "TLSv1.3 TLS_AES_256_GCM_SHA384"
+      },
+      {
+        "id": "clientsimulation-firefox_137_win11",
+        "ip": "beta.gouv.fr/109.232.236.90",
+        "port": "443",
+        "severity": "INFO",
+        "finding": "TLSv1.3 TLS_AES_256_GCM_SHA384"
+      },
+      {
+        "id": "clientsimulation-ie_8_win7",
+        "ip": "beta.gouv.fr/109.232.236.90",
+        "port": "443",
+        "severity": "INFO",
+        "finding": "No connection"
+      },
+      {
+        "id": "clientsimulation-ie_11_win7",
+        "ip": "beta.gouv.fr/109.232.236.90",
+        "port": "443",
+        "severity": "INFO",
+        "finding": "TLSv1.2 DHE-RSA-AES256-GCM-SHA384"
+      },
+      {
+        "id": "clientsimulation-ie_11_win81",
+        "ip": "beta.gouv.fr/109.232.236.90",
+        "port": "443",
+        "severity": "INFO",
+        "finding": "TLSv1.2 DHE-RSA-AES256-GCM-SHA384"
+      },
+      {
+        "id": "clientsimulation-ie_11_winphone81",
+        "ip": "beta.gouv.fr/109.232.236.90",
+        "port": "443",
+        "severity": "INFO",
+        "finding": "No connection"
+      },
+      {
+        "id": "clientsimulation-ie_11_win10",
+        "ip": "beta.gouv.fr/109.232.236.90",
+        "port": "443",
+        "severity": "INFO",
+        "finding": "TLSv1.2 ECDHE-RSA-AES256-GCM-SHA384"
+      },
+      {
+        "id": "clientsimulation-edge_15_win10",
+        "ip": "beta.gouv.fr/109.232.236.90",
+        "port": "443",
+        "severity": "INFO",
+        "finding": "TLSv1.2 ECDHE-RSA-AES256-GCM-SHA384"
+      },
+      {
+        "id": "clientsimulation-edge_101_win10_21h2",
+        "ip": "beta.gouv.fr/109.232.236.90",
+        "port": "443",
+        "severity": "INFO",
+        "finding": "TLSv1.3 TLS_AES_256_GCM_SHA384"
+      },
+      {
+        "id": "clientsimulation-edge_133_win11_23h2",
+        "ip": "beta.gouv.fr/109.232.236.90",
+        "port": "443",
+        "severity": "INFO",
+        "finding": "TLSv1.3 TLS_AES_256_GCM_SHA384"
+      },
+      {
+        "id": "clientsimulation-safari_184_ios_184",
+        "ip": "beta.gouv.fr/109.232.236.90",
+        "port": "443",
+        "severity": "INFO",
+        "finding": "TLSv1.3 TLS_AES_256_GCM_SHA384"
+      },
+      {
+        "id": "clientsimulation-safari_154_osx_1231",
+        "ip": "beta.gouv.fr/109.232.236.90",
+        "port": "443",
+        "severity": "INFO",
+        "finding": "TLSv1.3 TLS_AES_256_GCM_SHA384"
+      },
+      {
+        "id": "clientsimulation-safari_184_osx_154",
+        "ip": "beta.gouv.fr/109.232.236.90",
+        "port": "443",
+        "severity": "INFO",
+        "finding": "TLSv1.3 TLS_AES_256_GCM_SHA384"
+      },
+      {
+        "id": "clientsimulation-java_7u25",
+        "ip": "beta.gouv.fr/109.232.236.90",
+        "port": "443",
+        "severity": "INFO",
+        "finding": "No connection"
+      },
+      {
+        "id": "clientsimulation-java_80442",
+        "ip": "beta.gouv.fr/109.232.236.90",
+        "port": "443",
+        "severity": "INFO",
+        "finding": "TLSv1.3 TLS_AES_256_GCM_SHA384"
+      },
+      {
+        "id": "clientsimulation-java_1102",
+        "ip": "beta.gouv.fr/109.232.236.90",
+        "port": "443",
+        "severity": "INFO",
+        "finding": "TLSv1.3 TLS_AES_256_GCM_SHA384"
+      },
+      {
+        "id": "clientsimulation-java_1703",
+        "ip": "beta.gouv.fr/109.232.236.90",
+        "port": "443",
+        "severity": "INFO",
+        "finding": "TLSv1.3 TLS_AES_256_GCM_SHA384"
+      },
+      {
+        "id": "clientsimulation-java_2106",
+        "ip": "beta.gouv.fr/109.232.236.90",
+        "port": "443",
+        "severity": "INFO",
+        "finding": "TLSv1.3 TLS_AES_256_GCM_SHA384"
+      },
+      {
+        "id": "clientsimulation-go_1178",
+        "ip": "beta.gouv.fr/109.232.236.90",
+        "port": "443",
+        "severity": "INFO",
+        "finding": "TLSv1.3 TLS_AES_256_GCM_SHA384"
+      },
+      {
+        "id": "clientsimulation-libressl_336",
+        "ip": "beta.gouv.fr/109.232.236.90",
+        "port": "443",
+        "severity": "INFO",
+        "finding": "TLSv1.3 TLS_AES_256_GCM_SHA384"
+      },
+      {
+        "id": "clientsimulation-openssl_102e",
+        "ip": "beta.gouv.fr/109.232.236.90",
+        "port": "443",
+        "severity": "INFO",
+        "finding": "TLSv1.2 ECDHE-RSA-AES256-GCM-SHA384"
+      },
+      {
+        "id": "clientsimulation-openssl_111d",
+        "ip": "beta.gouv.fr/109.232.236.90",
+        "port": "443",
+        "severity": "INFO",
+        "finding": "TLSv1.3 TLS_AES_256_GCM_SHA384"
+      },
+      {
+        "id": "clientsimulation-openssl_315",
+        "ip": "beta.gouv.fr/109.232.236.90",
+        "port": "443",
+        "severity": "INFO",
+        "finding": "TLSv1.3 TLS_AES_256_GCM_SHA384"
+      },
+      {
+        "id": "clientsimulation-openssl_350",
+        "ip": "beta.gouv.fr/109.232.236.90",
+        "port": "443",
+        "severity": "INFO",
+        "finding": "TLSv1.3 TLS_AES_256_GCM_SHA384"
+      },
+      {
+        "id": "clientsimulation-apple_mail_16_0",
+        "ip": "beta.gouv.fr/109.232.236.90",
+        "port": "443",
+        "severity": "INFO",
+        "finding": "TLSv1.2 ECDHE-RSA-AES256-GCM-SHA384"
+      },
+      {
+        "id": "clientsimulation-thunderbird_91_9",
+        "ip": "beta.gouv.fr/109.232.236.90",
+        "port": "443",
+        "severity": "INFO",
+        "finding": "TLSv1.3 TLS_AES_256_GCM_SHA384"
+      },
+      {
+        "id": "rating_spec",
+        "ip": "beta.gouv.fr/109.232.236.90",
+        "port": "443",
+        "severity": "INFO",
+        "finding": "SSL Labs's 'SSL Server Rating Guide' (version 2009r from 2025-05-16)"
+      },
+      {
+        "id": "rating_doc",
+        "ip": "beta.gouv.fr/109.232.236.90",
+        "port": "443",
+        "severity": "INFO",
+        "finding": "https://github.com/ssllabs/research/wiki/SSL-Server-Rating-Guide"
+      },
+      {
+        "id": "protocol_support_score",
+        "ip": "beta.gouv.fr/109.232.236.90",
+        "port": "443",
+        "severity": "INFO",
+        "finding": "100"
+      },
+      {
+        "id": "protocol_support_score_weighted",
+        "ip": "beta.gouv.fr/109.232.236.90",
+        "port": "443",
+        "severity": "INFO",
+        "finding": "30"
+      },
+      {
+        "id": "key_exchange_score",
+        "ip": "beta.gouv.fr/109.232.236.90",
+        "port": "443",
+        "severity": "INFO",
+        "finding": "90"
+      },
+      {
+        "id": "key_exchange_score_weighted",
+        "ip": "beta.gouv.fr/109.232.236.90",
+        "port": "443",
+        "severity": "INFO",
+        "finding": "27"
+      },
+      {
+        "id": "cipher_strength_score",
+        "ip": "beta.gouv.fr/109.232.236.90",
+        "port": "443",
+        "severity": "INFO",
+        "finding": "60"
+      },
+      {
+        "id": "cipher_strength_score_weighted",
+        "ip": "beta.gouv.fr/109.232.236.90",
+        "port": "443",
+        "severity": "INFO",
+        "finding": "24"
+      },
+      {
+        "id": "final_score",
+        "ip": "beta.gouv.fr/109.232.236.90",
+        "port": "443",
+        "severity": "INFO",
+        "finding": "81"
+      },
+      {
+        "id": "overall_grade",
+        "ip": "beta.gouv.fr/109.232.236.90",
+        "port": "443",
+        "severity": "OK",
+        "finding": "A+"
+      },
       {
         "id": "service",
         "ip": "beta.gouv.fr/5.104.101.30",
@@ -4077,7 +5141,7 @@
         "ip": "beta.gouv.fr/5.104.101.30",
         "port": "443",
         "severity": "INFO",
-        "finding": "not supported"
+        "finding": "supported"
       },
       {
         "id": "TLS_timestamp",
@@ -4224,7 +5288,7 @@
         "ip": "beta.gouv.fr/5.104.101.30",
         "port": "443",
         "severity": "OK",
-        "finding": "41 >= 30 days"
+        "finding": "34 >= 30 days"
       },
       {
         "id": "cert_notBefore",
@@ -4385,7 +5449,7 @@
         "ip": "beta.gouv.fr/5.104.101.30",
         "port": "443",
         "severity": "INFO",
-        "finding": "1766889992"
+        "finding": "1767495009"
       },
       {
         "id": "HSTS_time",
@@ -4939,1093 +6003,13 @@
       {
         "id": "overall_grade",
         "ip": "beta.gouv.fr/5.104.101.30",
-        "port": "443",
-        "severity": "OK",
-        "finding": "A+"
-      },
-      {
-        "id": "service",
-        "ip": "beta.gouv.fr/109.232.236.90",
-        "port": "443",
-        "severity": "INFO",
-        "finding": "HTTP"
-      },
-      {
-        "id": "pre_128cipher",
-        "ip": "beta.gouv.fr/109.232.236.90",
-        "port": "443",
-        "severity": "INFO",
-        "finding": "No 128 cipher limit bug"
-      },
-      {
-        "id": "SSLv2",
-        "ip": "beta.gouv.fr/109.232.236.90",
-        "port": "443",
-        "severity": "OK",
-        "finding": "not offered"
-      },
-      {
-        "id": "SSLv3",
-        "ip": "beta.gouv.fr/109.232.236.90",
-        "port": "443",
-        "severity": "OK",
-        "finding": "not offered"
-      },
-      {
-        "id": "TLS1",
-        "ip": "beta.gouv.fr/109.232.236.90",
-        "port": "443",
-        "severity": "INFO",
-        "finding": "not offered"
-      },
-      {
-        "id": "TLS1_1",
-        "ip": "beta.gouv.fr/109.232.236.90",
-        "port": "443",
-        "severity": "INFO",
-        "finding": "not offered"
-      },
-      {
-        "id": "TLS1_2",
-        "ip": "beta.gouv.fr/109.232.236.90",
-        "port": "443",
-        "severity": "OK",
-        "finding": "offered"
-      },
-      {
-        "id": "TLS1_3",
-        "ip": "beta.gouv.fr/109.232.236.90",
-        "port": "443",
-        "severity": "OK",
-        "finding": "offered with final"
-      },
-      {
-        "id": "ALPN_HTTP2",
-        "ip": "beta.gouv.fr/109.232.236.90",
-        "port": "443",
-        "severity": "OK",
-        "finding": "h2"
-      },
-      {
-        "id": "ALPN",
-        "ip": "beta.gouv.fr/109.232.236.90",
-        "port": "443",
-        "severity": "INFO",
-        "finding": "http/1.1"
-      },
-      {
-        "id": "cipherlist_NULL",
-        "ip": "beta.gouv.fr/109.232.236.90",
-        "port": "443",
-        "severity": "OK",
-        "cwe": "CWE-327",
-        "finding": "not offered"
-      },
-      {
-        "id": "cipherlist_aNULL",
-        "ip": "beta.gouv.fr/109.232.236.90",
-        "port": "443",
-        "severity": "OK",
-        "cwe": "CWE-327",
-        "finding": "not offered"
-      },
-      {
-        "id": "cipherlist_EXPORT",
-        "ip": "beta.gouv.fr/109.232.236.90",
-        "port": "443",
-        "severity": "OK",
-        "cwe": "CWE-327",
-        "finding": "not offered"
-      },
-      {
-        "id": "cipherlist_LOW",
-        "ip": "beta.gouv.fr/109.232.236.90",
-        "port": "443",
-        "severity": "OK",
-        "cwe": "CWE-327",
-        "finding": "not offered"
-      },
-      {
-        "id": "cipherlist_3DES_IDEA",
-        "ip": "beta.gouv.fr/109.232.236.90",
-        "port": "443",
-        "severity": "INFO",
-        "cwe": "CWE-310",
-        "finding": "not offered"
-      },
-      {
-        "id": "cipherlist_OBSOLETED",
-        "ip": "beta.gouv.fr/109.232.236.90",
-        "port": "443",
-        "severity": "INFO",
-        "cwe": "CWE-310",
-        "finding": "not offered"
-      },
-      {
-        "id": "cipherlist_STRONG_NOFS",
-        "ip": "beta.gouv.fr/109.232.236.90",
-        "port": "443",
-        "severity": "INFO",
-        "finding": "not offered"
-      },
-      {
-        "id": "cipherlist_STRONG_FS",
-        "ip": "beta.gouv.fr/109.232.236.90",
-        "port": "443",
-        "severity": "OK",
-        "finding": "offered"
-      },
-      {
-        "id": "cipher_order-tls1_2",
-        "ip": "beta.gouv.fr/109.232.236.90",
-        "port": "443",
-        "severity": "OK",
-        "finding": "server"
-      },
-      {
-        "id": "cipherorder_TLSv1_2",
-        "ip": "beta.gouv.fr/109.232.236.90",
-        "port": "443",
-        "severity": "INFO",
-        "finding": "ECDHE-RSA-AES256-GCM-SHA384"
-      },
-      {
-        "id": "cipher_order",
-        "ip": "beta.gouv.fr/109.232.236.90",
-        "port": "443",
-        "severity": "OK",
-        "finding": "server"
-      },
-      {
-        "id": "FS",
-        "ip": "beta.gouv.fr/109.232.236.90",
-        "port": "443",
-        "severity": "OK",
-        "finding": "offered"
-      },
-      {
-        "id": "FS_ciphers",
-        "ip": "beta.gouv.fr/109.232.236.90",
-        "port": "443",
-        "severity": "INFO",
-        "finding": "DHE-RSA-AES256-GCM-SHA384 ECDHE-RSA-AES128-GCM-SHA256 ECDHE-RSA-AES256-GCM-SHA384"
-      },
-      {
-        "id": "FS_KEMs",
-        "ip": "beta.gouv.fr/109.232.236.90",
-        "port": "443",
-        "severity": "LOW",
-        "finding": "No KEMs offered"
-      },
-      {
-        "id": "FS_ECDHE_curves",
-        "ip": "beta.gouv.fr/109.232.236.90",
-        "port": "443",
-        "severity": "OK",
-        "finding": "prime256v1 secp384r1 secp521r1"
-      },
-      {
-        "id": "TLS_extensions",
-        "ip": "beta.gouv.fr/109.232.236.90",
-        "port": "443",
-        "severity": "INFO",
-        "finding": "'server name/#0' 'max fragment length/#1' 'supported_groups/#10' 'EC point formats/#11' 'application layer protocol negotiation/#16' 'extended master secret/#23' 'session ticket/#35' 'supported versions/#43' 'key share/#51' 'renegotiation info/#65281'"
-      },
-      {
-        "id": "TLS_session_ticket",
-        "ip": "beta.gouv.fr/109.232.236.90",
-        "port": "443",
-        "severity": "INFO",
-        "finding": "valid for 300 seconds only (<daily)"
-      },
-      {
-        "id": "SSL_sessionID_support",
-        "ip": "beta.gouv.fr/109.232.236.90",
-        "port": "443",
-        "severity": "INFO",
-        "finding": "yes"
-      },
-      {
-        "id": "sessionresumption_ticket",
-        "ip": "beta.gouv.fr/109.232.236.90",
-        "port": "443",
-        "severity": "INFO",
-        "finding": "not supported"
-      },
-      {
-        "id": "sessionresumption_ID",
-        "ip": "beta.gouv.fr/109.232.236.90",
-        "port": "443",
-        "severity": "INFO",
-        "finding": "supported"
-      },
-      {
-        "id": "TLS_timestamp",
-        "ip": "beta.gouv.fr/109.232.236.90",
-        "port": "443",
-        "severity": "INFO",
-        "finding": "random"
-      },
-      {
-        "id": "certificate_compression",
-        "ip": "beta.gouv.fr/109.232.236.90",
-        "port": "443",
-        "severity": "INFO",
-        "finding": "none"
-      },
-      {
-        "id": "clientAuth",
-        "ip": "beta.gouv.fr/109.232.236.90",
-        "port": "443",
-        "severity": "INFO",
-        "finding": "none"
-      },
-      {
-        "id": "cert_numbers",
-        "ip": "beta.gouv.fr/109.232.236.90",
-        "port": "443",
-        "severity": "INFO",
-        "finding": "1"
-      },
-      {
-        "id": "cert_signatureAlgorithm",
-        "ip": "beta.gouv.fr/109.232.236.90",
-        "port": "443",
-        "severity": "OK",
-        "finding": "SHA256 with RSA"
-      },
-      {
-        "id": "cert_keySize",
-        "ip": "beta.gouv.fr/109.232.236.90",
-        "port": "443",
-        "severity": "INFO",
-        "finding": "RSA 2048 bits (exponent is 65537)"
-      },
-      {
-        "id": "cert_keyUsage",
-        "ip": "beta.gouv.fr/109.232.236.90",
-        "port": "443",
-        "severity": "INFO",
-        "finding": "Digital Signature, Key Encipherment"
-      },
-      {
-        "id": "cert_extKeyUsage",
-        "ip": "beta.gouv.fr/109.232.236.90",
-        "port": "443",
-        "severity": "INFO",
-        "finding": "TLS Web Server Authentication, TLS Web Client Authentication"
-      },
-      {
-        "id": "cert_serialNumber",
-        "ip": "beta.gouv.fr/109.232.236.90",
-        "port": "443",
-        "severity": "INFO",
-        "finding": "055A63ACC3309742B5CD6F9434FD2ABC8B26"
-      },
-      {
-        "id": "cert_serialNumberLen",
-        "ip": "beta.gouv.fr/109.232.236.90",
-        "port": "443",
-        "severity": "INFO",
-        "finding": "18"
-      },
-      {
-        "id": "cert_fingerprintSHA1",
-        "ip": "beta.gouv.fr/109.232.236.90",
-        "port": "443",
-        "severity": "INFO",
-        "finding": "9CA7ED35FD43EAD4AC45D33D48EDE96EE1B1CF01"
-      },
-      {
-        "id": "cert_fingerprintSHA256",
-        "ip": "beta.gouv.fr/109.232.236.90",
-        "port": "443",
-        "severity": "INFO",
-        "finding": "E35F95486F09012DA89899854C517C742590D1879A1D3935DD94C8B06AFF006E"
-      },
-      {
-        "id": "cert",
-        "ip": "beta.gouv.fr/109.232.236.90",
-        "port": "443",
-        "severity": "INFO",
-        "finding": "-----BEGIN CERTIFICATE-----\nMIIE8jCCA9qgAwIBAgISBVpjrMMwl0K1zW+UNP0qvIsmMA0GCSqGSIb3DQEBCwUAMDMxCzAJBgNVBAYTAlVTMRYwFAYDVQQKEw1MZXQncyBFbmNyeXB0MQwwCgYDVQQDEwNSMTMwHhcNMjUxMTA5MDc0MDQxWhcNMjYwMjA3MDc0MDQwWjAXMRUwEwYDVQQDEwxiZXRhLmdvdXYuZnIwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDf0jiPmrFMhKOkhGLp/9LTQ6hLfoR/WxDdqBpxPbdipeLIAwreikct52+3gvZW0YjOND6kQTDNgjK9etNdikRHioJ+wT86SbnzUBF6zQtPEVyPZkhh35Q632HF2cPgsGMc84gpCERwuGZOHMYHV3h2eADl+yJtfWyQAhnT7SfgZXf90gk3qp5XA8Gr19quj+Jhb3hbftQIRFkCqp7NRlzQTeMGjUvf1LNHEnYyXjNKhrKGJdOxfY8ftH6xiJhg0SkKHo0IYP0Gp8yy3xOyrA1h2/MZcaFl5360lYgSN9VsnczJfx+TIwvNthsDJZEgGNcKRFYRBX0huoe748MxMCBtAgMBAAGjggIaMIICFjAOBgNVHQ8BAf8EBAMCBaAwHQYDVR0lBBYwFAYIKwYBBQUHAwEGCCsGAQUFBwMCMAwGA1UdEwEB/wQCMAAwHQYDVR0OBBYEFGgPwmbg3MZWIZ+i3zIj+PUyTO+vMB8GA1UdIwQYMBaAFOernw8sM6BT015PeMiyhA471pIzMDMGCCsGAQUFBwEBBCcwJTAjBggrBgEFBQcwAoYXaHR0cDovL3IxMy5pLmxlbmNyLm9yZy8wFwYDVR0RBBAwDoIMYmV0YS5nb3V2LmZyMBMGA1UdIAQMMAowCAYGZ4EMAQIBMC4GA1UdHwQnMCUwI6AhoB+GHWh0dHA6Ly9yMTMuYy5sZW5jci5vcmcvMzkuY3JsMIIBAgYKKwYBBAHWeQIEAgSB8wSB8ADuAHUAZBHEbKQS7KeJHKICLgC8q08oB9QeNSer6v7VA8l9zfAAAAGaZ8TznQAABAMARjBEAiBv7OsyCaqmnrZ661KorsRyAKbjUiAmdtCGJc0JISDTrQIgNYZs0iwRTM2he73YMpVCIoIZoqQ3GEVPVxch9o69HlcAdQDLOPcViXyEoURfW8Hd+8lu8ppZzUcKaQWFsMsUwxRY5wAAAZpnxPuCAAAEAwBGMEQCIC9dV7uLOLwJrw94Yd0md2A5/h+bvlx7Jg06AUFAU4WFAiAm57AdFXbhf8b3Gv87lPIk9sIWjhiLutWefBImzwXHjzANBgkqhkiG9w0BAQsFAAOCAQEAVvE85wmdQ0GIg0sNNSS+BdgqcgNfM3IQkwuTWJve5P2ac8NrhYuCgHk+jobdACto76Hm6K6SAZ5nLoDacdWvRrjnSDKYdTtIcOIeuRdJrtKPysUUYfsHnew44P6M4SQoe1O9LgO0IxUXQ45g7NiXODABmKLTN74VoTyRalKC1VfdDZAxcPmqgykHicN7/INbXEpWGDKTcLmJjMu283XXONwfzDn9vYYfDNbNSvk55CrtvhLcHWh9GrzqJXWVdEca26vwNztfhBqVGsKe0n0Is8sgjcE6wT6h3tVCJ1WLOxrhjraPa0b+CKXyfOvslEHJHflIjTaNZeBX/n5OQb5Hwg==\n-----END CERTIFICATE-----"
-      },
-      {
-        "id": "cert_commonName",
-        "ip": "beta.gouv.fr/109.232.236.90",
-        "port": "443",
-        "severity": "OK",
-        "finding": "beta.gouv.fr"
-      },
-      {
-        "id": "cert_commonName_wo_SNI",
-        "ip": "beta.gouv.fr/109.232.236.90",
-        "port": "443",
-        "severity": "INFO",
-        "finding": "*.osc-fr1.scalingo.io"
-      },
-      {
-        "id": "cert_subjectAltName",
-        "ip": "beta.gouv.fr/109.232.236.90",
-        "port": "443",
-        "severity": "INFO",
-        "finding": "beta.gouv.fr"
-      },
-      {
-        "id": "cert_trust",
-        "ip": "beta.gouv.fr/109.232.236.90",
-        "port": "443",
-        "severity": "OK",
-        "finding": "Ok via SAN and CN (SNI mandatory)"
-      },
-      {
-        "id": "cert_trust_wildcard",
-        "ip": "beta.gouv.fr/109.232.236.90",
-        "port": "443",
-        "severity": "LOW",
-        "finding": "trust is via wildcard"
-      },
-      {
-        "id": "cert_chain_of_trust",
-        "ip": "beta.gouv.fr/109.232.236.90",
-        "port": "443",
-        "severity": "OK",
-        "finding": "passed."
-      },
-      {
-        "id": "cert_certificatePolicies_EV",
-        "ip": "beta.gouv.fr/109.232.236.90",
-        "port": "443",
-        "severity": "INFO",
-        "finding": "no"
-      },
-      {
-        "id": "cert_expirationStatus",
-        "ip": "beta.gouv.fr/109.232.236.90",
-        "port": "443",
-        "severity": "OK",
-        "finding": "41 >= 30 days"
-      },
-      {
-        "id": "cert_notBefore",
-        "ip": "beta.gouv.fr/109.232.236.90",
-        "port": "443",
-        "severity": "INFO",
-        "finding": "2025-11-09 07:40"
-      },
-      {
-        "id": "cert_notAfter",
-        "ip": "beta.gouv.fr/109.232.236.90",
-        "port": "443",
-        "severity": "OK",
-        "finding": "2026-02-07 07:40"
-      },
-      {
-        "id": "cert_extlifeSpan",
-        "ip": "beta.gouv.fr/109.232.236.90",
-        "port": "443",
-        "severity": "OK",
-        "finding": "certificate has no extended life time according to browser forum"
-      },
-      {
-        "id": "cert_eTLS",
-        "ip": "beta.gouv.fr/109.232.236.90",
-        "port": "443",
-        "severity": "INFO",
-        "finding": "not present"
-      },
-      {
-        "id": "cert_crlDistributionPoints",
-        "ip": "beta.gouv.fr/109.232.236.90",
-        "port": "443",
-        "severity": "INFO",
-        "finding": "http://r13.c.lencr.org/39.crl"
-      },
-      {
-        "id": "cert_ocspURL",
-        "ip": "beta.gouv.fr/109.232.236.90",
-        "port": "443",
-        "severity": "INFO",
-        "finding": "--"
-      },
-      {
-        "id": "OCSP_stapling",
-        "ip": "beta.gouv.fr/109.232.236.90",
-        "port": "443",
-        "severity": "INFO",
-        "finding": "not offered"
-      },
-      {
-        "id": "cert_mustStapleExtension",
-        "ip": "beta.gouv.fr/109.232.236.90",
-        "port": "443",
-        "severity": "INFO",
-        "finding": "--"
-      },
-      {
-        "id": "DNS_CAArecord",
-        "ip": "beta.gouv.fr/109.232.236.90",
-        "port": "443",
-        "severity": "LOW",
-        "finding": "--"
-      },
-      {
-        "id": "certificate_transparency",
-        "ip": "beta.gouv.fr/109.232.236.90",
-        "port": "443",
-        "severity": "OK",
-        "finding": "yes (certificate extension)"
-      },
-      {
-        "id": "certs_countServer",
-        "ip": "beta.gouv.fr/109.232.236.90",
-        "port": "443",
-        "severity": "INFO",
-        "finding": "2"
-      },
-      {
-        "id": "certs_list_ordering_problem",
-        "ip": "beta.gouv.fr/109.232.236.90",
-        "port": "443",
-        "severity": "INFO",
-        "finding": "no"
-      },
-      {
-        "id": "cert_caIssuers",
-        "ip": "beta.gouv.fr/109.232.236.90",
-        "port": "443",
-        "severity": "INFO",
-        "finding": "R13 (Let's Encrypt from US)"
-      },
-      {
-        "id": "intermediate_cert <#1>",
-        "ip": "beta.gouv.fr/109.232.236.90",
-        "port": "443",
-        "severity": "INFO",
-        "finding": "-----BEGIN CERTIFICATE-----\nMIIFBTCCAu2gAwIBAgIQWgDyEtjUtIDzkkFX6imDBTANBgkqhkiG9w0BAQsFADBPMQswCQYDVQQGEwJVUzEpMCcGA1UEChMgSW50ZXJuZXQgU2VjdXJpdHkgUmVzZWFyY2ggR3JvdXAxFTATBgNVBAMTDElTUkcgUm9vdCBYMTAeFw0yNDAzMTMwMDAwMDBaFw0yNzAzMTIyMzU5NTlaMDMxCzAJBgNVBAYTAlVTMRYwFAYDVQQKEw1MZXQncyBFbmNyeXB0MQwwCgYDVQQDEwNSMTMwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQClZ3CN0FaBZBUXYc25BtStGZCMJlA3mBZjklTb2cyEBZPs0+wIG6BgUUNIfSvHSJaetC3ancgnO1ehn6vw1g7UDjDKb5ux0daknTI+WE41b0VYaHEX/D7YXYKgL7JRbLAaXbhZzjVlyIuhrxA3/+OcXcJJFzT/jCuLjfC8cSyTDB0FxLrHzarJXnzRyQH3nAP2/Apd9Np75tt2QnDr9E0i2gB3b9bJXxf92nUupVcM9upctuBzpWjPoXTidYJ+EJ/B9aLrAek4sQpEzNPCifVJNYIKNLMc6YjCR06CDgo28EdPivEpBHXazeGaXP9enZiVuppD0EqiFwUBBDDTMrOPAgMBAAGjgfgwgfUwDgYDVR0PAQH/BAQDAgGGMB0GA1UdJQQWMBQGCCsGAQUFBwMCBggrBgEFBQcDATASBgNVHRMBAf8ECDAGAQH/AgEAMB0GA1UdDgQWBBTnq58PLDOgU9NeT3jIsoQOO9aSMzAfBgNVHSMEGDAWgBR5tFnme7bl5AFzgAiIyBpY9umbbjAyBggrBgEFBQcBAQQmMCQwIgYIKwYBBQUHMAKGFmh0dHA6Ly94MS5pLmxlbmNyLm9yZy8wEwYDVR0gBAwwCjAIBgZngQwBAgEwJwYDVR0fBCAwHjAcoBqgGIYWaHR0cDovL3gxLmMubGVuY3Iub3JnLzANBgkqhkiG9w0BAQsFAAOCAgEAUTdYUqEimzW7TbrOypLqCfL7VOwYf/Q79OH5cHLCZeggfQhDconlk7Kgh8b0vi+/XuWu7CN8n/UPeg1vo3G+taXirrytthQinAHGwc/UdbOygJa9zuBcVyqoH3CXTXDInT+8a+c3aEVMJ2St+pSn4ed+WkDp8ijsijvEyFwE47hulW0Ltzjg9fOV5Pmrg/zxWbRuL+k0DBDHEJennCsAen7c35Pmx7jpmJ/HtgRhcnz0yjSBvyIw6L1QIupkCv2SBODT/xDD3gfQQyKv6roV4G2EhfEyAsWpmojxjCUCGiyg97FvDtm/NK2LSc9lybKxB73I2+P2G3CaWpvvpAiHCVu30jW8GCxKdfhsXtnIy2imskQqVZ2m0Pmxobb28Tucr7xBK7CtwvPrb79os7u2XP3O5f9b/H66GNyRrglRXlrYjI1oGYL/f4I1n/Sgusda6WvA6C190kxjU15Y12mHU4+BxyR9cx2hhGS9fAjMZKJss28qxvz6Axu4CaDmRNZpK/pQrXF17yXCXkmEWgvSOEZy6Z9pcbLIVEGckV/iVeq0AOo2pkg9p4QRIy0tK2diRENLSF2KysFwbY6B26BFeFs3v1sYVRhFW9nLkOrQVporCS0KyZmfwVD89qSTlnctLcZnIavjKsKUu1nA1iU0yYMdYepKR7lWbnwhdx3ewok=\n-----END CERTIFICATE-----"
-      },
-      {
-        "id": "intermediate_cert_fingerprintSHA256 <#1>",
-        "ip": "beta.gouv.fr/109.232.236.90",
-        "port": "443",
-        "severity": "INFO",
-        "finding": "D3B128216A843F8EF1321501F5DF52A5DF52939EE2C19297712CD3DE4D419354"
-      },
-      {
-        "id": "intermediate_cert_notBefore <#1>",
-        "ip": "beta.gouv.fr/109.232.236.90",
-        "port": "443",
-        "severity": "INFO",
-        "finding": "2024-03-13 00:00"
-      },
-      {
-        "id": "intermediate_cert_notAfter <#1>",
-        "ip": "beta.gouv.fr/109.232.236.90",
-        "port": "443",
-        "severity": "OK",
-        "finding": "2027-03-12 23:59"
-      },
-      {
-        "id": "intermediate_cert_expiration <#1>",
-        "ip": "beta.gouv.fr/109.232.236.90",
-        "port": "443",
-        "severity": "OK",
-        "finding": "ok > 40 days"
-      },
-      {
-        "id": "intermediate_cert_chain <#1>",
-        "ip": "beta.gouv.fr/109.232.236.90",
-        "port": "443",
-        "severity": "INFO",
-        "finding": "R13 <-- ISRG Root X1"
-      },
-      {
-        "id": "intermediate_cert_badOCSP",
-        "ip": "beta.gouv.fr/109.232.236.90",
-        "port": "443",
-        "severity": "OK",
-        "finding": "intermediate certificate(s) is/are ok"
-      },
-      {
-        "id": "HTTP_status_code",
-        "ip": "beta.gouv.fr/109.232.236.90",
-        "port": "443",
-        "severity": "INFO",
-        "finding": "200 OK ('/')"
-      },
-      {
-        "id": "HTTP_clock_skew",
-        "ip": "beta.gouv.fr/109.232.236.90",
-        "port": "443",
-        "severity": "INFO",
-        "finding": "-1 seconds from localtime"
-      },
-      {
-        "id": "HTTP_headerTime",
-        "ip": "beta.gouv.fr/109.232.236.90",
-        "port": "443",
-        "severity": "INFO",
-        "finding": "1766890091"
-      },
-      {
-        "id": "HSTS_time",
-        "ip": "beta.gouv.fr/109.232.236.90",
-        "port": "443",
-        "severity": "OK",
-        "finding": "365 days (=31536000 seconds) > 15552000 seconds"
-      },
-      {
-        "id": "HSTS_subdomains",
-        "ip": "beta.gouv.fr/109.232.236.90",
-        "port": "443",
-        "severity": "INFO",
-        "finding": "only for this domain"
-      },
-      {
-        "id": "HSTS_preload",
-        "ip": "beta.gouv.fr/109.232.236.90",
-        "port": "443",
-        "severity": "INFO",
-        "finding": "domain is NOT marked for preloading"
-      },
-      {
-        "id": "HPKP",
-        "ip": "beta.gouv.fr/109.232.236.90",
-        "port": "443",
-        "severity": "INFO",
-        "finding": "No support for HTTP Public Key Pinning"
-      },
-      {
-        "id": "banner_server",
-        "ip": "beta.gouv.fr/109.232.236.90",
-        "port": "443",
-        "severity": "INFO",
-        "finding": "No Server banner line in header, interesting!"
-      },
-      {
-        "id": "banner_application",
-        "ip": "beta.gouv.fr/109.232.236.90",
-        "port": "443",
-        "severity": "INFO",
-        "finding": "No application banner found"
-      },
-      {
-        "id": "cookie_count",
-        "ip": "beta.gouv.fr/109.232.236.90",
-        "port": "443",
-        "severity": "INFO",
-        "finding": "0 at '/'"
-      },
-      {
-        "id": "security_headers",
-        "ip": "beta.gouv.fr/109.232.236.90",
-        "port": "443",
-        "severity": "MEDIUM",
-        "finding": "--"
-      },
-      {
-        "id": "banner_reverseproxy",
-        "ip": "beta.gouv.fr/109.232.236.90",
-        "port": "443",
-        "severity": "INFO",
-        "cwe": "CWE-200",
-        "finding": "--"
-      },
-      {
-        "id": "heartbleed",
-        "ip": "beta.gouv.fr/109.232.236.90",
-        "port": "443",
-        "severity": "OK",
-        "cve": "CVE-2014-0160",
-        "cwe": "CWE-119",
-        "finding": "not vulnerable, no heartbeat extension"
-      },
-      {
-        "id": "CCS",
-        "ip": "beta.gouv.fr/109.232.236.90",
-        "port": "443",
-        "severity": "OK",
-        "cve": "CVE-2014-0224",
-        "cwe": "CWE-310",
-        "finding": "not vulnerable"
-      },
-      {
-        "id": "ticketbleed",
-        "ip": "beta.gouv.fr/109.232.236.90",
-        "port": "443",
-        "severity": "OK",
-        "cve": "CVE-2016-9244",
-        "cwe": "CWE-200",
-        "finding": "not vulnerable"
-      },
-      {
-        "id": "ROBOT",
-        "ip": "beta.gouv.fr/109.232.236.90",
-        "port": "443",
-        "severity": "OK",
-        "cve": "CVE-2017-17382 CVE-2017-17427 CVE-2017-17428 CVE-2017-13098 CVE-2017-1000385 CVE-2017-13099 CVE-2016-6883 CVE-2012-5081 CVE-2017-6168",
-        "cwe": "CWE-203",
-        "finding": "not vulnerable, no RSA key transport cipher"
-      },
-      {
-        "id": "secure_renego",
-        "ip": "beta.gouv.fr/109.232.236.90",
-        "port": "443",
-        "severity": "OK",
-        "cwe": "CWE-310",
-        "finding": "supported"
-      },
-      {
-        "id": "secure_client_renego",
-        "ip": "beta.gouv.fr/109.232.236.90",
-        "port": "443",
-        "severity": "OK",
-        "cve": "CVE-2011-1473",
-        "cwe": "CWE-310",
-        "finding": "not vulnerable"
-      },
-      {
-        "id": "CRIME_TLS",
-        "ip": "beta.gouv.fr/109.232.236.90",
-        "port": "443",
-        "severity": "OK",
-        "cve": "CVE-2012-4929",
-        "cwe": "CWE-310",
-        "finding": "not vulnerable"
-      },
-      {
-        "id": "BREACH",
-        "ip": "beta.gouv.fr/109.232.236.90",
-        "port": "443",
-        "severity": "MEDIUM",
-        "cve": "CVE-2013-3587",
-        "cwe": "CWE-310",
-        "finding": "potentially VULNERABLE, gzip HTTP compression detected  - only supplied '/' tested"
-      },
-      {
-        "id": "POODLE_SSL",
-        "ip": "beta.gouv.fr/109.232.236.90",
-        "port": "443",
-        "severity": "OK",
-        "cve": "CVE-2014-3566",
-        "cwe": "CWE-310",
-        "finding": "not vulnerable, no SSLv3"
-      },
-      {
-        "id": "fallback_SCSV",
-        "ip": "beta.gouv.fr/109.232.236.90",
-        "port": "443",
-        "severity": "OK",
-        "finding": "no protocol below TLS 1.2 offered"
-      },
-      {
-        "id": "SWEET32",
-        "ip": "beta.gouv.fr/109.232.236.90",
-        "port": "443",
-        "severity": "OK",
-        "cve": "CVE-2016-2183 CVE-2016-6329",
-        "cwe": "CWE-327",
-        "finding": "not vulnerable"
-      },
-      {
-        "id": "FREAK",
-        "ip": "beta.gouv.fr/109.232.236.90",
-        "port": "443",
-        "severity": "OK",
-        "cve": "CVE-2015-0204",
-        "cwe": "CWE-310",
-        "finding": "not vulnerable"
-      },
-      {
-        "id": "DROWN",
-        "ip": "beta.gouv.fr/109.232.236.90",
-        "port": "443",
-        "severity": "OK",
-        "cve": "CVE-2016-0800 CVE-2016-0703",
-        "cwe": "CWE-310",
-        "finding": "not vulnerable on this host and port"
-      },
-      {
-        "id": "DROWN_hint",
-        "ip": "beta.gouv.fr/109.232.236.90",
-        "port": "443",
-        "severity": "INFO",
-        "cve": "CVE-2016-0800 CVE-2016-0703",
-        "cwe": "CWE-310",
-        "finding": "Make sure you don't use this certificate elsewhere with SSLv2 enabled services, see https://search.censys.io/search?resource=hosts&virtual_hosts=INCLUDE&q=E35F95486F09012DA89899854C517C742590D1879A1D3935DD94C8B06AFF006E"
-      },
-      {
-        "id": "LOGJAM",
-        "ip": "beta.gouv.fr/109.232.236.90",
-        "port": "443",
-        "severity": "OK",
-        "cve": "CVE-2015-4000",
-        "cwe": "CWE-310",
-        "finding": "not vulnerable, no DH EXPORT ciphers,"
-      },
-      {
-        "id": "LOGJAM-common_primes",
-        "ip": "beta.gouv.fr/109.232.236.90",
-        "port": "443",
-        "severity": "OK",
-        "cve": "CVE-2015-4000",
-        "cwe": "CWE-310",
-        "finding": "--"
-      },
-      {
-        "id": "BEAST",
-        "ip": "beta.gouv.fr/109.232.236.90",
-        "port": "443",
-        "severity": "OK",
-        "cve": "CVE-2011-3389",
-        "cwe": "CWE-20",
-        "finding": "not vulnerable, no SSL3 or TLS1"
-      },
-      {
-        "id": "LUCKY13",
-        "ip": "beta.gouv.fr/109.232.236.90",
-        "port": "443",
-        "severity": "OK",
-        "cve": "CVE-2013-0169",
-        "cwe": "CWE-310",
-        "finding": "not vulnerable"
-      },
-      {
-        "id": "winshock",
-        "ip": "beta.gouv.fr/109.232.236.90",
-        "port": "443",
-        "severity": "OK",
-        "cve": "CVE-2014-6321",
-        "cwe": "CWE-94",
-        "finding": "not vulnerable"
-      },
-      {
-        "id": "RC4",
-        "ip": "beta.gouv.fr/109.232.236.90",
-        "port": "443",
-        "severity": "OK",
-        "cve": "CVE-2013-2566 CVE-2015-2808",
-        "cwe": "CWE-310",
-        "finding": "not vulnerable"
-      },
-      {
-        "id": "clientsimulation-android_70",
-        "ip": "beta.gouv.fr/109.232.236.90",
-        "port": "443",
-        "severity": "INFO",
-        "finding": "TLSv1.2 ECDHE-RSA-AES256-GCM-SHA384"
-      },
-      {
-        "id": "clientsimulation-android_81",
-        "ip": "beta.gouv.fr/109.232.236.90",
-        "port": "443",
-        "severity": "INFO",
-        "finding": "TLSv1.2 ECDHE-RSA-AES256-GCM-SHA384"
-      },
-      {
-        "id": "clientsimulation-android_90",
-        "ip": "beta.gouv.fr/109.232.236.90",
-        "port": "443",
-        "severity": "INFO",
-        "finding": "TLSv1.3 TLS_AES_256_GCM_SHA384"
-      },
-      {
-        "id": "clientsimulation-android_X",
-        "ip": "beta.gouv.fr/109.232.236.90",
-        "port": "443",
-        "severity": "INFO",
-        "finding": "TLSv1.3 TLS_AES_256_GCM_SHA384"
-      },
-      {
-        "id": "clientsimulation-android_11_12",
-        "ip": "beta.gouv.fr/109.232.236.90",
-        "port": "443",
-        "severity": "INFO",
-        "finding": "TLSv1.3 TLS_AES_256_GCM_SHA384"
-      },
-      {
-        "id": "clientsimulation-android_13_14",
-        "ip": "beta.gouv.fr/109.232.236.90",
-        "port": "443",
-        "severity": "INFO",
-        "finding": "TLSv1.3 TLS_AES_256_GCM_SHA384"
-      },
-      {
-        "id": "clientsimulation-android_15",
-        "ip": "beta.gouv.fr/109.232.236.90",
-        "port": "443",
-        "severity": "INFO",
-        "finding": "TLSv1.3 TLS_AES_256_GCM_SHA384"
-      },
-      {
-        "id": "clientsimulation-chrome_101_win10",
-        "ip": "beta.gouv.fr/109.232.236.90",
-        "port": "443",
-        "severity": "INFO",
-        "finding": "TLSv1.3 TLS_AES_256_GCM_SHA384"
-      },
-      {
-        "id": "clientsimulation-chromium_137_win11",
-        "ip": "beta.gouv.fr/109.232.236.90",
-        "port": "443",
-        "severity": "INFO",
-        "finding": "TLSv1.3 TLS_AES_256_GCM_SHA384"
-      },
-      {
-        "id": "clientsimulation-firefox_100_win10",
-        "ip": "beta.gouv.fr/109.232.236.90",
-        "port": "443",
-        "severity": "INFO",
-        "finding": "TLSv1.3 TLS_AES_256_GCM_SHA384"
-      },
-      {
-        "id": "clientsimulation-firefox_137_win11",
-        "ip": "beta.gouv.fr/109.232.236.90",
-        "port": "443",
-        "severity": "INFO",
-        "finding": "TLSv1.3 TLS_AES_256_GCM_SHA384"
-      },
-      {
-        "id": "clientsimulation-ie_8_win7",
-        "ip": "beta.gouv.fr/109.232.236.90",
-        "port": "443",
-        "severity": "INFO",
-        "finding": "No connection"
-      },
-      {
-        "id": "clientsimulation-ie_11_win7",
-        "ip": "beta.gouv.fr/109.232.236.90",
-        "port": "443",
-        "severity": "INFO",
-        "finding": "TLSv1.2 DHE-RSA-AES256-GCM-SHA384"
-      },
-      {
-        "id": "clientsimulation-ie_11_win81",
-        "ip": "beta.gouv.fr/109.232.236.90",
-        "port": "443",
-        "severity": "INFO",
-        "finding": "TLSv1.2 DHE-RSA-AES256-GCM-SHA384"
-      },
-      {
-        "id": "clientsimulation-ie_11_winphone81",
-        "ip": "beta.gouv.fr/109.232.236.90",
-        "port": "443",
-        "severity": "INFO",
-        "finding": "No connection"
-      },
-      {
-        "id": "clientsimulation-ie_11_win10",
-        "ip": "beta.gouv.fr/109.232.236.90",
-        "port": "443",
-        "severity": "INFO",
-        "finding": "TLSv1.2 ECDHE-RSA-AES256-GCM-SHA384"
-      },
-      {
-        "id": "clientsimulation-edge_15_win10",
-        "ip": "beta.gouv.fr/109.232.236.90",
-        "port": "443",
-        "severity": "INFO",
-        "finding": "TLSv1.2 ECDHE-RSA-AES256-GCM-SHA384"
-      },
-      {
-        "id": "clientsimulation-edge_101_win10_21h2",
-        "ip": "beta.gouv.fr/109.232.236.90",
-        "port": "443",
-        "severity": "INFO",
-        "finding": "TLSv1.3 TLS_AES_256_GCM_SHA384"
-      },
-      {
-        "id": "clientsimulation-edge_133_win11_23h2",
-        "ip": "beta.gouv.fr/109.232.236.90",
-        "port": "443",
-        "severity": "INFO",
-        "finding": "TLSv1.3 TLS_AES_256_GCM_SHA384"
-      },
-      {
-        "id": "clientsimulation-safari_184_ios_184",
-        "ip": "beta.gouv.fr/109.232.236.90",
-        "port": "443",
-        "severity": "INFO",
-        "finding": "TLSv1.3 TLS_AES_256_GCM_SHA384"
-      },
-      {
-        "id": "clientsimulation-safari_154_osx_1231",
-        "ip": "beta.gouv.fr/109.232.236.90",
-        "port": "443",
-        "severity": "INFO",
-        "finding": "TLSv1.3 TLS_AES_256_GCM_SHA384"
-      },
-      {
-        "id": "clientsimulation-safari_184_osx_154",
-        "ip": "beta.gouv.fr/109.232.236.90",
-        "port": "443",
-        "severity": "INFO",
-        "finding": "TLSv1.3 TLS_AES_256_GCM_SHA384"
-      },
-      {
-        "id": "clientsimulation-java_7u25",
-        "ip": "beta.gouv.fr/109.232.236.90",
-        "port": "443",
-        "severity": "INFO",
-        "finding": "No connection"
-      },
-      {
-        "id": "clientsimulation-java_80442",
-        "ip": "beta.gouv.fr/109.232.236.90",
-        "port": "443",
-        "severity": "INFO",
-        "finding": "TLSv1.3 TLS_AES_256_GCM_SHA384"
-      },
-      {
-        "id": "clientsimulation-java_1102",
-        "ip": "beta.gouv.fr/109.232.236.90",
-        "port": "443",
-        "severity": "INFO",
-        "finding": "TLSv1.3 TLS_AES_256_GCM_SHA384"
-      },
-      {
-        "id": "clientsimulation-java_1703",
-        "ip": "beta.gouv.fr/109.232.236.90",
-        "port": "443",
-        "severity": "INFO",
-        "finding": "TLSv1.3 TLS_AES_256_GCM_SHA384"
-      },
-      {
-        "id": "clientsimulation-java_2106",
-        "ip": "beta.gouv.fr/109.232.236.90",
-        "port": "443",
-        "severity": "INFO",
-        "finding": "TLSv1.3 TLS_AES_256_GCM_SHA384"
-      },
-      {
-        "id": "clientsimulation-go_1178",
-        "ip": "beta.gouv.fr/109.232.236.90",
-        "port": "443",
-        "severity": "INFO",
-        "finding": "TLSv1.3 TLS_AES_256_GCM_SHA384"
-      },
-      {
-        "id": "clientsimulation-libressl_336",
-        "ip": "beta.gouv.fr/109.232.236.90",
-        "port": "443",
-        "severity": "INFO",
-        "finding": "TLSv1.3 TLS_AES_256_GCM_SHA384"
-      },
-      {
-        "id": "clientsimulation-openssl_102e",
-        "ip": "beta.gouv.fr/109.232.236.90",
-        "port": "443",
-        "severity": "INFO",
-        "finding": "TLSv1.2 ECDHE-RSA-AES256-GCM-SHA384"
-      },
-      {
-        "id": "clientsimulation-openssl_111d",
-        "ip": "beta.gouv.fr/109.232.236.90",
-        "port": "443",
-        "severity": "INFO",
-        "finding": "TLSv1.3 TLS_AES_256_GCM_SHA384"
-      },
-      {
-        "id": "clientsimulation-openssl_315",
-        "ip": "beta.gouv.fr/109.232.236.90",
-        "port": "443",
-        "severity": "INFO",
-        "finding": "TLSv1.3 TLS_AES_256_GCM_SHA384"
-      },
-      {
-        "id": "clientsimulation-openssl_350",
-        "ip": "beta.gouv.fr/109.232.236.90",
-        "port": "443",
-        "severity": "INFO",
-        "finding": "TLSv1.3 TLS_AES_256_GCM_SHA384"
-      },
-      {
-        "id": "clientsimulation-apple_mail_16_0",
-        "ip": "beta.gouv.fr/109.232.236.90",
-        "port": "443",
-        "severity": "INFO",
-        "finding": "TLSv1.2 ECDHE-RSA-AES256-GCM-SHA384"
-      },
-      {
-        "id": "clientsimulation-thunderbird_91_9",
-        "ip": "beta.gouv.fr/109.232.236.90",
-        "port": "443",
-        "severity": "INFO",
-        "finding": "TLSv1.3 TLS_AES_256_GCM_SHA384"
-      },
-      {
-        "id": "rating_spec",
-        "ip": "beta.gouv.fr/109.232.236.90",
-        "port": "443",
-        "severity": "INFO",
-        "finding": "SSL Labs's 'SSL Server Rating Guide' (version 2009r from 2025-05-16)"
-      },
-      {
-        "id": "rating_doc",
-        "ip": "beta.gouv.fr/109.232.236.90",
-        "port": "443",
-        "severity": "INFO",
-        "finding": "https://github.com/ssllabs/research/wiki/SSL-Server-Rating-Guide"
-      },
-      {
-        "id": "protocol_support_score",
-        "ip": "beta.gouv.fr/109.232.236.90",
-        "port": "443",
-        "severity": "INFO",
-        "finding": "100"
-      },
-      {
-        "id": "protocol_support_score_weighted",
-        "ip": "beta.gouv.fr/109.232.236.90",
-        "port": "443",
-        "severity": "INFO",
-        "finding": "30"
-      },
-      {
-        "id": "key_exchange_score",
-        "ip": "beta.gouv.fr/109.232.236.90",
-        "port": "443",
-        "severity": "INFO",
-        "finding": "90"
-      },
-      {
-        "id": "key_exchange_score_weighted",
-        "ip": "beta.gouv.fr/109.232.236.90",
-        "port": "443",
-        "severity": "INFO",
-        "finding": "27"
-      },
-      {
-        "id": "cipher_strength_score",
-        "ip": "beta.gouv.fr/109.232.236.90",
-        "port": "443",
-        "severity": "INFO",
-        "finding": "60"
-      },
-      {
-        "id": "cipher_strength_score_weighted",
-        "ip": "beta.gouv.fr/109.232.236.90",
-        "port": "443",
-        "severity": "INFO",
-        "finding": "24"
-      },
-      {
-        "id": "final_score",
-        "ip": "beta.gouv.fr/109.232.236.90",
-        "port": "443",
-        "severity": "INFO",
-        "finding": "81"
-      },
-      {
-        "id": "overall_grade",
-        "ip": "beta.gouv.fr/109.232.236.90",
         "port": "443",
         "severity": "OK",
         "finding": "A+"
       },
       {
         "id": "scanTime",
-        "ip": "beta.gouv.fr/109.232.236.90",
+        "ip": "beta.gouv.fr/5.104.101.30",
         "port": "443",
         "severity": "INFO",
         "finding": "200"
@@ -6039,7 +6023,7 @@
           "value": "1",
           "domain": "beta.gouv.fr",
           "path": "/",
-          "expires": 1766890622,
+          "expires": 1767495540,
           "size": 15,
           "httpOnly": false,
           "secure": false,
@@ -6051,10 +6035,10 @@
         },
         {
           "name": "_pk_id.1.968e",
-          "value": "8d26365efb033f21.1766888823.",
+          "value": "1338ec8f331f3eac.1767493740.",
           "domain": "beta.gouv.fr",
           "path": "/",
-          "expires": 1800844023,
+          "expires": 1801448940,
           "size": 41,
           "httpOnly": false,
           "secure": false,
@@ -6068,11 +6052,11 @@
       "headers": {
         "content-encoding": "gzip",
         "content-type": "text/html",
-        "date": "Sun, 28 Dec 2025 02:27:01 GMT",
-        "etag": "W/\"6946e341-a102\"",
-        "last-modified": "Sat, 20 Dec 2025 17:56:17 GMT",
+        "date": "Sun, 04 Jan 2026 02:28:58 GMT",
+        "etag": "W/\"6957ae26-a114\"",
+        "last-modified": "Fri, 02 Jan 2026 11:38:14 GMT",
         "strict-transport-security": "max-age=31536000",
-        "x-request-id": "5ace6c02-3c7c-4fac-bcc3-f0c50102879d"
+        "x-request-id": "7506dc9b-a1a6-4faa-8f45-cef646fd646d"
       },
       "endpoints": [
         {
@@ -6263,8 +6247,8 @@
     "zap": {
       "@programName": "ZAP",
       "@version": "2.17.0",
-      "@generated": "Sun, 28 Dec 2025 02:44:48",
-      "created": "2025-12-28T02:44:48.895074574Z",
+      "@generated": "Sun, 4 Jan 2026 02:46:47",
+      "created": "2026-01-04T02:46:47.985206277Z",
       "insights": [
         {
           "level": "Low",
@@ -6272,7 +6256,7 @@
           "site": "",
           "key": "insight.log.warn",
           "description": "ZAP warnings logged - see the zap.log file for details",
-          "statistic": "70"
+          "statistic": "74"
         },
         {
           "level": "Low",
@@ -6344,7 +6328,7 @@
           "site": "https://beta-gouv-fr-budget.netlify.app",
           "key": "insight.response.slow",
           "description": "Percentage of slow responses",
-          "statistic": "91"
+          "statistic": "58"
         },
         {
           "level": "Info",
@@ -6432,7 +6416,7 @@
           "site": "https://beta.gouv.fr",
           "key": "insight.endpoint.ctype.text/html",
           "description": "Percentage of endpoints with content type text/html",
-          "statistic": "89"
+          "statistic": "90"
         },
         {
           "level": "Info",
@@ -6456,7 +6440,7 @@
           "site": "https://beta.gouv.fr",
           "key": "insight.endpoint.total",
           "description": "Count of total endpoints",
-          "statistic": "1557"
+          "statistic": "1560"
         }
       ],
       "site": [
@@ -6624,7 +6608,7 @@
       {
         "requestedUrl": "https://beta.gouv.fr/",
         "finalUrl": "https://beta.gouv.fr/",
-        "fetchTime": "2025-12-28T02:45:04.271Z",
+        "fetchTime": "2026-01-04T02:47:02.461Z",
         "runWarnings": [],
         "categories": {
           "performance": {
@@ -6635,7 +6619,7 @@
               "snapshot"
             ],
             "id": "performance",
-            "score": 0.91
+            "score": 0.97
           },
           "accessibility": {
             "title": "Accessibility",
@@ -6687,53 +6671,53 @@
             "description": "Collects all available metrics.",
             "score": null,
             "scoreDisplayMode": "informative",
-            "numericValue": 2232,
+            "numericValue": 2593,
             "numericUnit": "millisecond",
             "details": {
               "type": "debugdata",
               "items": [
                 {
-                  "firstContentfulPaint": 1805,
-                  "firstMeaningfulPaint": 1805,
-                  "largestContentfulPaint": 2105,
-                  "interactive": 2232,
-                  "speedIndex": 2908,
-                  "totalBlockingTime": 286,
-                  "maxPotentialFID": 355,
+                  "firstContentfulPaint": 1808,
+                  "firstMeaningfulPaint": 1808,
+                  "largestContentfulPaint": 2108,
+                  "interactive": 2593,
+                  "speedIndex": 2753,
+                  "totalBlockingTime": 82,
+                  "maxPotentialFID": 110,
                   "cumulativeLayoutShift": 0.0030830078125,
                   "cumulativeLayoutShiftMainFrame": 0.0030830078125,
                   "totalCumulativeLayoutShift": 0.0030830078125,
                   "observedTimeOrigin": 0,
-                  "observedTimeOriginTs": 1313436857,
+                  "observedTimeOriginTs": 1183845453,
                   "observedNavigationStart": 0,
-                  "observedNavigationStartTs": 1313436857,
-                  "observedFirstPaint": 1256,
-                  "observedFirstPaintTs": 1314692818,
-                  "observedFirstContentfulPaint": 1256,
-                  "observedFirstContentfulPaintTs": 1314692818,
-                  "observedFirstContentfulPaintAllFrames": 1256,
-                  "observedFirstContentfulPaintAllFramesTs": 1314692818,
-                  "observedFirstMeaningfulPaint": 1256,
-                  "observedFirstMeaningfulPaintTs": 1314692818,
-                  "observedLargestContentfulPaint": 1256,
-                  "observedLargestContentfulPaintTs": 1314692818,
-                  "observedLargestContentfulPaintAllFrames": 1256,
-                  "observedLargestContentfulPaintAllFramesTs": 1314692818,
-                  "observedTraceEnd": 4851,
-                  "observedTraceEndTs": 1318288210,
-                  "observedLoad": 2386,
-                  "observedLoadTs": 1315823050,
-                  "observedDomContentLoaded": 1348,
-                  "observedDomContentLoadedTs": 1314784633,
+                  "observedNavigationStartTs": 1183845453,
+                  "observedFirstPaint": 1292,
+                  "observedFirstPaintTs": 1185137777,
+                  "observedFirstContentfulPaint": 1292,
+                  "observedFirstContentfulPaintTs": 1185137777,
+                  "observedFirstContentfulPaintAllFrames": 1292,
+                  "observedFirstContentfulPaintAllFramesTs": 1185137777,
+                  "observedFirstMeaningfulPaint": 1292,
+                  "observedFirstMeaningfulPaintTs": 1185137777,
+                  "observedLargestContentfulPaint": 1292,
+                  "observedLargestContentfulPaintTs": 1185137777,
+                  "observedLargestContentfulPaintAllFrames": 1292,
+                  "observedLargestContentfulPaintAllFramesTs": 1185137777,
+                  "observedTraceEnd": 4798,
+                  "observedTraceEndTs": 1188643671,
+                  "observedLoad": 2337,
+                  "observedLoadTs": 1186182746,
+                  "observedDomContentLoaded": 1388,
+                  "observedDomContentLoadedTs": 1185233271,
                   "observedCumulativeLayoutShift": 0.0030830078125,
                   "observedCumulativeLayoutShiftMainFrame": 0.0030830078125,
                   "observedTotalCumulativeLayoutShift": 0.0030830078125,
-                  "observedFirstVisualChange": 1256,
-                  "observedFirstVisualChangeTs": 1314692857,
-                  "observedLastVisualChange": 1863,
-                  "observedLastVisualChangeTs": 1315299857,
-                  "observedSpeedIndex": 1272,
-                  "observedSpeedIndexTs": 1314708472
+                  "observedFirstVisualChange": 1292,
+                  "observedFirstVisualChangeTs": 1185137453,
+                  "observedLastVisualChange": 1566,
+                  "observedLastVisualChangeTs": 1185411453,
+                  "observedSpeedIndex": 1306,
+                  "observedSpeedIndexTs": 1185151326
                 },
                 {
                   "lcpInvalidated": false
@@ -6755,19 +6739,19 @@
                   "numScripts": 3,
                   "numStylesheets": 4,
                   "numFonts": 4,
-                  "numTasks": 1763,
-                  "numTasksOver10ms": 6,
-                  "numTasksOver25ms": 2,
-                  "numTasksOver50ms": 1,
+                  "numTasks": 1780,
+                  "numTasksOver10ms": 5,
+                  "numTasksOver25ms": 5,
+                  "numTasksOver50ms": 0,
                   "numTasksOver100ms": 0,
                   "numTasksOver500ms": 0,
-                  "rtt": 144.38899999999998,
-                  "throughput": 7189962.914113937,
-                  "maxRtt": 156.88299999999998,
-                  "maxServerLatency": 5.352000000000004,
-                  "totalByteWeight": 549146,
-                  "totalTaskTime": 325.58499999999674,
-                  "mainDocumentTransferSize": 7680
+                  "rtt": 147.44799999999998,
+                  "throughput": 5723981.971183629,
+                  "maxRtt": 154.51100000000002,
+                  "maxServerLatency": 7.666000000000025,
+                  "totalByteWeight": 549259,
+                  "totalTaskTime": 309.10299999999506,
+                  "mainDocumentTransferSize": 7742
                 }
               ]
             }
@@ -6790,7 +6774,7 @@
         "width": 1920,
         "height": 1080,
         "url": "https://beta.gouv.fr",
-        "size": 850.7,
+        "size": 850.993,
         "nodes": 328,
         "requests": 43,
         "grade": "B",
@@ -6798,7 +6782,7 @@
         "ges": 1.56,
         "water": 2.34,
         "ecoindex_version": "5.4.2",
-        "date": "2025-12-28 02:27:55.939172",
+        "date": "2026-01-04 02:29:52.324018",
         "page_type": null
       }
     ],
@@ -6821,7 +6805,7 @@
       "trackersCount": 0,
       "zapCount": 1,
       "zapGrade": "F",
-      "lighthouse_performance": 0.91,
+      "lighthouse_performance": 0.97,
       "lighthouse_performanceGrade": "A",
       "lighthouse_accessibility": 1,
       "lighthouse_accessibilityGrade": "A",

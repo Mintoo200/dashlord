@@ -1,8 +1,8 @@
 {
 	"@programName": "ZAP",
 	"@version": "2.17.0",
-	"@generated": "Sun, 26 Apr 2026 03:58:12",
-	"created": "2026-04-26T03:58:12.952832615Z",
+	"@generated": "Sun, 3 May 2026 04:13:24",
+	"created": "2026-05-03T04:13:24.640114203Z",
 	"insights":[
 		{
 			"level": "Low",
@@ -10,7 +10,15 @@
 			"site": "",
 			"key": "insight.log.warn",
 			"description": "ZAP warnings logged - see the zap.log file for details",
-			"statistic": "77"
+			"statistic": "75"
+		},
+		{
+			"level": "Low",
+			"reason": "Exceeded High",
+			"site": "https://beta.gouv.fr",
+			"key": "insight.response.slow",
+			"description": "Percentage of slow responses",
+			"statistic": "100"
 		},
 		{
 			"level": "Info",
@@ -74,7 +82,7 @@
 			"site": "https://beta-gouv-fr-budget.netlify.app",
 			"key": "insight.response.slow",
 			"description": "Percentage of slow responses",
-			"statistic": "50"
+			"statistic": "83"
 		},
 		{
 			"level": "Info",
@@ -106,7 +114,7 @@
 			"site": "https://beta.gouv.fr",
 			"key": "insight.endpoint.ctype.application/json",
 			"description": "Percentage of endpoints with content type application/json",
-			"statistic": "1"
+			"statistic": "2"
 		},
 		{
 			"level": "Info",
@@ -146,7 +154,7 @@
 			"site": "https://beta.gouv.fr",
 			"key": "insight.endpoint.ctype.image/x-icon",
 			"description": "Percentage of endpoints with content type image/x-icon",
-			"statistic": "1"
+			"statistic": "2"
 		},
 		{
 			"level": "Info",
@@ -168,14 +176,6 @@
 			"level": "Info",
 			"reason": "Informational",
 			"site": "https://beta.gouv.fr",
-			"key": "insight.endpoint.ctype.text/xml",
-			"description": "Percentage of endpoints with content type text/xml",
-			"statistic": "1"
-		},
-		{
-			"level": "Info",
-			"reason": "Informational",
-			"site": "https://beta.gouv.fr",
 			"key": "insight.endpoint.method.GET",
 			"description": "Percentage of endpoints with method GET",
 			"statistic": "100"
@@ -187,14 +187,6 @@
 			"key": "insight.endpoint.total",
 			"description": "Count of total endpoints",
 			"statistic": "1608"
-		},
-		{
-			"level": "Info",
-			"reason": "Exceeded Low",
-			"site": "https://beta.gouv.fr",
-			"key": "insight.response.slow",
-			"description": "Percentage of slow responses",
-			"statistic": "6"
 		}
 	],
 	"site":[ 
@@ -215,7 +207,7 @@
 					"desc": "<p>The identified library appears to be vulnerable.</p>",
 					"instances":[ 
 						{
-							"id": "308",
+							"id": "259",
 							"uri": "https://beta-gouv-fr-budget.netlify.app/_next/static/chunks/main-71a0feb107a7fd63.js",
 							"nodeName": "https:\/\/beta-gouv-fr-budget.netlify.app\/_next\/static\/chunks\/main-71a0feb107a7fd63.js",
 							"method": "GET",
@@ -232,7 +224,7 @@
 					"reference": "<p>https://owasp.org/Top10/A06_2021-Vulnerable_and_Outdated_Components/</p>",
 					"cweid": "1395",
 					"wascid": "-1",
-					"sourceid": "3303"
+					"sourceid": "3299"
 				},
 				{
 					"pluginid": "10050",
@@ -245,19 +237,9 @@
 					"desc": "<p>The content was retrieved from a shared cache. If the response data is sensitive, personal or user-specific, this may result in sensitive information being leaked. In some cases, this may even result in a user gaining complete control of the session of another user, depending on the configuration of the caching components in use in their environment. This is primarily an issue where caching servers such as \"proxy\" caches are configured on the local network. This configuration is typically found in corporate or educational environments, for instance.</p>",
 					"instances":[ 
 						{
-							"id": "299",
+							"id": "254",
 							"uri": "https://beta-gouv-fr-budget.netlify.app/?budget=800000&date=2022-07-13&start=2021-03-15&startup=Aides+Jeunes&startupId=aides.jeunes",
 							"nodeName": "https:\/\/beta-gouv-fr-budget.netlify.app\/ (budget,date,start,startup,startupId)",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": "Age: 1",
-							"otherinfo": "The presence of the 'Age' header indicates that a HTTP/1.1 compliant caching server is in use."
-						},
-						{
-							"id": "302",
-							"uri": "https://beta-gouv-fr-budget.netlify.app/_next/static/chunks/pages/_app-6e0f6f809c4ba91c.js",
-							"nodeName": "https:\/\/beta-gouv-fr-budget.netlify.app\/_next\/static\/chunks\/pages\/_app-6e0f6f809c4ba91c.js",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -265,7 +247,7 @@
 							"otherinfo": "The presence of the 'Age' header indicates that a HTTP/1.1 compliant caching server is in use."
 						},
 						{
-							"id": "301",
+							"id": "258",
 							"uri": "https://beta-gouv-fr-budget.netlify.app/_next/static/chunks/webpack-34c76af51fb9f015.js",
 							"nodeName": "https:\/\/beta-gouv-fr-budget.netlify.app\/_next\/static\/chunks\/webpack-34c76af51fb9f015.js",
 							"method": "GET",
@@ -275,7 +257,7 @@
 							"otherinfo": "The presence of the 'Age' header indicates that a HTTP/1.1 compliant caching server is in use."
 						},
 						{
-							"id": "300",
+							"id": "255",
 							"uri": "https://beta-gouv-fr-budget.netlify.app/_next/static/css/27d177a30947857b.css",
 							"nodeName": "https:\/\/beta-gouv-fr-budget.netlify.app\/_next\/static\/css\/27d177a30947857b.css",
 							"method": "GET",
@@ -285,7 +267,17 @@
 							"otherinfo": "The presence of the 'Age' header indicates that a HTTP/1.1 compliant caching server is in use."
 						},
 						{
-							"id": "303",
+							"id": "257",
+							"uri": "https://beta-gouv-fr-budget.netlify.app/_next/static/css/97d17c872f410c56.css",
+							"nodeName": "https:\/\/beta-gouv-fr-budget.netlify.app\/_next\/static\/css\/97d17c872f410c56.css",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "Age: 0",
+							"otherinfo": "The presence of the 'Age' header indicates that a HTTP/1.1 compliant caching server is in use."
+						},
+						{
+							"id": "256",
 							"uri": "https://beta-gouv-fr-budget.netlify.app/favicon.ico",
 							"nodeName": "https:\/\/beta-gouv-fr-budget.netlify.app\/favicon.ico",
 							"method": "GET",
@@ -302,7 +294,7 @@
 					"reference": "<p>https://datatracker.ietf.org/doc/html/rfc7234</p><p>https://datatracker.ietf.org/doc/html/rfc7231</p><p>https://www.rfc-editor.org/rfc/rfc9110.html</p>",
 					"cweid": "525",
 					"wascid": "-1",
-					"sourceid": "2844"
+					"sourceid": "2830"
 				}
 			]
 		},
@@ -323,7 +315,7 @@
 					"desc": "<p>Content Security Policy (CSP) is an added layer of security that helps to detect and mitigate certain types of attacks, including Cross Site Scripting (XSS) and data injection attacks. These attacks are used for everything from data theft to site defacement or distribution of malware. CSP provides a set of standard HTTP headers that allow website owners to declare approved sources of content that browsers should be allowed to load on that page \u2014 covered types are JavaScript, CSS, HTML frames, fonts, images and embeddable objects such as Java applets, ActiveX, audio and video files.</p>",
 					"instances":[ 
 						{
-							"id": "5",
+							"id": "9",
 							"uri": "https://beta.gouv.fr",
 							"nodeName": "https:\/\/beta.gouv.fr",
 							"method": "GET",
@@ -333,7 +325,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "9",
+							"id": "7",
 							"uri": "https://beta.gouv.fr/",
 							"nodeName": "https:\/\/beta.gouv.fr\/",
 							"method": "GET",
@@ -343,9 +335,9 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "59",
-							"uri": "https://beta.gouv.fr/realisations/",
-							"nodeName": "https:\/\/beta.gouv.fr\/realisations\/",
+							"id": "5",
+							"uri": "https://beta.gouv.fr/fast/",
+							"nodeName": "https:\/\/beta.gouv.fr\/fast\/",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -353,7 +345,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "27",
+							"id": "55",
 							"uri": "https://beta.gouv.fr/robots.txt",
 							"nodeName": "https:\/\/beta.gouv.fr\/robots.txt",
 							"method": "GET",
@@ -361,9 +353,19 @@
 							"attack": "",
 							"evidence": "",
 							"otherinfo": ""
+						},
+						{
+							"id": "59",
+							"uri": "https://beta.gouv.fr/sitemap.xml",
+							"nodeName": "https:\/\/beta.gouv.fr\/sitemap.xml",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "",
+							"otherinfo": ""
 						}
 					],
-					"count": "4",
+					"count": "5",
 					"systemic": true,
 					"solution": "<p>Ensure that your web server, application server, load balancer, etc. is configured to set the Content-Security-Policy header.</p>",
 					"otherinfo": "",
@@ -383,17 +385,7 @@
 					"desc": "<p>The response does not protect against 'ClickJacking' attacks. It should include either Content-Security-Policy with 'frame-ancestors' directive or X-Frame-Options.</p>",
 					"instances":[ 
 						{
-							"id": "3",
-							"uri": "https://beta.gouv.fr",
-							"nodeName": "https:\/\/beta.gouv.fr",
-							"method": "GET",
-							"param": "x-frame-options",
-							"attack": "",
-							"evidence": "",
-							"otherinfo": ""
-						},
-						{
-							"id": "68",
+							"id": "63",
 							"uri": "https://beta.gouv.fr/eig/",
 							"nodeName": "https:\/\/beta.gouv.fr\/eig\/",
 							"method": "GET",
@@ -403,9 +395,9 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "57",
-							"uri": "https://beta.gouv.fr/realisations/",
-							"nodeName": "https:\/\/beta.gouv.fr\/realisations\/",
+							"id": "2",
+							"uri": "https://beta.gouv.fr/fast/",
+							"nodeName": "https:\/\/beta.gouv.fr\/fast\/",
 							"method": "GET",
 							"param": "x-frame-options",
 							"attack": "",
@@ -413,14 +405,14 @@
 							"otherinfo": ""
 						}
 					],
-					"count": "3",
+					"count": "2",
 					"systemic": true,
 					"solution": "<p>Modern Web browsers support the Content-Security-Policy and X-Frame-Options HTTP headers. Ensure one of them is set on all web pages returned by your site/app.</p><p>If you expect the page to be framed only by pages on your server (e.g. it's part of a FRAMESET) then you'll want to use SAMEORIGIN, otherwise if you never expect the page to be framed, you should use DENY. Alternatively consider implementing Content Security Policy's \"frame-ancestors\" directive.</p>",
 					"otherinfo": "",
 					"reference": "<p>https://developer.mozilla.org/en-US/docs/Web/HTTP/Reference/Headers/X-Frame-Options</p>",
 					"cweid": "1021",
 					"wascid": "15",
-					"sourceid": "6"
+					"sourceid": "92"
 				},
 				{
 					"pluginid": "90003",
@@ -433,7 +425,7 @@
 					"desc": "<p>The integrity attribute is missing on a script or link tag served by an external server. The integrity tag prevents an attacker who have gained access to this server from injecting a malicious content.</p>",
 					"instances":[ 
 						{
-							"id": "132",
+							"id": "127",
 							"uri": "https://beta.gouv.fr/communaute/",
 							"nodeName": "https:\/\/beta.gouv.fr\/communaute\/",
 							"method": "GET",
@@ -443,7 +435,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "131",
+							"id": "126",
 							"uri": "https://beta.gouv.fr/communaute/",
 							"nodeName": "https:\/\/beta.gouv.fr\/communaute\/",
 							"method": "GET",
@@ -453,7 +445,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "130",
+							"id": "125",
 							"uri": "https://beta.gouv.fr/communaute/",
 							"nodeName": "https:\/\/beta.gouv.fr\/communaute\/",
 							"method": "GET",
@@ -463,7 +455,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "122",
+							"id": "118",
 							"uri": "https://beta.gouv.fr/stats/",
 							"nodeName": "https:\/\/beta.gouv.fr\/stats\/",
 							"method": "GET",
@@ -473,7 +465,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "123",
+							"id": "119",
 							"uri": "https://beta.gouv.fr/stats/",
 							"nodeName": "https:\/\/beta.gouv.fr\/stats\/",
 							"method": "GET",
@@ -490,7 +482,7 @@
 					"reference": "<p>https://developer.mozilla.org/en-US/docs/Web/Security/Subresource_Integrity</p>",
 					"cweid": "345",
 					"wascid": "15",
-					"sourceid": "277"
+					"sourceid": "283"
 				},
 				{
 					"pluginid": "10017",
@@ -503,7 +495,7 @@
 					"desc": "<p>The page includes one or more script files from a third-party domain.</p>",
 					"instances":[ 
 						{
-							"id": "128",
+							"id": "123",
 							"uri": "https://beta.gouv.fr/communaute/",
 							"nodeName": "https:\/\/beta.gouv.fr\/communaute\/",
 							"method": "GET",
@@ -513,7 +505,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "127",
+							"id": "122",
 							"uri": "https://beta.gouv.fr/communaute/",
 							"nodeName": "https:\/\/beta.gouv.fr\/communaute\/",
 							"method": "GET",
@@ -523,7 +515,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "126",
+							"id": "121",
 							"uri": "https://beta.gouv.fr/communaute/",
 							"nodeName": "https:\/\/beta.gouv.fr\/communaute\/",
 							"method": "GET",
@@ -533,7 +525,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "120",
+							"id": "115",
 							"uri": "https://beta.gouv.fr/stats/",
 							"nodeName": "https:\/\/beta.gouv.fr\/stats\/",
 							"method": "GET",
@@ -543,7 +535,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "121",
+							"id": "116",
 							"uri": "https://beta.gouv.fr/stats/",
 							"nodeName": "https:\/\/beta.gouv.fr\/stats\/",
 							"method": "GET",
@@ -560,7 +552,7 @@
 					"reference": "",
 					"cweid": "829",
 					"wascid": "15",
-					"sourceid": "277"
+					"sourceid": "283"
 				},
 				{
 					"pluginid": "90004",
@@ -573,7 +565,7 @@
 					"desc": "<p>Cross-Origin-Embedder-Policy header is a response header that prevents a document from loading any cross-origin resources that don't explicitly grant the document permission (using CORP or CORS).</p>",
 					"instances":[ 
 						{
-							"id": "48",
+							"id": "37",
 							"uri": "https://beta.gouv.fr",
 							"nodeName": "https:\/\/beta.gouv.fr",
 							"method": "GET",
@@ -583,7 +575,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "50",
+							"id": "49",
 							"uri": "https://beta.gouv.fr/",
 							"nodeName": "https:\/\/beta.gouv.fr\/",
 							"method": "GET",
@@ -593,9 +585,9 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "66",
-							"uri": "https://beta.gouv.fr/realisations/",
-							"nodeName": "https:\/\/beta.gouv.fr\/realisations\/",
+							"id": "31",
+							"uri": "https://beta.gouv.fr/fast/",
+							"nodeName": "https:\/\/beta.gouv.fr\/fast\/",
 							"method": "GET",
 							"param": "Cross-Origin-Embedder-Policy",
 							"attack": "",
@@ -610,7 +602,7 @@
 					"reference": "<p>https://developer.mozilla.org/en-US/docs/Web/HTTP/Reference/Headers/Cross-Origin-Embedder-Policy</p>",
 					"cweid": "693",
 					"wascid": "14",
-					"sourceid": "1"
+					"sourceid": "6"
 				},
 				{
 					"pluginid": "90004",
@@ -623,7 +615,7 @@
 					"desc": "<p>Cross-Origin-Opener-Policy header is a response header that allows a site to control if others included documents share the same browsing context. Sharing the same browsing context with untrusted documents might lead to data leak.</p>",
 					"instances":[ 
 						{
-							"id": "52",
+							"id": "38",
 							"uri": "https://beta.gouv.fr",
 							"nodeName": "https:\/\/beta.gouv.fr",
 							"method": "GET",
@@ -633,7 +625,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "53",
+							"id": "50",
 							"uri": "https://beta.gouv.fr/",
 							"nodeName": "https:\/\/beta.gouv.fr\/",
 							"method": "GET",
@@ -643,9 +635,9 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "67",
-							"uri": "https://beta.gouv.fr/realisations/",
-							"nodeName": "https:\/\/beta.gouv.fr\/realisations\/",
+							"id": "33",
+							"uri": "https://beta.gouv.fr/fast/",
+							"nodeName": "https:\/\/beta.gouv.fr\/fast\/",
 							"method": "GET",
 							"param": "Cross-Origin-Opener-Policy",
 							"attack": "",
@@ -673,7 +665,7 @@
 					"desc": "<p>Cross-Origin-Resource-Policy header is an opt-in header designed to counter side-channels attacks like Spectre. Resource should be specifically set as shareable amongst different origins.</p>",
 					"instances":[ 
 						{
-							"id": "44",
+							"id": "36",
 							"uri": "https://beta.gouv.fr",
 							"nodeName": "https:\/\/beta.gouv.fr",
 							"method": "GET",
@@ -683,7 +675,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "45",
+							"id": "48",
 							"uri": "https://beta.gouv.fr/",
 							"nodeName": "https:\/\/beta.gouv.fr\/",
 							"method": "GET",
@@ -693,9 +685,9 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "65",
-							"uri": "https://beta.gouv.fr/realisations/",
-							"nodeName": "https:\/\/beta.gouv.fr\/realisations\/",
+							"id": "26",
+							"uri": "https://beta.gouv.fr/fast/",
+							"nodeName": "https:\/\/beta.gouv.fr\/fast\/",
 							"method": "GET",
 							"param": "Cross-Origin-Resource-Policy",
 							"attack": "",
@@ -723,7 +715,7 @@
 					"desc": "<p>Permissions Policy Header is an added layer of security that helps to restrict from unauthorized access or usage of browser/client features by web resources. This policy ensures the user privacy by limiting or specifying the features of the browsers can be used by the web resources. Permissions Policy provides a set of standard HTTP headers that allow website owners to limit which features of browsers can be used by the page such as camera, microphone, location, full screen etc.</p>",
 					"instances":[ 
 						{
-							"id": "43",
+							"id": "35",
 							"uri": "https://beta.gouv.fr",
 							"nodeName": "https:\/\/beta.gouv.fr",
 							"method": "GET",
@@ -733,7 +725,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "42",
+							"id": "45",
 							"uri": "https://beta.gouv.fr/",
 							"nodeName": "https:\/\/beta.gouv.fr\/",
 							"method": "GET",
@@ -743,9 +735,9 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "64",
-							"uri": "https://beta.gouv.fr/realisations/",
-							"nodeName": "https:\/\/beta.gouv.fr\/realisations\/",
+							"id": "25",
+							"uri": "https://beta.gouv.fr/fast/",
+							"nodeName": "https:\/\/beta.gouv.fr\/fast\/",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -753,7 +745,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "56",
+							"id": "58",
 							"uri": "https://beta.gouv.fr/robots.txt",
 							"nodeName": "https:\/\/beta.gouv.fr\/robots.txt",
 							"method": "GET",
@@ -763,7 +755,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "22",
+							"id": "62",
 							"uri": "https://beta.gouv.fr/sitemap.xml",
 							"nodeName": "https:\/\/beta.gouv.fr\/sitemap.xml",
 							"method": "GET",
@@ -793,7 +785,7 @@
 					"desc": "<p>A timestamp was disclosed by the application/web server. - Unix</p>",
 					"instances":[ 
 						{
-							"id": "160",
+							"id": "152",
 							"uri": "https://beta.gouv.fr/communaute/annuaire",
 							"nodeName": "https:\/\/beta.gouv.fr\/communaute\/annuaire",
 							"method": "GET",
@@ -803,7 +795,7 @@
 							"otherinfo": "1538399033, which evaluates to: 2018-10-01 13:03:53."
 						},
 						{
-							"id": "159",
+							"id": "151",
 							"uri": "https://beta.gouv.fr/communaute/annuaire",
 							"nodeName": "https:\/\/beta.gouv.fr\/communaute\/annuaire",
 							"method": "GET",
@@ -813,7 +805,7 @@
 							"otherinfo": "1538399580, which evaluates to: 2018-10-01 13:13:00."
 						},
 						{
-							"id": "158",
+							"id": "150",
 							"uri": "https://beta.gouv.fr/communaute/annuaire",
 							"nodeName": "https:\/\/beta.gouv.fr\/communaute\/annuaire",
 							"method": "GET",
@@ -823,7 +815,7 @@
 							"otherinfo": "1539097039, which evaluates to: 2018-10-09 14:57:19."
 						},
 						{
-							"id": "157",
+							"id": "149",
 							"uri": "https://beta.gouv.fr/communaute/annuaire",
 							"nodeName": "https:\/\/beta.gouv.fr\/communaute\/annuaire",
 							"method": "GET",
@@ -833,7 +825,7 @@
 							"otherinfo": "1585785600, which evaluates to: 2020-04-02 00:00:00."
 						},
 						{
-							"id": "136",
+							"id": "143",
 							"uri": "https://beta.gouv.fr/startups/eva.html",
 							"nodeName": "https:\/\/beta.gouv.fr\/startups\/eva.html",
 							"method": "GET",
@@ -850,7 +842,7 @@
 					"reference": "<p>https://cwe.mitre.org/data/definitions/200.html</p>",
 					"cweid": "497",
 					"wascid": "13",
-					"sourceid": "1109"
+					"sourceid": "992"
 				},
 				{
 					"pluginid": "10021",
@@ -863,7 +855,7 @@
 					"desc": "<p>The Anti-MIME-Sniffing header X-Content-Type-Options was not set to 'nosniff'. This allows older versions of Internet Explorer and Chrome to perform MIME-sniffing on the response body, potentially causing the response body to be interpreted and displayed as a content type other than the declared content type. Current (early 2014) and legacy versions of Firefox will use the declared content type (if one is set), rather than performing MIME-sniffing.</p>",
 					"instances":[ 
 						{
-							"id": "15",
+							"id": "16",
 							"uri": "https://beta.gouv.fr",
 							"nodeName": "https:\/\/beta.gouv.fr",
 							"method": "GET",
@@ -873,7 +865,7 @@
 							"otherinfo": "This issue still applies to error type pages (401, 403, 500, etc.) as those pages are often still affected by injection issues, in which case there is still concern for browsers sniffing pages away from their actual content type.\nAt \"High\" threshold this scan rule will not alert on client or server error responses."
 						},
 						{
-							"id": "14",
+							"id": "18",
 							"uri": "https://beta.gouv.fr/",
 							"nodeName": "https:\/\/beta.gouv.fr\/",
 							"method": "GET",
@@ -883,7 +875,7 @@
 							"otherinfo": "This issue still applies to error type pages (401, 403, 500, etc.) as those pages are often still affected by injection issues, in which case there is still concern for browsers sniffing pages away from their actual content type.\nAt \"High\" threshold this scan rule will not alert on client or server error responses."
 						},
 						{
-							"id": "72",
+							"id": "67",
 							"uri": "https://beta.gouv.fr/eig/",
 							"nodeName": "https:\/\/beta.gouv.fr\/eig\/",
 							"method": "GET",
@@ -893,9 +885,9 @@
 							"otherinfo": "This issue still applies to error type pages (401, 403, 500, etc.) as those pages are often still affected by injection issues, in which case there is still concern for browsers sniffing pages away from their actual content type.\nAt \"High\" threshold this scan rule will not alert on client or server error responses."
 						},
 						{
-							"id": "79",
-							"uri": "https://beta.gouv.fr/manifeste",
-							"nodeName": "https:\/\/beta.gouv.fr\/manifeste",
+							"id": "13",
+							"uri": "https://beta.gouv.fr/fast/",
+							"nodeName": "https:\/\/beta.gouv.fr\/fast\/",
 							"method": "GET",
 							"param": "x-content-type-options",
 							"attack": "",
@@ -903,9 +895,9 @@
 							"otherinfo": "This issue still applies to error type pages (401, 403, 500, etc.) as those pages are often still affected by injection issues, in which case there is still concern for browsers sniffing pages away from their actual content type.\nAt \"High\" threshold this scan rule will not alert on client or server error responses."
 						},
 						{
-							"id": "61",
-							"uri": "https://beta.gouv.fr/realisations/",
-							"nodeName": "https:\/\/beta.gouv.fr\/realisations\/",
+							"id": "74",
+							"uri": "https://beta.gouv.fr/manifeste",
+							"nodeName": "https:\/\/beta.gouv.fr\/manifeste",
 							"method": "GET",
 							"param": "x-content-type-options",
 							"attack": "",
@@ -920,7 +912,7 @@
 					"reference": "<p>https://learn.microsoft.com/en-us/previous-versions/windows/internet-explorer/ie-developer/compatibility/gg622941(v=vs.85)</p><p>https://owasp.org/www-community/Security_Headers</p>",
 					"cweid": "693",
 					"wascid": "15",
-					"sourceid": "1"
+					"sourceid": "6"
 				},
 				{
 					"pluginid": "10094",
@@ -933,7 +925,7 @@
 					"desc": "<p>Base64 encoded data was disclosed by the application/web server. Note: in the interests of performance not all base64 strings in the response were analyzed individually, the entire response should be looked at by the analyst/security team/developer(s).</p>",
 					"instances":[ 
 						{
-							"id": "24",
+							"id": "27",
 							"uri": "https://beta.gouv.fr",
 							"nodeName": "https:\/\/beta.gouv.fr",
 							"method": "GET",
@@ -943,7 +935,7 @@
 							"otherinfo": "GIF89a\\x0001\\x0000\\x0001\\x0000\uFFFD\\x0000\\x0000\\x0000\\x0000\\x0000\uFFFD\uFFFD\uFFFD!\uFFFD\\x0004\\x0001\\x0000\\x0000\\x0000\\x0000,\\x0000\\x0000\\x0000\\x0000\\x0001\\x0000\\x0001\\x0000\\x0000\\x0002\\x0001D\\x0000;"
 						},
 						{
-							"id": "23",
+							"id": "39",
 							"uri": "https://beta.gouv.fr/",
 							"nodeName": "https:\/\/beta.gouv.fr\/",
 							"method": "GET",
@@ -953,7 +945,7 @@
 							"otherinfo": "GIF89a\\x0001\\x0000\\x0001\\x0000\uFFFD\\x0000\\x0000\\x0000\\x0000\\x0000\uFFFD\uFFFD\uFFFD!\uFFFD\\x0004\\x0001\\x0000\\x0000\\x0000\\x0000,\\x0000\\x0000\\x0000\\x0000\\x0001\\x0000\\x0001\\x0000\\x0000\\x0002\\x0001D\\x0000;"
 						},
 						{
-							"id": "135",
+							"id": "131",
 							"uri": "https://beta.gouv.fr/assets/gouvfr/dsfr.min.css",
 							"nodeName": "https:\/\/beta.gouv.fr\/assets\/gouvfr\/dsfr.min.css",
 							"method": "GET",
@@ -963,7 +955,7 @@
 							"otherinfo": "\uFFFDo\uFFFD~\uFFFD\uFFFD~/\uFFFD\\x001dzW\uFFFD~\uFFFD\uFFFD\uFFFD\uFFFDey\uFFFDn"
 						},
 						{
-							"id": "124",
+							"id": "120",
 							"uri": "https://beta.gouv.fr/assets/images/favicons/safari-pinned-tab.svg",
 							"nodeName": "https:\/\/beta.gouv.fr\/assets\/images\/favicons\/safari-pinned-tab.svg",
 							"method": "GET",
@@ -973,7 +965,7 @@
 							"otherinfo": "\uFFFD\uFFFD?M\\x001f\uFFFD\uFFFDMD@\uFFFDIQ\uFFFD\uFFFDM5\uFFFD\uFFFD8\uFFFD4\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD"
 						},
 						{
-							"id": "134",
+							"id": "129",
 							"uri": "https://beta.gouv.fr/communaute/",
 							"nodeName": "https:\/\/beta.gouv.fr\/communaute\/",
 							"method": "GET",
@@ -983,7 +975,7 @@
 							"otherinfo": "GIF89a\\x0001\\x0000\\x0001\\x0000\uFFFD\\x0000\\x0000\\x0000\\x0000\\x0000\uFFFD\uFFFD\uFFFD!\uFFFD\\x0004\\x0001\\x0000\\x0000\\x0000\\x0000,\\x0000\\x0000\\x0000\\x0000\\x0001\\x0000\\x0001\\x0000\\x0000\\x0002\\x0001D\\x0000;"
 						},
 						{
-							"id": "125",
+							"id": "130",
 							"uri": "https://beta.gouv.fr/content/docs/livre_blanc_2024.pdf",
 							"nodeName": "https:\/\/beta.gouv.fr\/content\/docs\/livre_blanc_2024.pdf",
 							"method": "GET",
@@ -993,7 +985,7 @@
 							"otherinfo": "\u06DDJ\uFFFD\uFFFD\u0297\uFFFDN\uFFFD\uFFFDO*^\uFFFD:\\x0014\uFFFD'(u"
 						},
 						{
-							"id": "101",
+							"id": "96",
 							"uri": "https://beta.gouv.fr/incubateurs/",
 							"nodeName": "https:\/\/beta.gouv.fr\/incubateurs\/",
 							"method": "GET",
@@ -1003,7 +995,7 @@
 							"otherinfo": "GIF89a\\x0001\\x0000\\x0001\\x0000\uFFFD\\x0000\\x0000\\x0000\\x0000\\x0000\uFFFD\uFFFD\uFFFD!\uFFFD\\x0004\\x0001\\x0000\\x0000\\x0000\\x0000,\\x0000\\x0000\\x0000\\x0000\\x0001\\x0000\\x0001\\x0000\\x0000\\x0002\\x0001D\\x0000;"
 						},
 						{
-							"id": "62",
+							"id": "109",
 							"uri": "https://beta.gouv.fr/realisations/",
 							"nodeName": "https:\/\/beta.gouv.fr\/realisations\/",
 							"method": "GET",
@@ -1013,7 +1005,7 @@
 							"otherinfo": "GIF89a\\x0001\\x0000\\x0001\\x0000\uFFFD\\x0000\\x0000\\x0000\\x0000\\x0000\uFFFD\uFFFD\uFFFD!\uFFFD\\x0004\\x0001\\x0000\\x0000\\x0000\\x0000,\\x0000\\x0000\\x0000\\x0000\\x0001\\x0000\\x0001\\x0000\\x0000\\x0002\\x0001D\\x0000;"
 						},
 						{
-							"id": "118",
+							"id": "113",
 							"uri": "https://beta.gouv.fr/startups/mon-entreprise.html",
 							"nodeName": "https:\/\/beta.gouv.fr\/startups\/mon-entreprise.html",
 							"method": "GET",
@@ -1033,7 +1025,7 @@
 							"otherinfo": "GIF89a\\x0001\\x0000\\x0001\\x0000\uFFFD\\x0000\\x0000\\x0000\\x0000\\x0000\uFFFD\uFFFD\uFFFD!\uFFFD\\x0004\\x0001\\x0000\\x0000\\x0000\\x0000,\\x0000\\x0000\\x0000\\x0000\\x0001\\x0000\\x0001\\x0000\\x0000\\x0002\\x0001D\\x0000;"
 						},
 						{
-							"id": "119",
+							"id": "117",
 							"uri": "https://beta.gouv.fr/startups/transport.html",
 							"nodeName": "https:\/\/beta.gouv.fr\/startups\/transport.html",
 							"method": "GET",
@@ -1063,7 +1055,7 @@
 					"desc": "<p>The response appears to contain suspicious comments which may help an attacker.</p>",
 					"instances":[ 
 						{
-							"id": "173",
+							"id": "169",
 							"uri": "https://beta.gouv.fr/assets/additional/js/community-chart.js",
 							"nodeName": "https:\/\/beta.gouv.fr\/assets\/additional\/js\/community-chart.js",
 							"method": "GET",
@@ -1073,7 +1065,7 @@
 							"otherinfo": "The following pattern was used: \\bWHERE\\b and was detected in likely comment: \"/**\n   * obj to pass to chartjs : each key representing a dataset of employerType\n   * will get an array of points in x,y where \", see evidence field for the suspicious comment/snippet."
 						},
 						{
-							"id": "172",
+							"id": "168",
 							"uri": "https://beta.gouv.fr/assets/additional/js/community-chart.js",
 							"nodeName": "https:\/\/beta.gouv.fr\/assets\/additional\/js\/community-chart.js",
 							"method": "GET",
@@ -1083,7 +1075,7 @@
 							"otherinfo": "The following pattern was used: \\bFROM\\b and was detected in likely comment: \"// for each datasets we compute the value for each new points by adding all values from previous date\", see evidence field for the suspicious comment/snippet."
 						},
 						{
-							"id": "175",
+							"id": "171",
 							"uri": "https://beta.gouv.fr/assets/additional/js/fuse.js@7.0.0.js",
 							"nodeName": "https:\/\/beta.gouv.fr\/assets\/additional\/js\/fuse.js@7.0.0.js",
 							"method": "GET",
@@ -1093,7 +1085,7 @@
 							"otherinfo": "The following pattern was used: \\bFROM\\b and was detected 8 times, the first in likely comment: \"// Adapted from: https://github.com/lodash/lodash/blob/master/.internal/baseToString.js\", see evidence field for the suspicious comment/snippet."
 						},
 						{
-							"id": "176",
+							"id": "172",
 							"uri": "https://beta.gouv.fr/assets/additional/js/fuse.js@7.0.0.js",
 							"nodeName": "https:\/\/beta.gouv.fr\/assets\/additional\/js\/fuse.js@7.0.0.js",
 							"method": "GET",
@@ -1103,7 +1095,7 @@
 							"otherinfo": "The following pattern was used: \\bWHERE\\b and was detected 2 times, the first in likely comment: \"// Approximately where in the text is the pattern expected to be found?\", see evidence field for the suspicious comment/snippet."
 						},
 						{
-							"id": "174",
+							"id": "170",
 							"uri": "https://beta.gouv.fr/assets/additional/js/fuse.js@7.0.0.js",
 							"nodeName": "https:\/\/beta.gouv.fr\/assets\/additional\/js\/fuse.js@7.0.0.js",
 							"method": "GET",
@@ -1113,7 +1105,7 @@
 							"otherinfo": "The following pattern was used: \\bQUERY\\b and was detected 4 times, the first in likely comment: \"// Return a 2D array representation of the query, for simpler parsing.\", see evidence field for the suspicious comment/snippet."
 						},
 						{
-							"id": "177",
+							"id": "173",
 							"uri": "https://beta.gouv.fr/recherche",
 							"nodeName": "https:\/\/beta.gouv.fr\/recherche",
 							"method": "GET",
@@ -1123,7 +1115,7 @@
 							"otherinfo": "The following pattern was used: \\bQUERY\\b and was detected in likely comment: \"// Replace to trim the query, removing extra white spaces\", see evidence field for the suspicious comment/snippet."
 						},
 						{
-							"id": "138",
+							"id": "141",
 							"uri": "https://beta.gouv.fr/recherche?q",
 							"nodeName": "https:\/\/beta.gouv.fr\/recherche (q)",
 							"method": "GET",
@@ -1133,7 +1125,7 @@
 							"otherinfo": "The following pattern was used: \\bQUERY\\b and was detected in likely comment: \"// Replace to trim the query, removing extra white spaces\", see evidence field for the suspicious comment/snippet."
 						},
 						{
-							"id": "148",
+							"id": "144",
 							"uri": "https://beta.gouv.fr/startups",
 							"nodeName": "https:\/\/beta.gouv.fr\/startups",
 							"method": "GET",
@@ -1143,7 +1135,7 @@
 							"otherinfo": "The following pattern was used: \\bTODO\\b and was detected 648 times, the first in likely comment: \"// TODO ajouter sponsors\", see evidence field for the suspicious comment/snippet."
 						},
 						{
-							"id": "150",
+							"id": "146",
 							"uri": "https://beta.gouv.fr/startups?national_impact=true",
 							"nodeName": "https:\/\/beta.gouv.fr\/startups (national_impact)",
 							"method": "GET",
@@ -1153,7 +1145,7 @@
 							"otherinfo": "The following pattern was used: \\bTODO\\b and was detected 648 times, the first in likely comment: \"// TODO ajouter sponsors\", see evidence field for the suspicious comment/snippet."
 						},
 						{
-							"id": "149",
+							"id": "145",
 							"uri": "https://beta.gouv.fr/startups/",
 							"nodeName": "https:\/\/beta.gouv.fr\/startups\/",
 							"method": "GET",
@@ -1163,7 +1155,7 @@
 							"otherinfo": "The following pattern was used: \\bTODO\\b and was detected 648 times, the first in likely comment: \"// TODO ajouter sponsors\", see evidence field for the suspicious comment/snippet."
 						},
 						{
-							"id": "169",
+							"id": "165",
 							"uri": "https://beta.gouv.fr/startups/?national_impact=true",
 							"nodeName": "https:\/\/beta.gouv.fr\/startups\/ (national_impact)",
 							"method": "GET",
@@ -1180,7 +1172,7 @@
 					"reference": "",
 					"cweid": "615",
 					"wascid": "13",
-					"sourceid": "1909"
+					"sourceid": "1813"
 				},
 				{
 					"pluginid": "10109",
@@ -1193,7 +1185,7 @@
 					"desc": "<p>The application appears to be a modern web application. If you need to explore it automatically then the Ajax Spider may well be more effective than the standard one.</p>",
 					"instances":[ 
 						{
-							"id": "12",
+							"id": "14",
 							"uri": "https://beta.gouv.fr",
 							"nodeName": "https:\/\/beta.gouv.fr",
 							"method": "GET",
@@ -1203,7 +1195,7 @@
 							"otherinfo": "Links have been found with a target of '_self' - this is often used by modern frameworks to force a full page reload."
 						},
 						{
-							"id": "11",
+							"id": "15",
 							"uri": "https://beta.gouv.fr/",
 							"nodeName": "https:\/\/beta.gouv.fr\/",
 							"method": "GET",
@@ -1213,9 +1205,9 @@
 							"otherinfo": "Links have been found with a target of '_self' - this is often used by modern frameworks to force a full page reload."
 						},
 						{
-							"id": "60",
-							"uri": "https://beta.gouv.fr/realisations/",
-							"nodeName": "https:\/\/beta.gouv.fr\/realisations\/",
+							"id": "12",
+							"uri": "https://beta.gouv.fr/fast/",
+							"nodeName": "https:\/\/beta.gouv.fr\/fast\/",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -1223,7 +1215,7 @@
 							"otherinfo": "Links have been found with a target of '_self' - this is often used by modern frameworks to force a full page reload."
 						},
 						{
-							"id": "54",
+							"id": "56",
 							"uri": "https://beta.gouv.fr/robots.txt",
 							"nodeName": "https:\/\/beta.gouv.fr\/robots.txt",
 							"method": "GET",
@@ -1233,7 +1225,7 @@
 							"otherinfo": "Links have been found with a target of '_self' - this is often used by modern frameworks to force a full page reload."
 						},
 						{
-							"id": "10",
+							"id": "60",
 							"uri": "https://beta.gouv.fr/sitemap.xml",
 							"nodeName": "https:\/\/beta.gouv.fr\/sitemap.xml",
 							"method": "GET",
@@ -1250,7 +1242,7 @@
 					"reference": "",
 					"cweid": "-1",
 					"wascid": "-1",
-					"sourceid": "1"
+					"sourceid": "6"
 				},
 				{
 					"pluginid": "10015",
@@ -1263,7 +1255,7 @@
 					"desc": "<p>The cache-control header has not been set properly or is missing, allowing the browser and proxies to cache content. For static assets like css, js, or image files this might be intended, however, the resources should be reviewed to ensure that no sensitive content will be cached.</p>",
 					"instances":[ 
 						{
-							"id": "4",
+							"id": "8",
 							"uri": "https://beta.gouv.fr",
 							"nodeName": "https:\/\/beta.gouv.fr",
 							"method": "GET",
@@ -1273,7 +1265,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "8",
+							"id": "6",
 							"uri": "https://beta.gouv.fr/",
 							"nodeName": "https:\/\/beta.gouv.fr\/",
 							"method": "GET",
@@ -1283,7 +1275,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "69",
+							"id": "64",
 							"uri": "https://beta.gouv.fr/eig/",
 							"nodeName": "https:\/\/beta.gouv.fr\/eig\/",
 							"method": "GET",
@@ -1293,9 +1285,9 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "76",
-							"uri": "https://beta.gouv.fr/manifeste",
-							"nodeName": "https:\/\/beta.gouv.fr\/manifeste",
+							"id": "4",
+							"uri": "https://beta.gouv.fr/fast/",
+							"nodeName": "https:\/\/beta.gouv.fr\/fast\/",
 							"method": "GET",
 							"param": "cache-control",
 							"attack": "",
@@ -1303,9 +1295,9 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "58",
-							"uri": "https://beta.gouv.fr/realisations/",
-							"nodeName": "https:\/\/beta.gouv.fr\/realisations\/",
+							"id": "71",
+							"uri": "https://beta.gouv.fr/manifeste",
+							"nodeName": "https:\/\/beta.gouv.fr\/manifeste",
 							"method": "GET",
 							"param": "cache-control",
 							"attack": "",
@@ -1333,7 +1325,7 @@
 					"desc": "<p>Specifies how and where the data would be used. For instance, if the value is audio, then the requested resource must be audio data and not any other type of resource.</p>",
 					"instances":[ 
 						{
-							"id": "33",
+							"id": "30",
 							"uri": "https://beta.gouv.fr",
 							"nodeName": "https:\/\/beta.gouv.fr",
 							"method": "GET",
@@ -1343,7 +1335,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "32",
+							"id": "42",
 							"uri": "https://beta.gouv.fr/",
 							"nodeName": "https:\/\/beta.gouv.fr\/",
 							"method": "GET",
@@ -1353,9 +1345,9 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "19",
-							"uri": "https://beta.gouv.fr/sitemap.xml",
-							"nodeName": "https:\/\/beta.gouv.fr\/sitemap.xml",
+							"id": "22",
+							"uri": "https://beta.gouv.fr/fast/",
+							"nodeName": "https:\/\/beta.gouv.fr\/fast\/",
 							"method": "GET",
 							"param": "Sec-Fetch-Dest",
 							"attack": "",
@@ -1383,7 +1375,7 @@
 					"desc": "<p>Allows to differentiate between requests for navigating between HTML pages and requests for loading resources like images, audio etc.</p>",
 					"instances":[ 
 						{
-							"id": "28",
+							"id": "29",
 							"uri": "https://beta.gouv.fr",
 							"nodeName": "https:\/\/beta.gouv.fr",
 							"method": "GET",
@@ -1393,7 +1385,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "31",
+							"id": "41",
 							"uri": "https://beta.gouv.fr/",
 							"nodeName": "https:\/\/beta.gouv.fr\/",
 							"method": "GET",
@@ -1403,9 +1395,9 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "18",
-							"uri": "https://beta.gouv.fr/sitemap.xml",
-							"nodeName": "https:\/\/beta.gouv.fr\/sitemap.xml",
+							"id": "21",
+							"uri": "https://beta.gouv.fr/fast/",
+							"nodeName": "https:\/\/beta.gouv.fr\/fast\/",
 							"method": "GET",
 							"param": "Sec-Fetch-Mode",
 							"attack": "",
@@ -1433,7 +1425,7 @@
 					"desc": "<p>Specifies the relationship between request initiator's origin and target's origin.</p>",
 					"instances":[ 
 						{
-							"id": "26",
+							"id": "28",
 							"uri": "https://beta.gouv.fr",
 							"nodeName": "https:\/\/beta.gouv.fr",
 							"method": "GET",
@@ -1443,7 +1435,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "29",
+							"id": "40",
 							"uri": "https://beta.gouv.fr/",
 							"nodeName": "https:\/\/beta.gouv.fr\/",
 							"method": "GET",
@@ -1453,9 +1445,9 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "17",
-							"uri": "https://beta.gouv.fr/sitemap.xml",
-							"nodeName": "https:\/\/beta.gouv.fr\/sitemap.xml",
+							"id": "20",
+							"uri": "https://beta.gouv.fr/fast/",
+							"nodeName": "https:\/\/beta.gouv.fr\/fast\/",
 							"method": "GET",
 							"param": "Sec-Fetch-Site",
 							"attack": "",
@@ -1483,7 +1475,7 @@
 					"desc": "<p>Specifies if a navigation request was initiated by a user.</p>",
 					"instances":[ 
 						{
-							"id": "35",
+							"id": "32",
 							"uri": "https://beta.gouv.fr",
 							"nodeName": "https:\/\/beta.gouv.fr",
 							"method": "GET",
@@ -1493,7 +1485,7 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "34",
+							"id": "43",
 							"uri": "https://beta.gouv.fr/",
 							"nodeName": "https:\/\/beta.gouv.fr\/",
 							"method": "GET",
@@ -1503,9 +1495,9 @@
 							"otherinfo": ""
 						},
 						{
-							"id": "20",
-							"uri": "https://beta.gouv.fr/sitemap.xml",
-							"nodeName": "https:\/\/beta.gouv.fr\/sitemap.xml",
+							"id": "23",
+							"uri": "https://beta.gouv.fr/fast/",
+							"nodeName": "https:\/\/beta.gouv.fr\/fast\/",
 							"method": "GET",
 							"param": "Sec-Fetch-User",
 							"attack": "",
@@ -1533,7 +1525,7 @@
 					"desc": "<p>The response contents are storable by caching components such as proxy servers, and may be retrieved directly from the cache, rather than from the origin server by the caching servers, in response to similar requests from other users. If the response data is sensitive, personal or user-specific, this may result in sensitive information being leaked. In some cases, this may even result in a user gaining complete control of the session of another user, depending on the configuration of the caching components in use in their environment. This is primarily an issue where \"shared\" caching servers such as \"proxy\" caches are configured on the local network. This configuration is typically found in corporate or educational environments, for instance.</p>",
 					"instances":[ 
 						{
-							"id": "36",
+							"id": "34",
 							"uri": "https://beta.gouv.fr",
 							"nodeName": "https:\/\/beta.gouv.fr",
 							"method": "GET",
@@ -1543,7 +1535,7 @@
 							"otherinfo": "In the absence of an explicitly specified caching lifetime directive in the response, a liberal lifetime heuristic of 1 year was assumed. This is permitted by rfc7234."
 						},
 						{
-							"id": "38",
+							"id": "44",
 							"uri": "https://beta.gouv.fr/",
 							"nodeName": "https:\/\/beta.gouv.fr\/",
 							"method": "GET",
@@ -1553,9 +1545,9 @@
 							"otherinfo": "In the absence of an explicitly specified caching lifetime directive in the response, a liberal lifetime heuristic of 1 year was assumed. This is permitted by rfc7234."
 						},
 						{
-							"id": "63",
-							"uri": "https://beta.gouv.fr/realisations/",
-							"nodeName": "https:\/\/beta.gouv.fr\/realisations\/",
+							"id": "24",
+							"uri": "https://beta.gouv.fr/fast/",
+							"nodeName": "https:\/\/beta.gouv.fr\/fast\/",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -1563,7 +1555,7 @@
 							"otherinfo": "In the absence of an explicitly specified caching lifetime directive in the response, a liberal lifetime heuristic of 1 year was assumed. This is permitted by rfc7234."
 						},
 						{
-							"id": "55",
+							"id": "57",
 							"uri": "https://beta.gouv.fr/robots.txt",
 							"nodeName": "https:\/\/beta.gouv.fr\/robots.txt",
 							"method": "GET",
@@ -1573,7 +1565,7 @@
 							"otherinfo": "In the absence of an explicitly specified caching lifetime directive in the response, a liberal lifetime heuristic of 1 year was assumed. This is permitted by rfc7234."
 						},
 						{
-							"id": "21",
+							"id": "61",
 							"uri": "https://beta.gouv.fr/sitemap.xml",
 							"nodeName": "https:\/\/beta.gouv.fr\/sitemap.xml",
 							"method": "GET",
@@ -1603,7 +1595,7 @@
 					"desc": "<p>This check looks at user-supplied input in query string parameters and POST data to identify where certain HTML attribute values might be controlled. This provides hot-spot detection for XSS (cross-site scripting) that will require further review by a security analyst to determine exploitability.</p>",
 					"instances":[ 
 						{
-							"id": "151",
+							"id": "147",
 							"uri": "https://beta.gouv.fr/startups?national_impact=true",
 							"nodeName": "https:\/\/beta.gouv.fr\/startups (national_impact)",
 							"method": "GET",
@@ -1613,17 +1605,17 @@
 							"otherinfo": "User-controlled HTML attribute values were found. Try injecting special characters to see if XSS might be possible. The page at the following URL:\n\nhttps://beta.gouv.fr/startups?national_impact=true\n\nappears to include user input in:\na(n) [div] tag [data-fr-js-modal] attribute\n\nThe user input found was:\nnational_impact=true\n\nThe user-controlled value was:\ntrue"
 						},
 						{
-							"id": "178",
-							"uri": "https://beta.gouv.fr/startups/?incubateur=agriculture",
+							"id": "174",
+							"uri": "https://beta.gouv.fr/startups/?incubateur=dinum",
 							"nodeName": "https:\/\/beta.gouv.fr\/startups\/ (incubateur)",
 							"method": "GET",
 							"param": "incubateur",
 							"attack": "",
 							"evidence": "",
-							"otherinfo": "User-controlled HTML attribute values were found. Try injecting special characters to see if XSS might be possible. The page at the following URL:\n\nhttps://beta.gouv.fr/startups/?incubateur=agriculture\n\nappears to include user input in:\na(n) [section] tag [id] attribute\n\nThe user input found was:\nincubateur=agriculture\n\nThe user-controlled value was:\nagriculture"
+							"otherinfo": "User-controlled HTML attribute values were found. Try injecting special characters to see if XSS might be possible. The page at the following URL:\n\nhttps://beta.gouv.fr/startups/?incubateur=dinum\n\nappears to include user input in:\na(n) [section] tag [id] attribute\n\nThe user input found was:\nincubateur=dinum\n\nThe user-controlled value was:\ndinum"
 						},
 						{
-							"id": "170",
+							"id": "166",
 							"uri": "https://beta.gouv.fr/startups/?national_impact=true",
 							"nodeName": "https:\/\/beta.gouv.fr\/startups\/ (national_impact)",
 							"method": "GET",
@@ -1640,7 +1632,7 @@
 					"reference": "<p>https://cheatsheetseries.owasp.org/cheatsheets/Input_Validation_Cheat_Sheet.html</p>",
 					"cweid": "20",
 					"wascid": "20",
-					"sourceid": "1201"
+					"sourceid": "1265"
 				}
 			]
 		}

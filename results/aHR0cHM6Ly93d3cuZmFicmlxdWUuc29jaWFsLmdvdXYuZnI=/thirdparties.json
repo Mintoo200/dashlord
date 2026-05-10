@@ -2,12 +2,12 @@
   "trackers": [],
   "cookies": [
     {
-      "name": "_pk_ses.2.6321",
-      "value": "1",
+      "name": "_pk_id.2.6321",
+      "value": "9ddfdfe3d21961a9.1778385433.",
       "domain": "www.fabrique.social.gouv.fr",
       "path": "/",
-      "expires": 1777782314,
-      "size": 15,
+      "expires": 1812340633,
+      "size": 41,
       "httpOnly": false,
       "secure": false,
       "session": false,
@@ -17,12 +17,12 @@
       "sameParty": false
     },
     {
-      "name": "_pk_id.2.6321",
-      "value": "1608939ef296e4b1.1777780515.",
+      "name": "_pk_ses.2.6321",
+      "value": "1",
       "domain": "www.fabrique.social.gouv.fr",
       "path": "/",
-      "expires": 1811735715,
-      "size": 41,
+      "expires": 1778387232,
+      "size": 15,
       "httpOnly": false,
       "secure": false,
       "session": false,
@@ -35,7 +35,7 @@
   "headers": {
     "content-security-policy": "*",
     "content-type": "text/html; charset=UTF-8",
-    "date": "Sun, 03 May 2026 03:55:12 GMT",
+    "date": "Sun, 10 May 2026 03:57:10 GMT",
     "link": "<https://www.fabrique.social.gouv.fr/wp-json/>; rel=\"https://api.w.org/\"\n<https://www.fabrique.social.gouv.fr/wp-json/wp/v2/pages/127>; rel=\"alternate\"; type=\"application/json\"\n<https://www.fabrique.social.gouv.fr/>; rel=shortlink",
     "server": "nginx",
     "strict-transport-security": "max-age=31536000; includeSubDomains",

@@ -1,0 +1,503 @@
+[
+  [
+    {
+      "template": "http/exposures/configs/azure-domain-tenant.yaml",
+      "template-url": "https://cloud.projectdiscovery.io/public/azure-domain-tenant",
+      "template-id": "azure-domain-tenant",
+      "template-path": "/home/runner/nuclei-templates/http/exposures/configs/azure-domain-tenant.yaml",
+      "info": {
+        "name": "Microsoft Azure Domain Tenant ID - Detect",
+        "author": [
+          "v0idc0de"
+        ],
+        "tags": [
+          "azure",
+          "microsoft",
+          "cloud",
+          "exposure",
+          "vuln"
+        ],
+        "description": "Microsoft Azure Domain Tenant ID was detected.",
+        "reference": [
+          "https://azure.microsoft.com"
+        ],
+        "severity": "info",
+        "metadata": {
+          "max-request": 1
+        },
+        "classification": {
+          "cve-id": null,
+          "cwe-id": [
+            "cwe-200"
+          ],
+          "cvss-metrics": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:N"
+        }
+      },
+      "type": "http",
+      "host": "beta.gouv.fr",
+      "port": "443",
+      "scheme": "https",
+      "url": "https://beta.gouv.fr",
+      "matched-at": "https://login.microsoftonline.com:443/beta.gouv.fr/v2.0/.well-known/openid-configuration",
+      "extracted-results": [
+        "69e439be-1350-422a-baa9-ff64796a83cd"
+      ],
+      "request": "GET /beta.gouv.fr/v2.0/.well-known/openid-configuration HTTP/1.1\r\nHost: login.microsoftonline.com\r\nUser-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)\r\nAccept-Encoding: gzip\r\n\r\n",
+      "response": "HTTP/1.1 200 OK\r\nContent-Length: 1964\r\nAccess-Control-Allow-Methods: GET, OPTIONS\r\nAccess-Control-Allow-Origin: *\r\nCache-Control: max-age=86400, private\r\nContent-Security-Policy-Report-Only: object-src 'none'; base-uri 'self'; script-src 'self' 'nonce-hJhGqq9GE47qFiYGn44SJA' 'unsafe-inline' 'unsafe-eval' https://*.msauth.net https://*.msftauth.net https://*.msftauthimages.net https://*.msauthimages.net https://*.msidentity.com https://*.microsoftonline-p.com https://*.microsoftazuread-sso.com https://*.azureedge.net https://*.outlook.com https://*.office.com https://*.office365.com https://*.microsoft.com https://*.bing.com 'report-sample'; report-uri https://csp.microsoft.com/report/ESTS-UX-All\r\nContent-Type: application/json; charset=utf-8\r\nDate: Sun, 20 Sep 2026 04:54:03 GMT\r\nP3p: CP=\"DSP CUR OTPi IND OTRi ONL FIN\"\r\nSet-Cookie: ***\r\nSet-Cookie: ***\r\nSet-Cookie: ***\r\nSet-Cookie: ***\r\nStrict-Transport-Security: max-age=31536000; includeSubDomains\r\nX-Content-Type-Options: nosniff\r\nX-Ms-Ests-Server: 2.1.25236.3 - SEC ProdSlices\r\nX-Ms-Request-Id: 03c948db-5df6-437d-9c3f-db05556ad200\r\nX-Ms-Srs: 1.P\r\nX-Xss-Protection: 0\r\n\r\n{\"token_endpoint\":\"https://login.microsoftonline.com/69e439be-1350-422a-baa9-ff64796a83cd/oauth2/v2.0/token\",\"token_endpoint_auth_methods_supported\":[\"client_secret_post\",\"private_key_jwt\",\"client_secret_basic\",\"self_signed_tls_client_auth\"],\"jwks_uri\":\"https://login.microsoftonline.com/69e439be-1350-422a-baa9-ff64796a83cd/discovery/v2.0/keys\",\"response_modes_supported\":[\"query\",\"fragment\",\"form_post\"],\"subject_types_supported\":[\"pairwise\"],\"id_token_signing_alg_values_supported\":[\"RS256\"],\"response_types_supported\":[\"code\",\"id_token\",\"code id_token\",\"id_token token\"],\"scopes_supported\":[\"openid\",\"profile\",\"email\",\"offline_access\"],\"issuer\":\"https://login.microsoftonline.com/69e439be-1350-422a-baa9-ff64796a83cd/v2.0\",\"request_uri_parameter_supported\":false,\"userinfo_endpoint\":\"https://graph.microsoft.com/oidc/userinfo\",\"authorization_endpoint\":\"https://login.microsoftonline.com/69e439be-1350-422a-baa9-ff64796a83cd/oauth2/v2.0/authorize\",\"device_authorization_endpoint\":\"https://login.microsoftonline.com/69e439be-1350-422a-baa9-ff64796a83cd/oauth2/v2.0/devicecode\",\"http_logout_supported\":true,\"frontchannel_logout_supported\":true,\"end_session_endpoint\":\"https://login.microsoftonline.com/69e439be-1350-422a-baa9-ff64796a83cd/oauth2/v2.0/logout\",\"claims_supported\":[\"sub\",\"iss\",\"cloud_instance_name\",\"cloud_instance_host_name\",\"cloud_graph_host_name\",\"msgraph_host\",\"aud\",\"exp\",\"iat\",\"auth_time\",\"acr\",\"nonce\",\"preferred_username\",\"name\",\"tid\",\"ver\",\"at_hash\",\"c_hash\",\"email\"],\"kerberos_endpoint\":\"https://login.microsoftonline.com/69e439be-1350-422a-baa9-ff64796a83cd/kerberos\",\"mtls_endpoint_aliases\":{\"token_endpoint\":\"https://mtlsauth.microsoft.com/69e439be-1350-422a-baa9-ff64796a83cd/oauth2/v2.0/token\"},\"tls_client_certificate_bound_access_tokens\":true,\"tenant_region_scope\":\"EU\",\"cloud_instance_name\":\"microsoftonline.com\",\"cloud_graph_host_name\":\"graph.windows.net\",\"msgraph_host\":\"graph.microsoft.com\",\"rbac_url\":\"https://pas.windows.net\"}",
+      "ip": "20.190.190.129",
+      "timestamp": "2026-09-20T04:54:04.40236324Z",
+      "curl-command": "curl -X 'GET' -d '' -H 'Host: login.microsoftonline.com' -H 'User-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)' 'https://login.microsoftonline.com:443/beta.gouv.fr/v2.0/.well-known/openid-configuration'",
+      "matcher-status": true
+    },
+    {
+      "template": "http/technologies/waf-detect.yaml",
+      "template-url": "https://cloud.projectdiscovery.io/public/waf-detect",
+      "template-id": "waf-detect",
+      "template-path": "/home/runner/nuclei-templates/http/technologies/waf-detect.yaml",
+      "info": {
+        "name": "WAF Detection",
+        "author": [
+          "dwisiswant0",
+          "lu4nx",
+          "s4e-io"
+        ],
+        "tags": [
+          "waf",
+          "tech",
+          "misc",
+          "discovery"
+        ],
+        "description": "A web application firewall was detected.",
+        "reference": [
+          "https://github.com/Ekultek/WhatWaf"
+        ],
+        "severity": "info",
+        "metadata": {
+          "max-request": 1
+        },
+        "classification": {
+          "cve-id": null,
+          "cwe-id": [
+            "cwe-200"
+          ]
+        }
+      },
+      "matcher-name": "nginxgeneric",
+      "type": "http",
+      "host": "beta.gouv.fr",
+      "port": "443",
+      "scheme": "https",
+      "url": "https://beta.gouv.fr",
+      "matched-at": "https://beta.gouv.fr",
+      "request": "POST / HTTP/1.1\r\nHost: beta.gouv.fr\r\nUser-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)\r\nContent-Length: 27\r\nContent-Type: application/x-www-form-urlencoded\r\nAccept-Encoding: gzip\r\n\r\n_=<script>alert(1)</script>",
+      "response": "HTTP/1.1 405 Not Allowed\r\nContent-Length: 150\r\nConnection: keep-alive\r\nContent-Type: text/html\r\nDate: Sun, 20 Sep 2026 04:54:19 GMT\r\nStrict-Transport-Security: max-age=31536000\r\nX-Request-Id: a49bc9f5-0969-435c-9a5f-6369b50a11d6\r\n\r\n<html>\r\n<head><title>405 Not Allowed</title></head>\r\n<body>\r\n<center><h1>405 Not Allowed</h1></center>\r\n<hr><center>nginx</center>\r\n</body>\r\n</html>\r\n",
+      "ip": "109.232.236.90",
+      "timestamp": "2026-09-20T04:54:19.216042968Z",
+      "curl-command": "curl -X 'POST' -d '_=<script>alert(1)</script>' -H 'Content-Type: application/x-www-form-urlencoded' -H 'Host: beta.gouv.fr' -H 'User-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)' 'https://beta.gouv.fr'",
+      "matcher-status": true
+    },
+    {
+      "template": "http/miscellaneous/security-txt.yaml",
+      "template-url": "https://cloud.projectdiscovery.io/public/security-txt",
+      "template-id": "security-txt",
+      "template-path": "/home/runner/nuclei-templates/http/miscellaneous/security-txt.yaml",
+      "info": {
+        "name": "security.txt File",
+        "author": [
+          "bad5ect0r",
+          "noraj"
+        ],
+        "tags": [
+          "miscellaneous",
+          "misc",
+          "generic",
+          "vuln"
+        ],
+        "description": "File similar to robots.txt but intended to be read by humans wishing to contact a website’s owner about security issues. Often defines a security policy and contact details.\n",
+        "reference": [
+          "https://securitytxt.org/",
+          "https://community.turgensec.com/security-txt-progress-in-ethical-security-research/"
+        ],
+        "severity": "info",
+        "metadata": {
+          "max-request": 2,
+          "shodan-query": "http.securitytxt:contact http.status:200",
+          "verified": true
+        }
+      },
+      "type": "http",
+      "host": "beta.gouv.fr",
+      "port": "443",
+      "scheme": "https",
+      "url": "https://beta.gouv.fr",
+      "matched-at": "https://beta.gouv.fr/.well-known/security.txt",
+      "extracted-results": [
+        " mailto:infra@beta.gouv.fr"
+      ],
+      "request": "GET /.well-known/security.txt HTTP/1.1\r\nHost: beta.gouv.fr\r\nUser-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)\r\nAccept: */*\r\nAccept-Language: en\r\nAccept-Encoding: gzip\r\n\r\n",
+      "response": "HTTP/1.1 200 OK\r\nContent-Length: 200\r\nAccept-Ranges: bytes\r\nConnection: keep-alive\r\nContent-Type: text/plain\r\nDate: Sun, 20 Sep 2026 04:54:29 GMT\r\nEtag: \"6aace850-c8\"\r\nLast-Modified: Fri, 18 Sep 2026 07:29:20 GMT\r\nStrict-Transport-Security: max-age=31536000\r\nX-Request-Id: 944e7270-4733-4dc1-aa78-6f7340fba874\r\n\r\nContact: mailto:infra@beta.gouv.fr\nPolicy: https://vdp.numerique.gouv.fr/p/Policy\nPreferred-Languages: fr, en\nEncryption: https://beta.gouv.fr/.well-known/pubkey.asc\nExpires: 2028-11-08T09:35:00.000Z\n",
+      "ip": "109.232.236.90",
+      "timestamp": "2026-09-20T04:54:29.328809628Z",
+      "curl-command": "curl -X 'GET' -d '' -H 'Accept: */*' -H 'Accept-Language: en' -H 'User-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)' 'https://beta.gouv.fr/.well-known/security.txt'",
+      "matcher-status": true
+    },
+    {
+      "template": "http/exposures/configs/guard-config.yaml",
+      "template-url": "https://cloud.projectdiscovery.io/public/guard-config",
+      "template-id": "guard-config",
+      "template-path": "/home/runner/nuclei-templates/http/exposures/configs/guard-config.yaml",
+      "info": {
+        "name": "Guardfile Config - Detect",
+        "author": [
+          "dhiyaneshdk"
+        ],
+        "tags": [
+          "exposure",
+          "file",
+          "guard",
+          "config",
+          "vuln"
+        ],
+        "description": "Guardfile configuration information was detected.",
+        "reference": [
+          "https://github.com/guard/guard",
+          "https://github.com/maurosoria/dirsearch/blob/master/db/dicc.txt"
+        ],
+        "severity": "info",
+        "metadata": {
+          "max-request": 1,
+          "shodan-query": "html:\"Guardfile\"",
+          "verified": true
+        },
+        "classification": {
+          "cve-id": null,
+          "cwe-id": [
+            "cwe-200"
+          ],
+          "cvss-metrics": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:N"
+        }
+      },
+      "type": "http",
+      "host": "beta.gouv.fr",
+      "port": "443",
+      "scheme": "https",
+      "url": "https://beta.gouv.fr",
+      "matched-at": "https://beta.gouv.fr/Guardfile",
+      "request": "GET /Guardfile HTTP/1.1\r\nHost: beta.gouv.fr\r\nUser-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)\r\nAccept: */*\r\nAccept-Language: en\r\nAccept-Encoding: gzip\r\n\r\n",
+      "response": "HTTP/1.1 200 OK\r\nContent-Length: 614\r\nAccept-Ranges: bytes\r\nConnection: keep-alive\r\nContent-Type: application/octet-stream\r\nDate: Sun, 20 Sep 2026 04:54:37 GMT\r\nEtag: \"6aace850-266\"\r\nLast-Modified: Fri, 18 Sep 2026 07:29:20 GMT\r\nStrict-Transport-Security: max-age=31536000\r\nX-Request-Id: 63ce512f-e2d6-464f-8cbd-9fc9f04a22e5\r\n\r\n# frozen_string_literal: true\n\n# More info at https://github.com/guard/guard#readme\n\nguard :rspec, cmd: 'bundle exec rspec' do\n  require 'guard/rspec/dsl'\n  dsl = Guard::RSpec::Dsl.new(self)\n\n  # RSpec files\n  rspec = dsl.rspec\n  watch(rspec.spec_helper) { rspec.spec_dir }\n  watch(rspec.spec_support) { rspec.spec_dir }\n  watch(rspec.spec_files)\n\n  # RSpec for lib files\n  watch(%r{^lib/(.+)\\.rb$}) { |m| \"spec/lib/#{m[1]}_spec.rb\" }\n\n  # Watch Jekyll plugins\n  watch(%r{^_plugins/(.+)\\.rb$}) { |m| \"spec/plugins/#{m[1]}_spec.rb\" }\n\n  # Ruby files\n  ruby = dsl.ruby\n  dsl.watch_spec_files_for(ruby.lib_files)\nend\n",
+      "ip": "109.232.236.90",
+      "timestamp": "2026-09-20T04:54:38.012651529Z",
+      "curl-command": "curl -X 'GET' -d '' -H 'Accept: */*' -H 'Accept-Language: en' -H 'User-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)' 'https://beta.gouv.fr/Guardfile'",
+      "matcher-status": true
+    },
+    {
+      "template": "dns/spf-record-detect.yaml",
+      "template-url": "https://cloud.projectdiscovery.io/public/spf-record-detect",
+      "template-id": "spf-record-detect",
+      "template-path": "/home/runner/nuclei-templates/dns/spf-record-detect.yaml",
+      "info": {
+        "name": "SPF Record - Detection",
+        "author": [
+          "rxerium"
+        ],
+        "tags": [
+          "dns",
+          "spf",
+          "discovery"
+        ],
+        "description": "An SPF TXT record was detected\n",
+        "reference": [
+          "https://www.mimecast.com/content/how-to-create-an-spf-txt-record"
+        ],
+        "severity": "info",
+        "metadata": {
+          "max-request": 1
+        }
+      },
+      "type": "dns",
+      "host": "beta.gouv.fr",
+      "matched-at": "beta.gouv.fr",
+      "extracted-results": [
+        "v=spf1 include:mx.ovh.com include:_spf.ox.numerique.gouv.fr include:spf.brevo.com -all\""
+      ],
+      "request": ";; opcode: QUERY, status: NOERROR, id: 52047\n;; flags: rd ad; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1\n\n;; OPT PSEUDOSECTION:\n; EDNS: version 0; flags:; udp: 4096\n\n;; QUESTION SECTION:\n;beta.gouv.fr.\tIN\t TXT\n",
+      "response": ";; opcode: QUERY, status: NOERROR, id: 52047\n;; flags: qr rd ra; QUERY: 1, ANSWER: 8, AUTHORITY: 0, ADDITIONAL: 1\n\n;; OPT PSEUDOSECTION:\n; EDNS: version 0; flags:; udp: 1232\n\n;; QUESTION SECTION:\n;beta.gouv.fr.\tIN\t TXT\n\n;; ANSWER SECTION:\nbeta.gouv.fr.\t10800\tIN\tTXT\t\"v=spf1 include:mx.ovh.com include:_spf.ox.numerique.gouv.fr include:spf.brevo.com -all\"\nbeta.gouv.fr.\t10800\tIN\tTXT\t\"riot-domain-verification=470fc7a8e860c7c5ee2fac05dc24291cbac8188829922716b305d5e52047\"\nbeta.gouv.fr.\t10800\tIN\tTXT\t\"google-site-verification=lfIzZXA-NeXZJYKhXJEpi89tvcAk4VsX2vOciP0ougo\"\nbeta.gouv.fr.\t10800\tIN\tTXT\t\"brevo-code:87e0a9b355082f35b0175db859992d1a\"\nbeta.gouv.fr.\t10800\tIN\tTXT\t\"HARICA-rpBcEL1A5Ls6hLY9J7x\"\nbeta.gouv.fr.\t10800\tIN\tTXT\t\"google-site-verification=Mo4Mbev37H1GkeCJtasIGj320ipsKn0mKUl4KyrvFBM\"\nbeta.gouv.fr.\t10800\tIN\tTXT\t\"google-site-verification=ejIpUG1rg69LP1NhluAU5YoR4HrV2avM5FvNuIwLSRY\"\nbeta.gouv.fr.\t10800\tIN\tTXT\t\"MS=4A732B260FFD4F901CAE36FB0D99DED7FB8CDC12\"\n",
+      "timestamp": "2026-09-20T04:54:40.955537911Z",
+      "matcher-status": true
+    },
+    {
+      "template": "dns/txt-fingerprint.yaml",
+      "template-url": "https://cloud.projectdiscovery.io/public/txt-fingerprint",
+      "template-id": "txt-fingerprint",
+      "template-path": "/home/runner/nuclei-templates/dns/txt-fingerprint.yaml",
+      "info": {
+        "name": "DNS TXT Record Detected",
+        "author": [
+          "pdteam"
+        ],
+        "tags": [
+          "dns",
+          "txt",
+          "discovery"
+        ],
+        "description": "A DNS TXT record was detected. The TXT record lets a domain admin leave notes on a DNS server.",
+        "reference": [
+          "https://www.netspi.com/blog/technical/network-penetration-testing/analyzing-dns-txt-records-to-fingerprint-service-providers/"
+        ],
+        "severity": "info",
+        "metadata": {
+          "max-request": 1
+        },
+        "classification": {
+          "cve-id": null,
+          "cwe-id": [
+            "cwe-200"
+          ]
+        }
+      },
+      "type": "dns",
+      "host": "beta.gouv.fr",
+      "matched-at": "beta.gouv.fr",
+      "extracted-results": [
+        "\"riot-domain-verification=470fc7a8e860c7c5ee2fac05dc24291cbac8188829922716b305d5e52047\"",
+        "\"google-site-verification=lfIzZXA-NeXZJYKhXJEpi89tvcAk4VsX2vOciP0ougo\"",
+        "\"brevo-code:87e0a9b355082f35b0175db859992d1a\"",
+        "\"HARICA-rpBcEL1A5Ls6hLY9J7x\"",
+        "\"google-site-verification=Mo4Mbev37H1GkeCJtasIGj320ipsKn0mKUl4KyrvFBM\"",
+        "\"google-site-verification=ejIpUG1rg69LP1NhluAU5YoR4HrV2avM5FvNuIwLSRY\"",
+        "\"MS=4A732B260FFD4F901CAE36FB0D99DED7FB8CDC12\"",
+        "\"v=spf1 include:mx.ovh.com include:_spf.ox.numerique.gouv.fr include:spf.brevo.com -all\""
+      ],
+      "request": ";; opcode: QUERY, status: NOERROR, id: 52047\n;; flags: rd ad; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1\n\n;; OPT PSEUDOSECTION:\n; EDNS: version 0; flags:; udp: 4096\n\n;; QUESTION SECTION:\n;beta.gouv.fr.\tIN\t TXT\n",
+      "response": ";; opcode: QUERY, status: NOERROR, id: 52047\n;; flags: qr rd ra; QUERY: 1, ANSWER: 8, AUTHORITY: 0, ADDITIONAL: 1\n\n;; OPT PSEUDOSECTION:\n; EDNS: version 0; flags:; udp: 1232\n\n;; QUESTION SECTION:\n;beta.gouv.fr.\tIN\t TXT\n\n;; ANSWER SECTION:\nbeta.gouv.fr.\t10800\tIN\tTXT\t\"v=spf1 include:mx.ovh.com include:_spf.ox.numerique.gouv.fr include:spf.brevo.com -all\"\nbeta.gouv.fr.\t10800\tIN\tTXT\t\"riot-domain-verification=470fc7a8e860c7c5ee2fac05dc24291cbac8188829922716b305d5e52047\"\nbeta.gouv.fr.\t10800\tIN\tTXT\t\"google-site-verification=lfIzZXA-NeXZJYKhXJEpi89tvcAk4VsX2vOciP0ougo\"\nbeta.gouv.fr.\t10800\tIN\tTXT\t\"brevo-code:87e0a9b355082f35b0175db859992d1a\"\nbeta.gouv.fr.\t10800\tIN\tTXT\t\"HARICA-rpBcEL1A5Ls6hLY9J7x\"\nbeta.gouv.fr.\t10800\tIN\tTXT\t\"google-site-verification=Mo4Mbev37H1GkeCJtasIGj320ipsKn0mKUl4KyrvFBM\"\nbeta.gouv.fr.\t10800\tIN\tTXT\t\"google-site-verification=ejIpUG1rg69LP1NhluAU5YoR4HrV2avM5FvNuIwLSRY\"\nbeta.gouv.fr.\t10800\tIN\tTXT\t\"MS=4A732B260FFD4F901CAE36FB0D99DED7FB8CDC12\"\n",
+      "timestamp": "2026-09-20T04:54:40.955885239Z",
+      "matcher-status": true
+    },
+    {
+      "template": "dns/nameserver-fingerprint.yaml",
+      "template-url": "https://cloud.projectdiscovery.io/public/nameserver-fingerprint",
+      "template-id": "nameserver-fingerprint",
+      "template-path": "/home/runner/nuclei-templates/dns/nameserver-fingerprint.yaml",
+      "info": {
+        "name": "NS Record Detection",
+        "author": [
+          "pdteam"
+        ],
+        "tags": [
+          "dns",
+          "ns",
+          "discovery"
+        ],
+        "description": "An NS record was detected. An NS record delegates a subdomain to a set of name servers.",
+        "severity": "info",
+        "metadata": {
+          "max-request": 1
+        },
+        "classification": {
+          "cve-id": null,
+          "cwe-id": [
+            "cwe-200"
+          ]
+        }
+      },
+      "type": "dns",
+      "host": "beta.gouv.fr",
+      "matched-at": "beta.gouv.fr",
+      "extracted-results": [
+        "dns18.ovh.net.",
+        "ns18.ovh.net."
+      ],
+      "request": ";; opcode: QUERY, status: NOERROR, id: 27072\n;; flags: rd; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1\n\n;; OPT PSEUDOSECTION:\n; EDNS: version 0; flags:; udp: 4096\n\n;; QUESTION SECTION:\n;beta.gouv.fr.\tIN\t NS\n",
+      "response": ";; opcode: QUERY, status: NOERROR, id: 27072\n;; flags: qr rd ra; QUERY: 1, ANSWER: 2, AUTHORITY: 0, ADDITIONAL: 1\n\n;; OPT PSEUDOSECTION:\n; EDNS: version 0; flags:; udp: 1232\n\n;; QUESTION SECTION:\n;beta.gouv.fr.\tIN\t NS\n\n;; ANSWER SECTION:\nbeta.gouv.fr.\t10800\tIN\tNS\tdns18.ovh.net.\nbeta.gouv.fr.\t10800\tIN\tNS\tns18.ovh.net.\n",
+      "timestamp": "2026-09-20T04:54:41.068146624Z",
+      "matcher-status": true
+    },
+    {
+      "template": "dns/dmarc-detect.yaml",
+      "template-url": "https://cloud.projectdiscovery.io/public/dmarc-detect",
+      "template-id": "dmarc-detect",
+      "template-path": "/home/runner/nuclei-templates/dns/dmarc-detect.yaml",
+      "info": {
+        "name": "DNS DMARC - Detect",
+        "author": [
+          "juliosmelo"
+        ],
+        "tags": [
+          "dns",
+          "dmarc",
+          "discovery"
+        ],
+        "description": "DNS DMARC information was detected.\n",
+        "reference": [
+          "https://dmarc.org/",
+          "https://dmarc.org/wiki/FAQ#Why_is_DMARC_important.3F"
+        ],
+        "severity": "info",
+        "metadata": {
+          "max-request": 1
+        },
+        "classification": {
+          "cve-id": null,
+          "cwe-id": [
+            "cwe-200"
+          ],
+          "cvss-metrics": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:N"
+        }
+      },
+      "type": "dns",
+      "host": "beta.gouv.fr",
+      "matched-at": "_dmarc.beta.gouv.fr",
+      "extracted-results": [
+        "\"v=DMARC1; p=none; sp=none; rua=mailto:dmarc@mailinblue.com!10m; ruf=mailto:dmarc@mailinblue.com!10m; rf=afrf; pct=100; ri=86400\""
+      ],
+      "request": ";; opcode: QUERY, status: NOERROR, id: 45639\n;; flags: rd ad; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1\n\n;; OPT PSEUDOSECTION:\n; EDNS: version 0; flags:; udp: 4096\n\n;; QUESTION SECTION:\n;_dmarc.beta.gouv.fr.\tIN\t TXT\n",
+      "response": ";; opcode: QUERY, status: NOERROR, id: 45639\n;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1\n\n;; OPT PSEUDOSECTION:\n; EDNS: version 0; flags:; udp: 1232\n\n;; QUESTION SECTION:\n;_dmarc.beta.gouv.fr.\tIN\t TXT\n\n;; ANSWER SECTION:\n_dmarc.beta.gouv.fr.\t10800\tIN\tTXT\t\"v=DMARC1; p=none; sp=none; rua=mailto:dmarc@mailinblue.com!10m; ruf=mailto:dmarc@mailinblue.com!10m; rf=afrf; pct=100; ri=86400\"\n",
+      "timestamp": "2026-09-20T04:54:41.076138635Z",
+      "matcher-status": true
+    },
+    {
+      "template": "dns/mx-fingerprint.yaml",
+      "template-url": "https://cloud.projectdiscovery.io/public/mx-fingerprint",
+      "template-id": "mx-fingerprint",
+      "template-path": "/home/runner/nuclei-templates/dns/mx-fingerprint.yaml",
+      "info": {
+        "name": "MX Record Detection",
+        "author": [
+          "pdteam"
+        ],
+        "tags": [
+          "dns",
+          "mx",
+          "discovery"
+        ],
+        "description": "An MX record was detected. MX records direct emails to a mail exchange server.",
+        "reference": [
+          "https://www.cloudflare.com/learning/dns/dns-records/dns-mx-record/",
+          "https://mxtoolbox.com/"
+        ],
+        "severity": "info",
+        "metadata": {
+          "max-request": 1
+        },
+        "classification": {
+          "cve-id": null,
+          "cwe-id": [
+            "cwe-200"
+          ]
+        }
+      },
+      "type": "dns",
+      "host": "beta.gouv.fr",
+      "matched-at": "beta.gouv.fr",
+      "extracted-results": [
+        "1 mx.ox.numerique.gouv.fr."
+      ],
+      "request": ";; opcode: QUERY, status: NOERROR, id: 42679\n;; flags: rd; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1\n\n;; OPT PSEUDOSECTION:\n; EDNS: version 0; flags:; udp: 4096\n\n;; QUESTION SECTION:\n;beta.gouv.fr.\tIN\t MX\n",
+      "response": ";; opcode: QUERY, status: NOERROR, id: 42679\n;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1\n\n;; OPT PSEUDOSECTION:\n; EDNS: version 0; flags:; udp: 512\n\n;; QUESTION SECTION:\n;beta.gouv.fr.\tIN\t MX\n\n;; ANSWER SECTION:\nbeta.gouv.fr.\t10800\tIN\tMX\t1 mx.ox.numerique.gouv.fr.\n",
+      "timestamp": "2026-09-20T04:54:41.087675456Z",
+      "matcher-status": true
+    },
+    {
+      "template": "dns/srv-service-detect.yaml",
+      "template-url": "https://cloud.projectdiscovery.io/public/srv-service-detect",
+      "template-id": "srv-service-detect",
+      "template-path": "/home/runner/nuclei-templates/dns/srv-service-detect.yaml",
+      "info": {
+        "name": "SRV Record Service - Detect",
+        "author": [
+          "rxerium"
+        ],
+        "tags": [
+          "dns",
+          "srv",
+          "service",
+          "discovery"
+        ],
+        "description": "Detected services via SRV (Service) DNS records. SRV records defined the location of servers for specified services.\n",
+        "reference": [
+          "https://www.rfc-editor.org/rfc/rfc2srv",
+          "https://en.wikipedia.org/wiki/SRV_record"
+        ],
+        "severity": "info",
+        "metadata": {
+          "max-request": 15,
+          "verified": true
+        }
+      },
+      "type": "dns",
+      "host": "beta.gouv.fr",
+      "matched-at": "_autodiscover._tcp.beta.gouv.fr",
+      "extracted-results": [
+        "SRV\t0 0 443 ex5.mail.ovh.net."
+      ],
+      "request": ";; opcode: QUERY, status: NOERROR, id: 12857\n;; flags: rd; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1\n\n;; OPT PSEUDOSECTION:\n; EDNS: version 0; flags:; udp: 4096\n\n;; QUESTION SECTION:\n;_autodiscover._tcp.beta.gouv.fr.\tIN\t SRV\n",
+      "response": ";; opcode: QUERY, status: NOERROR, id: 12857\n;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1\n\n;; OPT PSEUDOSECTION:\n; EDNS: version 0; flags:; udp: 1232\n\n;; QUESTION SECTION:\n;_autodiscover._tcp.beta.gouv.fr.\tIN\t SRV\n\n;; ANSWER SECTION:\n_autodiscover._tcp.beta.gouv.fr.\t10800\tIN\tSRV\t0 0 443 ex5.mail.ovh.net.\n",
+      "timestamp": "2026-09-20T04:54:41.106576581Z",
+      "matcher-status": true
+    },
+    {
+      "template": "ssl/detect-ssl-issuer.yaml",
+      "template-url": "https://cloud.projectdiscovery.io/public/ssl-issuer",
+      "template-id": "ssl-issuer",
+      "template-path": "/home/runner/nuclei-templates/ssl/detect-ssl-issuer.yaml",
+      "info": {
+        "name": "Detect SSL Certificate Issuer",
+        "author": [
+          "lingtren"
+        ],
+        "tags": [
+          "ssl",
+          "tls",
+          "discovery"
+        ],
+        "description": "Extract the issuer's organization from the target's certificate. Issuers are entities which sign and distribute certificates.\n",
+        "severity": "info",
+        "metadata": {
+          "max-request": 1
+        }
+      },
+      "type": "ssl",
+      "host": "beta.gouv.fr",
+      "port": "443",
+      "matched-at": "beta.gouv.fr:443",
+      "extracted-results": [
+        "Let's Encrypt"
+      ],
+      "ip": "109.232.236.90",
+      "timestamp": "2026-09-20T04:54:43.358907297Z",
+      "matcher-status": true
+    },
+    {
+      "template": "ssl/ssl-dns-names.yaml",
+      "template-url": "https://cloud.projectdiscovery.io/public/ssl-dns-names",
+      "template-id": "ssl-dns-names",
+      "template-path": "/home/runner/nuclei-templates/ssl/ssl-dns-names.yaml",
+      "info": {
+        "name": "SSL DNS Names",
+        "author": [
+          "pdteam"
+        ],
+        "tags": [
+          "ssl",
+          "tls",
+          "vuln"
+        ],
+        "description": "Extract the Subject Alternative Name (SAN) from the target's certificate. SAN facilitates the usage of additional hostnames with the same certificate.\n",
+        "severity": "info",
+        "metadata": {
+          "max-request": 1
+        }
+      },
+      "type": "ssl",
+      "host": "beta.gouv.fr",
+      "port": "443",
+      "matched-at": "beta.gouv.fr:443",
+      "extracted-results": [
+        "beta.gouv.fr"
+      ],
+      "ip": "109.232.236.90",
+      "timestamp": "2026-09-20T04:54:43.359074091Z",
+      "matcher-status": true
+    }
+  ]
+]

